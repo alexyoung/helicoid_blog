@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Tiktrac upgraded: editable costs, tax, better reports and more"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+In our "Tiktrac":http://tiktrac.com live announcement we promised editable costs.  Over the last week we've been working on this, but added and improved so much more along the way.
+
+h3. Editable costs and tax
+
+* It's now possible to set the cost calculation per sheet
+* The cost calculations available are: manual (editable costs), hourly rate and hourly rate + tax
+* Tax can be entered as a percentage and defaults to 17.5%
+
+When using manually entered costs, the cost field appears next to the duration field:
+
+<a href="http://www.flickr.com/photos/helicoid/1342899868/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1306/1342899868_74b0ec397b_m.jpg" width="240" height="177" alt="Costs" /></a>
+
+Notice that this makes it possible to add a sheet dedicated to expenses.  Here's how we've set up expenses ourselves:
+
+<a href="http://www.flickr.com/photos/helicoid/1342010489/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1041/1342010489_8e28159d31_m.jpg" width="240" height="177" alt="Setting up expenses" /></a>
+
+h3. Reports improvements
+
+<a href="http://www.flickr.com/photos/helicoid/1342010593/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1089/1342010593_c587e7fe0e_m.jpg" width="240" height="182" alt="Refined reports" /></a>
+
+* Reports now all use the same date direction
+* Line charts have been added for "busy" reports, making their appearance cleaner
+* The "People" graphs are now generated much faster
+* The "Overview" reports have been cleaned up
+
+h3. Help system upgrade
+
+<a href="http://www.flickr.com/photos/helicoid/1342010763/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1369/1342010763_7c54496088_m.jpg" width="240" height="165" alt="New help system" /></a>
+
+We now have a more flexible and friendly help system.  Click on "help" at the top of the page to check it out.  It prints out nicely too!
+
+h3. Other changes
+
+* If you've added your own icon, it will now be much larger
+* Changing a sheet's ordering (by clicking on the headers) is remembered after login!
+

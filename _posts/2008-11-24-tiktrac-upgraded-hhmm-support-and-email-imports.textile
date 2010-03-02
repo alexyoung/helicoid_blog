@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Tiktrac upgraded: HH:MM support and email imports"
+author: Alex Young 
+categories:
+- tiktrac
+- upgrades
+---
+
+"Tiktrac":http://tiktrac.com has just been upgraded:
+
+* Email imports are now supported
+* HH:MM can now be displayed as well as typed in (switch to it by editing a time sheet)
+* The login form looks nicer
+* Minor browser bug fixes (Firefox/IE both improved)
+
+Email imports are incredibly useful if you'd like to schedule regular imports from a back office system.  Set them up like this:
+
+* Each sheet has a unique email address, click "Import" on a time sheet to view the address
+* Import a CSV file the usual way, but instead of saving the import select "Set as Email Template"
+* The sheet is now ready to accept emails
+* Send an email to this address with an attached CSV file to import
+
+!http://helicoid.tiktrac.com/images/help/import_email_steps.gif!
+

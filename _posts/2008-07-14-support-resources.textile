@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Support resources"
+author: Alex Young 
+categories:
+- announcements
+- support
+---
+
+We've recently pooled out support resources into one place, with the launch of our support page available here:
+
+"support.helicoid.net":http://support.helicoid.net/
+
+This contains details on all the ways you can get in touch with us, including:
+
+* "Web chat":http://irc.helicoid.net and IRC (irc.helicoid.net)
+* "Twitter":http://twitter.com/helicoid
+* "Contact form and phone":http://helicoid.net/contact
+* "Forum":http://forums.helicoid.net
+* "Service status page":http://status.helicoid.net
+
+We'll be evolving our support site over time as we roll out new services in the near future.  Note that we're available for chat and on the phone during office hours (GMT), weekdays.

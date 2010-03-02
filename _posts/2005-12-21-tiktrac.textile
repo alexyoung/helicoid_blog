@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Tiktrac"
+author: Alex Young 
+categories:
+- announcements
+- tiktrac
+---
+
+We're in the final stages of testing <a href="http://tiktrac.com/">Tiktrac</a>, our timesheets software.
+
+For a long time, we have had to put up with spreadsheets for timesheets.  So one of us initiated a project to create a simple Ajax time management application, and then we both evolved it into something quite sophisticated.
+
+We have also updated the <a href="http://tiktrac.com/">Tiktrac homepage</a>, so you can read more about the features it will launch with.

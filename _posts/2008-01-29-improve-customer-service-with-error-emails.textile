@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Improve customer service with error emails"
+author: Alex Young 
+categories:
+- programming
+- maintenance
+- management
+---
+
+Running a professional web application isn't an easy thing to do.  Even the most finely crafted and well tested code will have bugs somewhere, so we try to employ as many tools as possible to cut down time spent on bugs.  Unfortunately, customers often won't even report bugs, so if you're not careful people will leave your service without even telling you something is wrong.
+
+One technique we use to catch bugs is error email reporting.  Depending on your development environment, it's relatively easy to catch exceptions, display an error page and email your support staff.
+
+Why are error emails so useful?
+
+* You can get in touch the person that caused the error to ask for more information about what they were doing, and to also let them know you're dealing with the problem
+* Letting your customers know you're aware of a problem even before someone raises a bug report is professional and good customer service
+* In our experience emails get checked more often than log files
+* Less technical staff can still send initial responses to customers when key support staff are busy
+
+Certain errors can be handled by your code without generating an email, like 404s.  When we launch an application we leave error emails on for 404s to make sure we haven't slipped up on something obvious, but this usually gets turned off as the application gets popular and the number of weird requests gets too high to deal with in this manner.
+
+We include the following things in our error transcripts:
+
+* Errors always include a user ID or account ID so the original user can be referenced (personal details are not included for privacy reasons)
+* Transcripts can be produced including the exception class name and additional details if available
+* We also pluck objects out of ruby's objectspace to provide a more detailed trace (other languages have different ways of handling this)
+
+Unfortunately there are a few pitfalls to be aware of.
+
+* Ensure your error pages actually return 500s, else search engines like Google may misinterpret them
+* Be very careful with what information you append to the email.  For example, if you dump the current environment in a human-readable form *don't* do this during payment processing! Emailing all your staff customer credit card details will quickly get you in trouble
+* When handling exceptions, don't micro-manage them.  Just accept the fact your application will have bugs and allow customers to be aware there's a problem, rather than trying to catch all exceptions and present something that doesn't work

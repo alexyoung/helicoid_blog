@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Helipad status"
+author: Alex Young 
+categories:
+- helipad
+---
+
+You might have noticed Helipad was inaccessible today (around 7AM-1PM GMT.)  Please accept our sincerest apologies for any problems caused by the outage.  Helipad was actually alive and well, but the DNS server was down (the server that translates pad.helicoid.net to a real address.)
+
+The downtime was completely my fault:  I should have changed our DNS provider a long time ago, but work on Tiktrac and Ebiwrite took priority.  We'll move to our DNS services to a better provider soon, so you should continue to enjoy a high level of service for Helipad.
+
+Helipad actually has a few updates in the works.  We've experimented with Helipad and OpenID, and it's working well.
+
+Despite being so simple, Helipad is our most popular product.  We all use it, and our friends do too!  As always, please get in touch if you have any feature requests or stories about how you use it.

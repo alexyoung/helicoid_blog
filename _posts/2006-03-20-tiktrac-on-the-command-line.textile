@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Tiktrac on the command line"
+author: Alex Young 
+categories:
+- code
+- tiktrac
+---
+
+This is a small example of what you can do with the Tiktrac API.  We've created a script that we use with our subversion scripts for checking source code into our repositories.
+
+Whenever we edit code on our projects, we can easily log the time we spent at the same time using a slightly modified version of this script.  Download it and hack it to your delight.
+
+!http://assets.helicoid.net/images/blogs/tiktrac_command_line.png!
+
+Download: "tiktrac.zip":http://assets.helicoid.net/images/blogs/tiktrac.zip

@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Quickly access Tiktrac on a mac"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+If it's your job to "Tiktrac":http://tiktrac.com the time for a project, a good way to quickly access "Tiktrac":http://tiktrac.com is to drag the URL to your dock.  Then whenever your boss asks you how long your team has spent on a project, you can quickly pull up the front page and give him the answer.
+
+First, drag the favicon in your browser's URL bar:
+
+<a href="http://www.flickr.com/photos/helicoid/184661911/" title="Photo Sharing"><img src="http://static.flickr.com/56/184661911_9260827ef5_o.png" width="568" height="279" alt="Favicon" /></a>
+
+Then drop it in the dock, near the trash:
+
+<a href="http://www.flickr.com/photos/helicoid/184661910/" title="Photo Sharing"><img src="http://static.flickr.com/70/184661910_126cac491c_o.png" width="53" height="252" alt="Dock" /></a>
+
+Since you can do practically everything from Tiktrac's front page, this can be a great time saver.

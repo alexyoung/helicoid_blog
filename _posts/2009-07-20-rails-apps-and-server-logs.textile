@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Rails Apps and Server Logs"
+author: Alex Young 
+categories:
+- servers
+- sysadmin
+---
+
+We build and maintain Rails apps at Helicoid, and use Linux servers.  By default Rails apps generate a lot of logging, even when logging is set to <code>:warn</code>.  However, these logs are useful because they contain information that can help fix bugs, or ensure proper operation of long running or background processes.
+
+It's a good idea to take some time out to properly manage your log files.  This post discusses two tools for this: <code>logrotate</code> and <code>logcheck</code>.
+
+h3. Logrotate
+
+It's worth taking some time to manage server logs.  Most Linux distros install <code>logrotate</code> which gradually expire old files.  You can set logrotate up to rotate your Rails app logs too.  Have a look at the examples in <code>/etc/logrotate.d/</code> and make one for each of your Rails apps.  No more 100 MB log files!
+
+h3. Logcheck
+
+Another great tool is <code>logcheck</code>.  This runs through lists of regular expressions to report anything unusual.  If you're installing in Debian or Ubuntu, make sure you grab the <code>logcheck-database</code> to filter out some of the noise from popular daemons on your system.
+
+Logcheck can be set to email you reports, so you should have some interesting reading every Monday morning after a weekend away from work email.
+
+A similar tool is "swatch":http://sial.org/howto/logging/swatch/
+

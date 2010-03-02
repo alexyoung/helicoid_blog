@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Deadline Keyboard Shortcuts"
+author: Alex Young 
+categories:
+- deadline
+---
+
+Deadline now has keyboard shortcuts!  I designed them a little bit like Gmail and Google Reader, so they should be familiar to most of you.
+
+They need to be turned on to work:
+
+# Click *Settings* underneath the Deadline logo
+# Click the *Appearance* tab
+# Click the checkbox and press *Apply*
+
+Here's the page you should see with the option:
+
+!http://dl.getdropbox.com/u/221414/helicoid/blog/keyboard_shortcuts.png!
+
+There's a new panel in "Help":http://deadlineapp.com/help with all the shortcuts:
+
+# j/k move up and down the deadline list
+# y marks as done
+# Return selects the date field
+# Tab moves to the description field
+# Esc cancels editing

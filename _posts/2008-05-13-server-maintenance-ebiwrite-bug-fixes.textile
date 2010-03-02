@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Server maintenance, Ebiwrite bug fixes"
+author: Alex Young 
+categories:
+- announcements
+---
+
+We'll be performing server maintenance this weekend which may cause service interruptions for our applications.  Read more on our "status page":http://status.helicoid.net/.
+
+Also, we recently fixed a bug on the Ebiwrite signup page which could cause problems when registering.  If you couldn't register you should be able to now.
+

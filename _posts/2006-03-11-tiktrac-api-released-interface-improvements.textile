@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Tiktrac API released, interface improvements"
+author: Alex Young 
+categories:
+- code
+- announcements
+- tiktrac
+---
+
+"Tiktrac":http://tiktrac.com has been updated.  We've added:
+
+* The API, so developers can extract data and integrate Tiktrac with other applications
+* A cleaner sheet page, allowing you to edit the sheet without leaving the page
+* A search box on most pages, to help you find tasks easily
+* A sheet list that appears on the sheet page, to allow you to navigate between your sheets more easily
+* A cleaner login page
+* A new reports type, that gives you a general overview of all your tasks and sheets when you visit the reports section
+
+Let us know what you think!

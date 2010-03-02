@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Helicoid Insider"
+author: Alex Young 
+categories:
+- announcements
+---
+
+Since this blog covers our product announcements, we've decided to launch a new blog entitled  "Helicoid Insider":http://insider.helicoid.net/, covering:
+
+* Technical tips on building web applications
+* Interface design, and design culture
+* Web industry observations, opinions, discussion
+
+Recent posts include:
+
+* "Start using Test Driven Development today":http://insider.helicoid.net/articles/show/6/protip_start_using_test_driven_development_today
+* "20 free icons dedicated to programmers":http://insider.helicoid.net/articles/show/4/20_free_icons_dedicated_to_programmers
+* "10 essential ruby gems":http://insider.helicoid.net/articles/show/2/10_essential_ruby_gems
+
+<a href="http://www.flickr.com/photos/helicoid/2202167526/" title="Helicoid Insider by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2070/2202167526_641604bb86.jpg" width="221" height="500" alt="Helicoid Insider" /></a>
+

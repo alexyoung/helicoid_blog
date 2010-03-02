@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Tip: Keyboard shortcuts"
+author: Alex Young 
+categories:
+- tiktrac
+- ebiwrite
+- helipad
+- tips
+---
+
+This tip applies to all of our applications.  When you see a letter underlined in a link or form button, this means there is an available keyboard shortcut.  This type of keyboard shortcut is called an "access key".
+
+Different browsers handle these keyboard shortcuts in different ways.  In Safari (Mac OS), I press ctrl-letter.  In Internet Explorer, I'd press alt-letter.  Check your preferred browser's manual to see how it handles access keys.
+
+This screenshot is from "Tiktrac":http://tiktrac.com:
+
+!http://assets.helicoid.net/images/blogs/tiktrac_keys.png!
+
+To open up "Add a new task", I'd press ctrl-a.  The task save form also has an access key, so I can press ctrl-s to save.
+
+"Helipad":http://pad.helicoid.net has access keys on common operations, like new document and save document.  You can even get straight into the handy search bar by pressing ctrl/alt-f:
+
+!http://assets.helicoid.net/images/blogs/helipad_keys.png!
+
+If you use your applications regularly it's worth learning these shortcuts!  If you'd like to read more about the technical side of access keys, check out <a href="http://www.alistapart.com/articles/accesskeys/">Accesskeys: Unlocking Hidden Navigation</a>.

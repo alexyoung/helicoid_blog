@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Tiktrac launched"
+author: Alex Young 
+categories:
+- tiktrac
+- announcements
+---
+
+We've finally launched <a href="http://tiktrac.com/">Tiktrac</a>!  Tiktrac, a timesheet package aimed at small to medium-sized businesses, has been created to serve a specific task in a simple and elegant manner.  As such, we have used Ajax to enhance user experience: our primary goal was to make it as quick and easy to use as a spreadsheet.
+
+Tiktrac is currently in beta, and as such we recognise that any small wrinkles may lead to changes in the near future.  Therefore, Tiktrac will be free to use during the beta period.
+
+We hope Tiktrac relinquishes you from the shackles of emailing spreadsheets or legacy applications!  And, as always, please contact us to request features and suggest improvements to the service.

@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Helipad iPhone Version 1.6"
+author: Alex Young 
+categories:
+- helipad
+- iphone
+---
+
+Helipad iPhone version 1.6 has been submitted to the App Store.  This version includes the following new features and fixes:
+
+* Add a new document to a folder
+* Share editor now appears properly from within folders
+* You can now delete folders: either just delete the folder or all the associated documents
+* Rename folders when viewing the documents in a folder
+* The full document list no longer includes documents that have been placed within a folder
+

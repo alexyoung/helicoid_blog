@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Build your own search engine"
+author: Alex Young 
+categories:
+- yahoo
+- api
+- rails
+---
+
+!http://farm4.static.flickr.com/3050/2778083787_befe721b22_m.jpg!:http://www.flickr.com/photos/helicoid/2778083787/
+
+I recently used Yahoo!'s BOSS search API to build "search.helicoid.net":http://search.helicoid.net -- a tiny Rails app that searches our public-facing web sites.  It's tied into our 404 pages which makes it easy for people to find things when they're lost.
+
+So how would you like to build your own search engine?  The "BOSS API":http://developer.yahoo.com/search/boss/ searches Yahoo!'s index without any restrictions.  This means you can freely search Yahoo!'s index with minimal hassle.  The BOSS API is also incredibly simple to use.
+
+To get started, you need to sign up and get a BOSS ID.  Visit the "BOSS page":http://developer.yahoo.com/boss, then click "Build an Application."  I selected <em>Browser Based Authentication</em> in the sign-up form.
+
+Once you've got your appid using the API is easy.  Simply send requests to the service like this:
+
+<code>http://boss.yahooapis.com/ysearch/web/v1/{query}?appid=xyz[&param1=val1&param2=val2</code>
+
+... and you'll get back nicely formatted XML.
+
+To use our example Ruby on Rails code to build your own site, ensure you've got the following gems installed:
+
+# open-uri
+# will_paginate
+# hpricot
+
+Then download our Rails BOSS example: "code.helicoid.net/files/search_example.zip":http://code.helicoid.net/files/search_example.zip
+
+Next, unzip our example code and open <code>config/environment.rb</code>.  Enter your BOSS ID at the bottom of the file.  You should then be able to run <code>script/server</code> and try out the app.
+
+To customise the way the search works, take a look at <code>app/models/search.rb</code> and scroll down to line 53 -- this is where the search request is generated.  Notice how I've supplied "site:helicoid.net" as part of the query: this makes Yahoo! search Helicoid's sites.
+
+If you create anything interesting with this please let us know via the comments!

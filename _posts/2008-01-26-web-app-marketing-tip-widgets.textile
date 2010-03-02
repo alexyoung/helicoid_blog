@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Web app marketing tip: Widgets"
+author: Alex Young 
+categories:
+- marketing
+- advertising
+---
+
+!http://tiktrac.com/images/landing/widgets/dashboard.gif!
+
+After putting it off for several months I finally wrote a Dashboard widget for one of our applications, "Tiktrac":http://tiktrac.com.  What I wasn't prepared for was the overwhelming response launching the widget had.  Not only did existing Tiktrac customers email me numerous thank you messages, we also got *hundreds of new signups* for the application.
+
+If you've been putting off building a widget for your service, our advice is: *do it now!*.  Here's why:
+
+* You can submit your widget to "Apple.com":http://apple.com.  If it gets listed, potentially millions of people will be exposed to your site
+* You can submit it to other widget/gadget sites like "DashboardWidgets":http://www.dashboardwidgets.com
+* They're easy to build (trust me)
+* People are more likely to continue using your site after signup if they have a desktop connection to it
+* If your widget looks cool people will link to it, making your site/product easier to find
+
+h2. Building a widget
+
+To install Dashcode, grab your Mac OS Leopard DVD and install "Dashcode":http://www.apple.com/macosx/developertools/dashcode.html by installing the developer tools.  Then open it up (either use Spotlight to search for it or look in /Developer/Applications).
+
+When you first open Dashcode you'll notice there are some templates available.  Pick one closest to your requirements, and Dashcode will create a new project for you.  When you're working on a project, notice that Dashcode has a panel called "Workflow Steps" - follow these steps to get used to Dashcode and the requirements of building a widget.
+
+Apple also provide code examples to get you started, accessible in the Library (from the _Window, Show Library_ menu item).  The Parts section of the Library contains user interface elements, so you can add form controls and images to your widget.
+
+h3. For non-programmers
+
+Notice that you can still design the interface for a widget by dragging and dropping items out of the Library even if you're not a programmer.  This means you can easily use Dashcode to design a widget, then find a developer who'll write the JavaScript to make it work.
+
+If you'd like to build something simple, for example, a widget that displays your blog headlines, Dashcode can do this for you.  This means you can create a widget with your branding and get it onto desktops with no coding at all.
+
+h3. For programmers
+
+Notice that Dashcode is basically XCode, meaning you have full access to features like a debugger with multiple breakpoints and tracing.  There's a lot of documentation over on the Apple site about the API and JavaScript requirements.  "Get started here":http://developer.apple.com/leopard/overview/dashcode.html.

@@ -1,0 +1,18 @@
+---
+layout: post
+title: "New product: Ebiwrite, the translator's toolkit"
+author: Alex Young 
+categories:
+- ebiwrite
+- announcements
+---
+
+Over the last three months I've been working with a translator to produce a unique new product.  The translator in question found that she wanted to keep her documents online, so she can easily access them and edit them anywhere.  She also wanted to be able to see the original source text alongside her translation.  Flipping back and forth between documents, printing things out, and general mucking about made her yearn for an application built just for translators.
+
+!http://ebiwrite.com/images/screenshot.gif!
+
+We've taken the concept from an idea, to paper prototypes and now a working prototype.  Amazingly, this prototype has only taken 3 weeks to design and code (all developed by me), and it's now ready for our translator to play with.
+
+Technically, the project is interesting: we've used a JavaScript model of the document within the browser, combined with Ajax to provide all the features you'd expect in an editor: keyboard shortcuts for quickly saving documents and auto-save.  Our translator loves to write, and hates fiddling about with presentation, so we have simple formatting through textile and a well-thought-out print stylesheet so when she prints documents they look great.
+
+As usual we're in no great rush to release this, but if it sounds like something you'd like to play with, check out: "Ebiwrite":http://ebiwrite.com.

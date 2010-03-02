@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Korg DS-10: A synth for your DS"
+author: Alex Young 
+categories:
+- nintendo
+- games
+- music
+- audio
+---
+
+The "Korg DS-10":http://www.youtube.com/watch?v=vmIwZDVJSwI is an incredible piece of software: it's a sequencer and synth based on the "Korg MS-10":http://www.vintagesynth.com/korg/ms10.shtml, allowing you to make music on your Nintendo DS.
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/vmIwZDVJSwI"></param><param name="wmode" value="transparent"></param><embed src="http://www.youtube.com/v/vmIwZDVJSwI" type="application/x-shockwave-flash" wmode="transparent" width="425" height="344"></embed></object> 
+
+There's excellent coverage of it in "this week's 1up show":http://gamevideos.com/video/id/19542, including interviews and jam sessions with the developers.
+
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="500" height="319" id="gamevideos6" align="middle"><param name="quality" value="high"/><param name="play" value="true"/><param name="loop" value="true"/><param name="scale" value="showall"/><param name="wmode" value="window"/><param name="devicefont" value="false"/><param name="bgcolor" value="#000000"/><param name="menu" value="true"/><param name="allowScriptAccess" value="sameDomain"/><param name="allowFullScreen" value="true"/><param name="salign" value=""/><param name="movie" value="http://gamevideos.com/swf/gamevideos11.swf?embedded=1&fullscreen=1&autoplay=0&src=http://gamevideos.com/video/videoListXML%3Fid%3D19542%26ordinal%3D1214170497379%26adPlay%3Dfalse" /><param name="quality" value="high" /><param name="bgcolor" value="#000000" /> <embed src="http://gamevideos.com/swf/gamevideos11.swf?embedded=1&fullscreen=1&autoplay=0&src=http://gamevideos.com/video/videoListXML%3Fid%3D19542%26ordinal%3D1214170497379%26adPlay%3Dfalse" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" play="true" loop="true" scale="showall" wmode="window" devicefont="false" id="gamevideos6" bgcolor="#000000" name="gamevideos6" menu="true" allowscriptaccess="sameDomain" allowFullScreen="true" type="application/x-shockwave-flash" align="middle" width="500" height="319" /></object>
+

@@ -1,0 +1,148 @@
+---
+layout: post
+title: "Rapid Fluid support"
+author: Alex Young 
+categories:
+- fluid
+- webapps
+- javascript
+- programming
+- tutorial
+---
+
+"Fluid":http://fluidapp.com/ is a Site Specific Browser (SSB) for Mac OS.  It allows web applications to run in their own window with a dock icon, dock badge and supports "Growl":http://growl.info/ notifications.  You can support Fluid in your web app without any server-side code changes.
+
+I recently added Fluid support to "Deadline":http://deadlineapp.com.  Deadline basically a calendar/reminder system, so it works particularly well with Growl notifications.  It was a rewarding development experience: Fluid's API is clean and delivers excellent results with minimal effort.
+
+h3. Browser support detection
+
+It's important to check if Fluid is available before trying to call its API.
+
+The easiest way to do this is:
+
+<pre class="code">
+<code>
+  if (!Object.isUndefined(window.fluid)) {
+    return new FluidAppMode
+  }
+</code>
+</pre>
+
+This stops browsers from trying to load Fluid functionality when its not available.
+
+h3. Auto-refresh
+
+Deadline displays a list of events with no automatic browser refresh.  When adding Fluid support I decided to automatically update the displayed items using <code>PeriodicalExecuter</code> (from Prototype).  This makes it feel a little bit more application-like.  Deadline shows inline editors, so it's trivial to check if any inline editors are visible to hold off <code>PeriodicalExecuter</code> to prevent it from updating while the user is editing.
+
+As time goes by each deadline's event date is reached and a notification is displayed.  To track which ones have been displayed I use a cookie that stores a list of deadline IDs.
+
+h3. Dock badge
+
+Deadline reminders that are ready are counted and displayed in the dock icon:
+
+!http://dl.getdropbox.com/u/221414/deadline/deadline_dock.png!
+
+Changing the dock icon is easy: <code>window.fluid.dockBadge = count</code>.  To avoid changing server-side code, I derive the dock badge count by counting the number of deadlines marked with "Now".
+
+h3. Growl Notifications
+
+!http://dl.getdropbox.com/u/221414/deadline/deadline_fluid.png!
+
+Growl notifications can be displayed with this Fluid API call:
+
+<pre class="code">
+<code>
+    window.fluid.showGrowlNotification({
+        title: "Deadline Reminder", 
+        description: message, 
+        priority: 1, 
+        sticky: false,
+        identifier: message_id
+    })
+</code>
+</pre>
+
+You can't just display notifications blindly, however.  For Deadline I decided to record the displayed deadline IDs using a cookie.  We have an internal JavaScript library called Azuki which abstracts cookie management, but you should be able to follow this code without it:
+
+<pre class="code">
+<code>
+  showNotifierMessage: function(message, message_id) {
+    if (this.displayedMessage(message_id)) {
+      return
+    }
+        
+    window.fluid.showGrowlNotification({
+        title: "Deadline Reminder", 
+        description: message, 
+        priority: 1, 
+        sticky: false,
+        identifier: message_id
+    })
+    
+    this.logMessageDisplay(message_id)
+  },
+
+  logMessageDisplay: function(message_id) {
+    // Log message to cookie
+    var deadline_notifier_messages = Azuki.Storage.Cookie.find('deadline_notifier_messages')
+    
+    if (Object.isUndefined(deadline_notifier_messages)) {
+      deadline_notifier_messages = message_id
+    } else {
+      deadline_notifier_messages = deadline_notifier_messages + ',' + message_id
+    }
+    
+    Azuki.Storage.Cookie.create('deadline_notifier_messages', deadline_notifier_messages, 365)
+    
+    this.log(deadline_notifier_messages)
+  },
+  
+  displayedMessage: function(message_id) {
+    var deadline_notifier_messages = Azuki.Storage.Cookie.find('deadline_notifier_messages')
+    message_id = parseInt(message_id)
+    
+    if (Object.isUndefined(deadline_notifier_messages)) {
+      return false
+    }
+    
+    var message_ids = $A(deadline_notifier_messages.split(','))
+    
+    return message_ids.find(function(logged_id) {
+      if (parseInt(logged_id) == message_id) {
+        return true
+      }
+    })
+  }
+</code>
+</pre>
+
+As you can see I store each displayed deadline ID separated by commas in a cookie.  This then allows Deadline to only notify new deadlines.
+
+h3. Supporting multiple SSBs
+
+There's a few SSBs available.  I've chosen to support "Bubbles":http://bubbleshq.com/api for Windows.
+
+To support multiple SSBs you could either use inheritance or delegation to manage shared code.  In Deadline's case I've shared the notification cookie management code and the use of PeriodicalExecuter between Fluid and Bubbles using inheritance.  Remember that Prototype's inheritance mechanism is now specified through <code>Class.create</code>
+
+<pre class="code">
+<code>
+var FluidAppMode = Class.create(WebAppMode, {
+  initialize: function() {
+</code>
+</pre>
+
+I've detected the availability of Bubbles as follows:
+
+<pre class="code">
+<code>
+  if (typeof(SSB) != 'undefined') {
+    return new BubblesAppMode
+  }
+</code>
+</pre>
+
+Bubbles' API is accessed through the SSB singleton object.
+
+h3. Share your SSB support
+
+Have you supported an SSB with your web app?  Why not share your links and experiences in the comments?

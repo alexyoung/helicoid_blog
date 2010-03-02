@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Helicoid rebooted"
+author: Alex Young 
+categories:
+- design
+- announcements
+- helicoid
+---
+
+!http://farm4.static.flickr.com/3108/2677096462_7f139cd0f0_m.jpg!:http://www.flickr.com/photos/helicoid/2677096462/
+
+After a long process sourcing inspiration and pouring ideas into my sketchbook, I finally finished deploying updates to all of our public-facing websites and support sites.  We wanted to improve the customer experience beyond our web apps, so if you're looking for support resources or information relating to our company and services it'll be much easier.  This means "helicoid.net":http://helicoid.net, "support.helicoid.net":http://support.helicoid.net, "status.helicoid.net":http://status.helicoid.net, "forums.helicoid.net":http://forums.helicoid.net and our blogs have all been redesigned! (phew!)
+
+The new designs work in modern browsers and even IE6.  I also tested it on the PlayStation 3, and it looks great on big TVs!
+
+I've also released "search.helicoid.net":http://search.helicoid.net, which lets you search Helicoid's content.  This is linked to from our error pages, so if something has been moved or deleted you should be able to search for it.
+

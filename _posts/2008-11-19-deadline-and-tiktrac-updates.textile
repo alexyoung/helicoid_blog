@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Deadline and Tiktrac updates"
+author: Alex Young 
+categories:
+- deadline
+- tiktrac
+---
+
+We've just updated Deadline with these fixes/improvements:
+
+* Calendar feeds that don't need HTTP auth are now available for those of you who want to subscribe to Deadline in *Google Calendar*
+* Reminders are now switched off/on properly (thanks *debaire*)
+* Fixed parsing of phrases like "hunt rabbit 3am tomorrow" (thanks *voamash*)
+
+These issues have been acknowledged but not fixed yet:
+
+* Phrases containing "today" aren't interpreted 100% correctly yet
+* Jabber bot isn't working across Google Talk to Jabber.  We're testing our own Jabber server, and it may be that we have to run a service for Google Talk and Jabber separately -- thanks to *dag* for helping us with this
+
+These are things we've been asked about a lot this week:
+
+* We're looking into the costs for SMS alerts and international support
+* Time zone support quality is being looked into
+* We are indeed building a Mac and iPhone application (Helipad iPhone will be out first)
+* If anyone builds a *cool* and user-friendly *Adobe Air application* we'll modestly reward you (possibly serious Amazon/iTunes vouchers, we haven't decided yet)
+
+h3. Tiktrac
+
+Tiktrac has new features tested and ready to go live, we're just waiting for the Deadline press to quiet down before deploying:
+
+* HH:MM display option is coming soon
+* Email imports will be going live with the HH:MM update, this will allow you to set up back office applications to email CSV files into Tiktrac
+* Interface bug fixes
+

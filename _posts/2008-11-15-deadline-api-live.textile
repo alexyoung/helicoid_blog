@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Deadline API live"
+author: Alex Young 
+categories:
+- api
+- deadline
+- announcements
+---
+
+!http://farm4.static.flickr.com/3038/3030078880_710fd5b7f3_m.jpg!:http://www.flickr.com/photos/helicoid/3030078880/
+
+The "Deadline":http://deadlineapp.com API is now live:
+
+"Deadline API documentation":http://pad.helicoid.net/document/public/482ae365
+
+A lot of people were asking for it, so we prioritised releasing it this week.  We want to run a competition for the best apps people write with it, so stay tuned for details on that soon.

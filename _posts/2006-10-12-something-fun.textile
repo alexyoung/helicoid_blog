@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Something fun"
+author: Alex Young 
+categories:
+- announcements
+- helipad
+---
+
+Take a look at this screenshot from a new application I'm building:
+
+!http://assets.helicoid.net/images/blogs/something_fun.png!
+
+This is a pet project of mine, started two weeks ago.  It combines some of the technology we implemented in "Multitap":http://multitap.net and "Ebiwrite":http://ebiwrite.com to produce something pretty unique.  And no, it's not another to-do list app!
+
+Like all our projects, it has an API, mobile support and an element of fun.  Unlike our other projects, which are aimed at small businesses, this one is aimed squarely at you!
+
+If you want to get in on my little secret, "contact us":http://helicoid.net/contact.  The software has left my London apartment and landed on our servers -- I've been using it every day since I initially created it.  There's a few important things missing yet, however!

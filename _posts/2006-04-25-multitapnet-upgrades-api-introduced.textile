@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Multitap.net upgrades (API introduced)"
+author: Alex Young 
+categories:
+- multitap
+- announcements
+---
+
+"Multitap.net":http://multitap.net has been upgraded.  New features include:
+
+* More RSS feeds: latest comments, comments for a screenshot, latest posted per-user
+* Users can no-longer vote up their own screenshots
+* Improved tag cloud rendering
+* Added a search form
+* Added 'remember me' to the login form keep you logged in when you close your browser
+
+Thanks to "Gearbox":http://multitap.net/screenshot/user/39 for his astute observations!
+
+<a style="border: none;" href="http://multitap.net/screenshot/show/144">     <img alt="Pool Party Massacre" src="http://multitap.net/screenshot/image/144/dump00195ie-thumb.jpg" height="160"> </a> <a style="border: none;" href="http://multitap.net/screenshot/show/143">     <img alt="28/5 on Dust" src="http://multitap.net/screenshot/image/143/dedust00053ut-thumb.jpg" > </a>
+
+A note for developers: the API has also been added in this release.  It currently allows you to submit screenshots and fetch them.  We're going to add more functionality in the future, but we felt posting screenshots was the killer feature to get right.
+
+We're working on the documentation for the API, but if you can understand Ruby, this will clue you in:
+
+<pre>
+require 'xmlrpc/client'
+require 'base64'
+
+server = XMLRPC::Client.new2("http://multitap.net/backend/Screenshot")
+image_data = Base64.encode64(File.new("C:/test_images/gw007.JPG", 'rb').read)
+
+result = server.call2("post", 'alex@example.com', 'aezmns', 'Screenshot Title', 'Screenshot description', 'some tags separated by spaces', 'gw007.jpg', image_data, 'image/jpg')
+</pre>
+
+The third parameter is your API token (look at your settings on multitap.net)  That last parameter is the content type for your image file.  If you think that's cool, or you can't get it to work, "get in touch!":http://multitap.net/contact
+

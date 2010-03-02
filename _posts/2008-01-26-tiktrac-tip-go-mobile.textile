@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Tiktrac tip: Go mobile"
+author: Alex Young 
+categories:
+- tips
+- helipad
+- ebiwrite
+- tiktrac
+---
+
+!http://tiktrac.com/images/landing/mobile_time_sheets/sheet.gif!
+
+*Note*: This tip actually applies to all of our web applications, seeing as we carefully craft mobile interfaces for each of them.
+
+Did you know your "Tiktrac":http://tiktrac.com account has a mobile phone version?  Just add /mob to your account's URL.   Even though it provides a limited view on your account, it allows you to post tasks wherever you are with a mobile phone.
+
+This is great for anyone who leaves the office regularly, like tradesmen.  We have a plumber friend who uses his phone to log time when he's out on a job , which means his time sheets are more accurate: no more end of week panics trying to remember what he worked on.
+
+Similarly, "Helipad":http://pad.helicoid.net allows you to read your documents when you're away from the computer.  Just login with your phone at "http://pad.helicoid.net/mob":http://pad.helicoid.net/mob.  This saved me a lot of time when I was setting up Helicoid, because I kept forgetting my company's registration details when I was out meeting banks and that kind of thing.  I almost had to leave a bank and return to the office when I realised the information I needed was only a few clicks away on my phone!
+
+A great side-effect of these mobile interfaces is they also work well on other devices.  Our friends use their Nintendo Wii and PSP to view Helipad documents, because they both have web browsers.
+
+So if you haven't already done so, check out our mobile interfaces, bookmark them on your phone, and always have that safety net (at least when you've got a signal!)

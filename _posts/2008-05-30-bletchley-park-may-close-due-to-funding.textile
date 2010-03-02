@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Bletchley Park may close due to funding"
+author: Alex Young 
+categories:
+- culture
+- programming
+- history
+- england
+---
+
+From the BBC's article, "Code centre 'in financial crisis'":http://news.bbc.co.uk/1/hi/england/beds/bucks/herts/7426310.stm:
+
+bq. Simon Greenish, director of Bletchley Park Trust, said: "The site is unique and one of the most important remaining from World War II.
+"We have exciting plans to develop the park and save it for future generations. The more visitors we have helps us to realise these plans."
+
+As a British software developer I find this saddening, since stories of the efforts at Bletchley Park (partly due to Neal Stephenson's depiction in _Cryptonomicon_) are partly what inspired me to get into programming.
+
+Perhaps I'll organise a big Helicoid visit to help!

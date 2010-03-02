@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Tiktrac API status and forum"
+author: Alex Young 
+categories:
+- tiktrac
+- rails
+---
+
+We've been working hard testing the API, making sure it's secure and provides the features people have requested.
+
+"Take a look at what we've been doing!":http://static.flickr.com/56/107561013_73e0335c30_o.png
+
+Of course, functional testing is only one part of the testing we do.  We're also testing it with different programming languages to make sure it's as easy to use as possible.  We'll feed this into our documentation soon, so expect to see PHP, Java and other examples to be included when we launch it.
+
+Our forum is also running.  It's at "forums.helicoid.net":http://forums.helicoid.net/.  You can use this to discuss our software, and get tips and support.  Sign up now!

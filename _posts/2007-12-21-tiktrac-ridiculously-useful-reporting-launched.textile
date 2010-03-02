@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Tiktrac: Ridiculously useful reporting launched"
+author: Alex Young 
+categories:
+- tiktrac
+- tips
+---
+
+We've finally updated "Tiktrac's":http://tiktrac.com reporting section.  What you now see in place of the old report pages is an incredibly flexible system for analysing your Tiktrac sheets in almost limitless ways.  Creating your own reports is now possible, as well as filtering them to only show what you need.
+
+Here's an excellent example for anyone who deals with software: a report to show time spent fixing bugs.
+
+<a href="http://www.flickr.com/photos/helicoid/2127805924/" title="Tiktrac: Example report by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2371/2127805924_431e9d733b_m.jpg" width="240" height="222" alt="Tiktrac: Example report" /></a>
+
+Constructing this particular report was easy enough for my grandma to do it.  I added a new report, named it, then added two filters: one to search the task description field for "bug", and another to limit to a particular sheet.
+
+Here's how the filters look:
+
+<a href="http://www.flickr.com/photos/helicoid/2127028811/" title="Tiktrac: Report filtering by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2036/2127028811_3e69b9096c_m.jpg" width="240" height="141" alt="Tiktrac: Report filtering" /></a>
+
+Spend some time experimenting with the new reports feature, and see what you can discover.  If you find any really creative ways to use it, "let us know":http://helicoid.net/contact so we can share your thoughts with Tiktrac's fans.  In return, we might just give you some *incredible discounts on Tiktrac's monthly fees*!
+
+By the way, I've also redesigned Tiktrac's homepage and generally made the whole app sexier.  December has been an incredibly busy and tough month.  Merry Christmas!
+
+<a href="http://www.flickr.com/photos/helicoid/2127806206/" title="Tiktrac: new homepage by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2324/2127806206_7a8ca6efae_m.jpg" width="217" height="240" alt="Tiktrac: new homepage" /></a>
+

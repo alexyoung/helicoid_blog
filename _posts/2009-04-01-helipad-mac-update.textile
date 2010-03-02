@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Helipad Mac Update"
+author: Alex Young 
+categories:
+- helipad
+- mac
+- beta
+---
+
+The "Helipad":http://helipadapp.com/ Mac beta has been extended.  Download it here: "Helipad Mac":http://helipadapp.com/mac.html.
+
+This will run until August.  We're working on adding Sparkle for automatic updates so upgrading will be easier soon.

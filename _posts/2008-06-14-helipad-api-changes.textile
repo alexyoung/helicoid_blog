@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Helipad API changes"
+author: Alex Young 
+categories:
+- helipad
+---
+
+"Helipad's":http://pad.helicoid.net API has been updated to improve the way it handles tags.  The changes are backwards compatible so old code should still work.  Read more in the "Helipad API guide":http://pad.helicoid.net/document/public/6313d317
+
+Incidentally, we recently received a few questions about Helipad in our "support chat room":http://irc.helicoid.net.
+
+h3. Q: If two people are collaborating on a document, there is no change tracking, right?
+
+There's currently no change tracking.  "Ebiwrite":http://ebiwrite.com, a similar product produced by us, includes this and we may port it to Helipad in the future.
+
+h3. Q: Is there any way to get RSS or email updates?
+
+If we do decide to implement change tracking in the future we'd add this, at the moment you're probably better served by using the API.
+
+We're in our support chat room UK office hours (check the time in GMT).  We sometimes hang out there after hours as well, so if you wait around you might find us.  I'm there (the developer of Helicoid's apps), and Kev is too (who looks after servers.)

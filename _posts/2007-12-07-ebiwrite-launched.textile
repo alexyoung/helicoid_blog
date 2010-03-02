@@ -1,0 +1,59 @@
+---
+layout: post
+title: "Ebiwrite launched"
+author: Alex Young 
+categories:
+- ebiwrite
+- announcements
+---
+
+We're proud to announce that "Ebiwrite":http://ebiwrite.com, a web application dedicated to translators, has been launched today!
+
+h3. Background and design
+
+Allow me to introduce myself.  My name is Yuka Mizuno and I'm Helicoid's copywriter (I also help run the business-side of things).  After working on several long translations last year, I wished for a web application created purely for translators.
+
+One of the biggest annoyances I have with translation is constantly looking backwards and forwards between my source text and translation.  On a computer this means flicking between windows or tabs, quickly ending up either fed up or with RSI.  So I insisted my future husband (Alex, the designer and programmer of Helicoid's applications) built translators a program that would resolve these issues.
+
+The most basic problem, flipping between source text and translation, could easily be solved by splitting a text editor up into two panels.  Alex created a prototype (using "Helipad":http://pad.helicoid.net), and we worked from there.  After a year of development, we've finally finished "Ebiwrite":http://ebiwrite.com.
+
+Last but not least, you might be wondering about how I came up with the name.  It's a subtle pun on the Japanese word for prawn (ebi) and the pronunciation for A and B.
+
+h3. Main features
+
+* *Dual-panel editor*, focused purely on text.  Get rid of neck ache by keeping your source text and translation right next to each other.
+* *Version control* allows you to jump back to previous versions of your translation.
+* File uploads, for storing your source or reference material (PDF, Word, images, etc).  Images can be used as source text (i.e., scanned text).
+* Dictionaries, for building your own dictionary or phrase books.  Dictionaries can be shared with the Ebiwrite community
+* Profile page and your own URL.  Each Ebiwrite account gets a URL, i.e., http://yuka.ebiwrite.com, and a public profile page: http://yuka.ebiwrite.com/profile.  You can keep your profile empty if you don't wish to use it.
+* Tags can be used to organise translations and files.  Tags also have a unique feature that allows you to build "books" (see Ebiwrite's help page for more).
+* *Autosave*.
+* Search results appear as you type in the search bar that appears on every page.
+
+h3. Screenshots
+
+<a href="http://www.flickr.com/photos/helicoid/2094327376/" title="Ebiwrite: Version control by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2165/2094327376_77d9869bc5_m.jpg" width="240" height="167" alt="Ebiwrite: Version control" /></a> <a href="http://www.flickr.com/photos/helicoid/2093552327/" title="Ebiwrite: Themes by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2331/2093552327_a8ae618e4b_m.jpg" width="240" height="167" alt="Ebiwrite: Themes" /></a> <a href="http://www.flickr.com/photos/helicoid/2094327168/" title="Ebiwrite: Files by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2181/2094327168_0912fe8b44_m.jpg" width="240" height="167" alt="Ebiwrite: Files" /></a> <a href="http://www.flickr.com/photos/helicoid/2094327034/" title="Ebiwrite: Dictionary by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2388/2094327034_9fcbcb91dd_m.jpg" width="240" height="167" alt="Ebiwrite: Dictionary" /></a> <a href="http://www.flickr.com/photos/helicoid/2093551941/" title="Ebiwrite: Translation editor by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2297/2093551941_18da394ba7_m.jpg" width="240" height="167" alt="Ebiwrite: Translation editor" /></a>
+
+h3. Pricing & Requirements
+
+* The *Personal* plan provides 500MB of storage and SSL access for &pound;6.99 per month (GBP, not including VAT).
+* The *Premium* plan provides 1000MB of storage and SSL access for &pound;9.99 per month (GBP, not including VAT).
+* The *Free* comes with 2MB storage.
+
+Storage is determined by the size of translation text and uploaded file size.
+
+Ebiwrite is designed and tested to work with Internet Explorer 7 (Windows), Firefox 2 (Windows, Mac and Linux), Safari 3 (Mac, Windows) and Opera 9 (Windows, Mac and Linux).
+
+h3. Mobile support
+
+Ebiwrite has a mobile version too.  Just visit http://youraccount.ebiwrite.com/mob.
+
+h3. Developers
+
+Ebiwrite has a "REST API":http://pad.helicoid.net/document/public/c199ce84 for most of the major features.  If you'd like to write something like a Dashboard widget, "get in touch":http://helicoid.net/contact/ and we might reward you!
+
+h3. Future developments
+
+The text editor is currently a simple plain text editor.  Ebiwrite's design philosophy is based on allowing translators to write without the software getting in the way, so plain text was chosen over a Word-style rich text editor.  If there's enough demand for a rich text editor we may add one, but we hope people will enjoy Ebiwrite's simplicity.
+
+We'd like to add a comments and change tracking system so translators can invite their clients to discuss changes to a translation.  Again, this will be developed depending on the community's requirements.

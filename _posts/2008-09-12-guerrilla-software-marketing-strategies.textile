@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Guerrilla Software Marketing Strategies"
+author: Alex Young 
+categories:
+- marketing
+---
+
+"Guerrilla Software Marketing Strategies":http://biznik.com/articles/guerrilla-software-marketing-strategies is an article I wrote for "Biznik":http://biznik.com about our experiences marketing Helicoid's web applications.  It covers (proven!) free techniques for marketing your software.
+
+bq. Software companies have many opportunities to get free or cheap marketing. Whether you sell desktop software or you're a web agency, you can use your own strengths to get free and honest exposure.
+
+

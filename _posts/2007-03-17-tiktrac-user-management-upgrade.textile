@@ -1,0 +1,45 @@
+---
+layout: post
+title: "Tiktrac user management upgrade"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+Big changes are afoot in "Tiktrac":http://tiktrac.com today.  The whole user management system has been refreshed, so you'll forgive me if I don't sit back and relax with some wine and music after working every possible hour on these features for the last two weeks.
+
+Do you remember that I hinted Tiktrac only had 2 more large updates to go before it goes live?  This collection of improvements constitutes one of them.  This one was fundamental, and overdue -- the user permissions system (the Administrator, Staff, Read only metaphor) was slightly odd and only intended as a placeholder.
+
+Now you can add people to clients with read or write permissions, allowing you greater control over who can post tasks and who can simply view them.
+
+When editing an account, there's now a permissions section:
+
+<a href="http://www.flickr.com/photos/helicoid/424223400/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/166/424223400_e9f56d9568_m.jpg" width="240" height="165" alt="Tiktrac March update: New permissions system" /></a>
+
+The People page has also been updated:
+
+<a href="http://www.flickr.com/photos/helicoid/424223401/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/170/424223401_0a3e54ed01_m.jpg" width="240" height="165" alt="Tiktrac March update: New user list page" /></a>
+
+In addition to these welcome changes, clicking on a person's name now shows you a page containing what they've been working on recently.
+
+<a href="http://www.flickr.com/photos/helicoid/424223398/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/188/424223398_9a3c475213_m.jpg" width="240" height="165" alt="Tiktrac March update: User activity" /></a>
+
+If you're a contractor, this page can be really great for your clients to bookmark.  It affords a clear view of what you've been working on recently, replete with graphs.  I added the graphs purely to make you look good to your clients, so I hope you like them!
+
+The help section has also been refreshed, making it easier to read.  Help content is also more consistent across Tiktrac:
+
+<a href="http://www.flickr.com/photos/helicoid/424223397/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/172/424223397_8b7fe38c11_m.jpg" width="240" height="165" alt="Tiktrac March update: New help pages" /></a>
+
+Here's a full lowdown of the recent changes:
+
+* Improved user management
+* User page, with charts and recent activity
+* Performance tuning: I spent a long sunny Spring afternoon tweaking database queries
+* Added a new help system, making help pages consistent and easier to read
+* Removed 'ref' from the default sheet options
+* Fixed issues on the mobile site: login page bug, invalid markup, accidental inclusions of javascript effects
+* Made the spacing on the sheet list more consistent
+* Improved user management on the client edit page
+* The people section had small rendering issues in IE6
+* Fixed invalid HTML on certain pages
+* Amended various typos and inconsistent copy

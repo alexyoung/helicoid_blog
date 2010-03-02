@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Tiktrac and Bugtagger server move"
+author: Alex Young 
+categories:
+- announcements
+- tiktrac
+- bugtagger
+---
+
+"Tiktrac":http://tiktrac.com and "Bugtagger":http://bugtagger.com have moved to a new data center this weekend.  You should be able to start accessing Tiktrac as usual by the end of today, but it may take up to 48 hours for some people.
+
+The good news is: once things have moved over, they should be much faster and more reliable!
+
+"Let us know":http://helicoid.net/contact if you have any problems with your account after the migration.

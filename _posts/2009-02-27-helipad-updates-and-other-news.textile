@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Helipad updates and other news"
+author: Alex Young 
+categories:
+- helipad
+---
+
+We rolled out a few minor changes to "Helipad":http://pad.helicoid.net this week:
+
+* Tags on the dashboard page can be hidden
+* The space usage indicator has been removed
+* Helipad can now be reached at "helipadapp.com":http://helipadapp.com
+
+We decided to drop the space limitation because we're now selling "Helipad iPhone":http://blog.helicoid.net/articles/2009/02/10/helipad_iphone_app_now_available.
+
+h3. Coming soon
+
+* "Tiktrac":http://tiktrac.com will be moving from minutes to seconds internally, this means the timers will be more intuitive
+* We're also working on a configurable dashboard for Tiktrac
+* "Deadline":http://deadlineapp.com iPhone is in development
+* Deadline SMS will continue to be free for a while because the SMS traffic is relatively low, so try it while it's free!
+

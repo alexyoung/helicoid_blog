@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Helipad iPhone app now available"
+author: Alex Young 
+categories:
+- helipad
+- iphone
+---
+
+!http://dl.getdropbox.com/u/221414/helicoid/blog/helipad_iphone.png!
+
+The "Helipad":http://pad.helicoid.net *iPhone app* is out now: "App Store link":http://tinyurl.com/cgkmzs
+
+It's available for &pound;2.99 -- and of course the web app is still free to use with no advertising.  Helipad iPhone syncs your notes to your iPhone so you can access them offline.  Create, delete and edit notes straight from the iPhone.
+
+After speaking to our first customer, he had this to say:
+
+<blockquote>
+"Damn, this is slick!"
+</blockquote>
+
+So check it out!

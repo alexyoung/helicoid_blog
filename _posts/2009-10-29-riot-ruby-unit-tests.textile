@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Riot: Ruby Unit Tests"
+author: Alex Young 
+categories:
+- programming
+- ruby
+---
+
+"Riot":http://github.com/thumblemonks/riot is a unit testing library that I've been using on a few new Helicoid products/features, and some of my open source projects.  It has incredibly concise syntax, and I liked it so much that I wrote a JavaScript version.
+
+"Read my overview of Riot here":http://alexyoung.org/2009/10/26/riot-testing/ and download my JavaScript version on "github.com/alexyoung/riotjs":http://github.com/alexyoung/riotjs.

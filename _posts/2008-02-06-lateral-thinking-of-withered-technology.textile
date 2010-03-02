@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Lateral Thinking of Withered Technology"
+author: Alex Young 
+categories:
+- inspiration
+- culture
+---
+
+Gunpei Yokoi, a former Nintendo employee and creator of the Game Boy, is also credited with an inspirational philosophy about innovating "mature" technologies.  In his book _Yokoi Gunpei Game House_, Yokoi discusses his approach to improving on old ideas using lateral thinking to produce something both radical and innovative.  He even suggested that pushing cutting edge technology sometimes gets in the way of developing a new product.
+
+It's easy to draw parallels between his philosophy and the Nintendo Wii's recent success.  "Wikipedia's article on the topic":http://en.wikipedia.org/wiki/Gunpei_Yokoi#Lateral_Thinking_of_Withered_Technology even goes back to Nintendo's Game and Watch products, explaining how other innovations at that time meant LCD screens were cheap and plentiful, so by thinking laterally Nintendo used to this to create a new type of product.  The same article contrasts this with knowing when the time is ripe for technological advances, comparing the Nintendo 64's cool reception with the success of the Sony PlayStation.
+
+This reminds me of 2004-2006, where the rise of Ajax and websites with a strong social aspect became hugely popular.  A blend of technological innovation and lateral thinking helped push web-based products further than ever before.  So are we about to hit a new wave of innovative products, or are people going to seek new ways to utilise existing technologies?
+
+Hopefully Gunpei Yokoi's philosophy will inspire both lateral thinking and technological evolution.
+
+

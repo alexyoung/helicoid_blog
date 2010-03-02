@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Deadline: Colours, backgrounds and themes"
+author: Alex Young 
+categories:
+- deadline
+- announcements
+---
+
+!http://farm4.static.flickr.com/3265/3133086082_244b63f08e_m.jpg!:http://www.flickr.com/photos/helicoid/3133086082/
+
+The "Deadline":http://deadlineapp.com colours update has just gone live!  This update adds:
+
+* Configuration options for colours and background images in *Settings, Appearance*
+* Almost all of the colours in Deadline's interface can be controlled: background, buttons, navigation (footer), highlight hover, "odd" rows, search bar border
+* A generous helping of our own preset themes to get you started
+* Background images can also be uploaded and tiled if required
+* We've also added a print stylesheet
+* Fixes for date parsing when descriptions contain numbers
+
+The preset themes come from my own designs and photo collection.  Here's the current set:
+
+!http://farm4.static.flickr.com/3115/3133086442_3679ce1178.jpg!:http://www.flickr.com/photos/helicoid/3133086442/
+
+The *Appearance* settings look like this:
+
+!http://farm4.static.flickr.com/3259/3133086570_f606224001_m.jpg!:http://www.flickr.com/photos/helicoid/3133086570/
+
+To change a colour, click on it then drag the sliders.
+
+If you come up with an awesome theme, please send a screenshot to our support email address or get in touch through "our contact form":http://helicoid.net/contact.

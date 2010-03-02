@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Tiktrac updates"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+"Tiktrac":http://tiktrac.com will be updated this week with some big changes to the underlying system.  This will fix problems people have reported with the timer in Opera, and help make the interface feel more responsive.  There's also a few usability improvements for Internet Explorer 7 users.
+
+These changes have been in the works for about 2 months, and should set things up for some pretty serious feature enhancements in the near future.
+
+We'll post again once we've finally finished testing!
+
+*Update:* I've just finished testing a new enhancement in Safari, Firefox, Opera and IE7.  It's a little thing, but it makes things that little bit more friendly:
+
+<a href="http://www.flickr.com/photos/helicoid/366204414/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/111/366204414_0fadac8ff7_m.jpg" width="240" height="192" alt="Friendly notifications" /></a>

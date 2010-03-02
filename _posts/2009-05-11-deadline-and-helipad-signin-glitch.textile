@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Deadline and Helipad Sign-In Glitch"
+author: Alex Young 
+categories:
+- deadline
+- helipad
+---
+
+We had a glitch with our servers last night that meant people couldn't sign-in to Deadline or Helipad.  It was caused by an outage at our ISP.  We have dedicated servers with them which remained accessible, but the ISP's DNS was down so Helipad and Deadline couldn't resolve the address of our authentication server.
+
+Although the outage might be regrettable, they've been up consistently for 3 years (other than times when we've had to perform upgrades).  Here's their report on the issue: "Network outage 1740-2100, Sunday 10th May":https://forum.bytemark.co.uk/viewtopic.php?id=1402

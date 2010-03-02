@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Multitap.net bugfixes"
+author: Alex Young 
+categories:
+- multitap
+- announcements
+---
+
+<a href="http://multitap.net">Multitap.net</a> has had several bugfixes and improvements added today.  Most are small enchancements to the interface based on recent feedback.  
+
+Some of the members of the growing <a href="http://multitap.net">Multitap.net</a> found that comments were too short, so we've increased the size.
+
+If you can think of any other changes, don't hesitate to <a href="http://multitap.net/contact">contact us</a>, or post a comment to this post.
+

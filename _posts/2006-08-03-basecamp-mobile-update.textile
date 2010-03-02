@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Basecamp Mobile Update"
+author: Alex Young 
+categories:
+- code
+- basecamp
+- mobile
+---
+
+If you like our "Basecamp Mobile":http://basecamp.helicoid.net system, then you'll be pleased to know that I've been doing a lot of work on this recently.
+
+If you're looking forward to running this on your own server, you'll be able to _soon_.  This is a side project for me, so it gets bumped out the way for other paying projects, but I promise I'm working hard on it!

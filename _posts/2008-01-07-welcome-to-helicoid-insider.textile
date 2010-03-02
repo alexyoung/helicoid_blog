@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Welcome to Helicoid Insider"
+author: Alex Young 
+categories:
+- blog
+- news
+- general
+---
+
+Helicoid Insider is "Helicoid Limited's":http://helicoid.net blog about design, code and the web industry.  This blog will include materials and lessons learned while creating our applications.  Comments, guest posts and feedback are more than welcome!
+
+This blog is in addition to our "company's product blog":http://blog.helicoid.net, which provides updates and tips on our web applications.
+
+h3. Who are Helicoid?
+
+Helicoid Limited was officially founded by "Alex Young":http://alexyoung.org and Gabriel Gironda in 2005, with the help of Alex's fiancé (Yuka Mizuno) and Kevin Ford.  All Helicoid's applications are currently designed and programmed by Alex, with thoughtful input and copy writing from Yuka, technical guidance and inspiration from Gabriel, and system administration and security help from Kevin Ford.

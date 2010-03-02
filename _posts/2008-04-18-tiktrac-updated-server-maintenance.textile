@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Tiktrac updated, server maintenance"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+We updated Tiktrac this morning with a neater project selector.  This makes managing lots of sheets much easier for those of you with large accounts.
+
+During the update we ran into unexpected server issues and had to perform emergency maintenance - this meant we had to take Helipad, Tiktrac and Ebiwrite down to fix the issue (they're all on the same servers).
+
+During this maintenance we posted updates to Twitter and our "service status":http://status.helicoid.net/ page.  It's worth bookmarking out status page if you rely on our services, because we post the times and dates of any planned maintenance:
+
+"http://status.helicoid.net/":http://status.helicoid.net/
+
+Our twitter account can be found here:
+
+"http://twitter.com/helicoid":http://twitter.com/helicoid
+
+I also occasionally post technical details about what we're working on to Twitter, so check it out!
+
+
+

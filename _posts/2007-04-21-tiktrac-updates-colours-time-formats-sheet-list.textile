@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Tiktrac updates: colours, time formats, sheet list"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+I've just rolled out three updates to "Tiktrac":http://tiktrac.com.
+
+You might have noticed the colours next to sheets, clients and people.  These are used in the charts under the Reports tab.  Editing these colours is now possible, using some Ajax trickery:
+
+<a href="http://www.flickr.com/photos/helicoid/467082205/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/219/467082205_0648372a11_m.jpg" width="240" height="189" alt="Colour editor" /></a>
+
+Simply click on the colour you wish to edit, drag the sliders and click 'save.'
+
+The next update provides a new way to enter time.  Instead of just entering decimal values or whole numbers, you can now enter times in _hh:mm_:
+
+<a href="http://www.flickr.com/photos/helicoid/467082207/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/218/467082207_4188a831ed_m.jpg" width="240" height="129" alt="Hour data format" /></a>
+
+I've also modified the sheet list, found on the right-hand-side of most pages.  It's now possible to collapse the list of sheets by clicking on the client's name:
+
+<a href="http://www.flickr.com/photos/helicoid/467082203/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/218/467082203_179514b7bf_m.jpg" width="240" height="162" alt="Sheet list update" /></a>
+
+Finally, we found that the sheet list could become broken on small displays in Internet Explorer when clicking on a task's description, so we fixed that too.

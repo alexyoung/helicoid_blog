@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Rapid Rails"
+author: Alex Young 
+categories:
+- rapidrails
+- programming
+- rails
+- ruby
+---
+
+!http://www.box.net/shared/static/b4q9spq4gs.png!
+
+I've just completed the third article in my "Rapid Rails":http://alexyoung.org/tag/rapidrails series.
+
+* "Rapid Rails Part 1: Command-line mastery":http://alexyoung.org/articles/show/45/rapid_rails_part_1_commandline_mastery
+* "Rapid Rails Part 2: Rapid in the literal sense":http://alexyoung.org/articles/show/46/rapid_rails_part_2_rapid_in_the_literal_sense
+* "Rapid Rails Part 3: Desktop mastery":http://alexyoung.org/articles/show/47/rapid_rails_part_3_desktop_mastery
+
+If you're interested in Ruby on Rails, or software development in general, check them out!  They come straight from our experiences deep in the Helicoid software mines.
+

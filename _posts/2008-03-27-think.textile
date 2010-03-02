@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Think!"
+author: Alex Young 
+categories:
+- mac
+- software
+- free
+---
+
+!http://farm4.static.flickr.com/3284/2366325338_435a225d57_o.png!
+
+"Think":http://freeverse.com/apps/app/?id=7013&view=overview (for Mac OS X) lets you focus on what you're doing by creating a configurable backdrop behind a single application.  It shows you a list of running applications (in the same style as pressing cmd-tab).  It doesn't do much more than that!
+
+One of the touches I like about it is it shows the currently selected application's icon in the Dock.  Of course, if you really need to focus hiding the dock might be a good idea.
+
+My current technique for 100% focus on work is simply quitting my email client.  That pretty much frees up my brain for as long as I need to concentrate.

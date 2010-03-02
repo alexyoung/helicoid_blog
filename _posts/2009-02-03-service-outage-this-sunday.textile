@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Service outage this Sunday"
+author: Alex Young 
+categories:
+- upgrades
+---
+
+We've got server maintenance planned on Sunday 8th February: add it to your Deadline account!  It's likely that all our web applications will be down for a few minutes while this happens.
+
+We post about service outages here: "status.helicoid.net":http://status.helicoid.net/.  We also post on Twitter about service interruptions: "twitter.com/helicoid":http://twitter.com/helicoid.
+
+

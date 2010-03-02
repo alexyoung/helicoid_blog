@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Tiktrac upgraded"
+author: Alex Young 
+categories:
+- announcements
+- tiktrac
+---
+
+We've just upgraded "Tiktrac":http://tiktrac.com!  New features include: 
+
+<ul>
+<li>Improved dashboard page: quickly add a task, interface improvements, overview of your account's statistics</li>
+<li>Added user administration shortcuts to the client edit page to help make administration easier</li>
+</ul>  
+
+This release has many internal changes to improve performance, so please let us know if you find any problems.
+
+And you can always post suggestions to our forums, and discuss Tiktrac with other people:
+
+"http://forums.helicoid.net/":http://forums.helicoid.net/

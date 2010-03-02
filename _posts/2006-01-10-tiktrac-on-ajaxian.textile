@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Tiktrac on Ajaxian"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+Many thanks to <a href="http://ajaxian.com">Ajaxian</a> for posting <a href="http://ajaxian.com/archives/tiktrac-timesheet-management-software">Tiktrac: Timesheet management software</a>!
+
+Ajaxian is one of my favourite coffee break reads, and we're honoured to have had a mention for <a href="http://tiktrac.com">Tiktrac</a>.  While the news is not as big as last week's CES announcements, and Apple's Macworld news (Gabriel recently bought a Powerbook, so I hope he's not too distressed about the MacBook announcement), it's a big deal to us.  
+
+We've had a lot of signups today, and I'm looking forward to receiving feedback from our new users.  If you're signed up to Tiktrac, you can use the contact form, or you can post comments on this weblog.

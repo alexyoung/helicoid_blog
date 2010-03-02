@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Loom exception logging for your apps"
+author: Alex Young 
+categories:
+- loom
+- development
+---
+
+We've recently added exception logging to "Loom":http://loomapp.com.  There's an open source "rails plugin":http://github.com/alexyoung/loom-exceptions-rails-plugin/tree/master which you can use to integrate Loom with your Rails apps.  The API is simple so we'll probably collect plugins and libraries for other platforms (I'll look into iPhone support for iPhone apps).
+
+If you haven't seen it before, "Loom":http://loomapp.com/ is a tiny app we built to track bugs in our apps.  It also works well as a customer support tool.  It originally started off as Bugtagger in 2006, and it had some work towards remote exception logging but this was never finished.  Bugtagger was a quick app I built to support "Tiktrac":http://tiktrac.com's customer support in the early days.
+
+So now remote exception logging is _almost_ ready for the public.  You can check out the plugin and integrate it with your apps by adding your Loom account details to a controller.  The README on Github has more details.  The code looks like this:
+
+<pre><code>
+  enable_loom :email => 'alex@example.com',
+              :password => 'test',
+              :url => 'http://yoursubdomain.loomapp.com',
+              :project_id => 1
+</code></pre>
+
+There's a lot of work to do to make this a truly useful tool, but I have a feeling closely integrating bug reports with support requests and logged exceptions could lead to something incredibly useful.

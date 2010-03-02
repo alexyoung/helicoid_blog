@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Deadline parsing tweaks"
+author: Alex Young 
+categories:
+- deadline
+---
+
+"Deadline":http://deadlineapp.com now works with relative time:
+
+* Visit estate agent in 3 hours
+* Deploy Deadline upgrade in 2 days
+* Plan wedding next month
+
+This update includes bug fixes, especially relating to Deadline's recognition of ranges of time for repeating dates.
+
+I've also been working on making Deadline's email interface more user-friendly.  It's not quite ready yet, but it's almost there.
+
+Remember you can find us on Twitter as well as this blog: "twitter.com/helicoid":http://twitter.com/helicoid

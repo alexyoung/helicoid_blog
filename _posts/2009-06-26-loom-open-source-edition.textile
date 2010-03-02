@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Loom: Open Source Edition"
+author: Alex Young 
+categories:
+- loom
+- programming
+- opensource
+---
+
+"Loom":http://loomapp.com/ is our issue tracking system.  It evolved from Bugtagger, which I created for internal use in 2006.  Loom has a few nifty features: the bug report form automatically snoops browser and OS details (to help designers), and it has exception tracking for developers.  You can sign up to try it for free right now.
+
+But the future of Loom is open source.  I've set up a private GitHub repo to prepare it for release.  It will be MIT licensed, and easy to set up for use within your company.  I'll continue to develop the server-based "closed" version, but features will be pushed back into the open source edition.  The only major difference will be that Loomapp.com will be integrated into Helicoid's single sign-on system that Helipad and Deadline use.
+
+If you're interested in helping prepare Loom for the public, "contact us":http://helicoid.net/contact/ and I'll add you to the private GitHub repo.  The repository will become public once we've verified it installs and runs on enough systems -- we initially had Ruby 1.8.6 issues (it was my fault), which "Ric Roberts":http://www.ricroberts.com/ helped me fix.
+
+Loom is built with Ruby on Rails, but help from designers and writers would be awesome too!  You'll get fully credited of course!

@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Folding@Helicoid"
+author: Alex Young 
+categories:
+- fun
+---
+
+When Helicoid isn't plotting world domination we can sometimes be found in front of our PS3s. Earlier today, while I was daydreaming about big HDTVs and how pleasant the <a href="http://folding.stanford.edu/">Folding@Home</a> application looks on the PS3, I thought to myself: why doesn't Helicoid have a <a href="http://folding.stanford.edu/">Folding team</a>?
+
+So here it is: Folding@Home team <a href="http://fah-web.stanford.edu/cgi-bin/main.py?qtype=teampage&teamnum=85818">85818</a>, newly set up today. If you like our free products such as Helipad and Multitap, and you like to use the spare CPU cycles on your PC or PS3 while it's running a screensaver, then why not set your team number to 85818? Consider it a charityware donation.
+
+I'll be keeping track of the monthly progress on this horrible ad-ridden site <a href="http://kakaostats.com/mrt.php?t=85818">here</a>, and I'll mention the top folder in the blog once in a while.

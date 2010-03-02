@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Basecamp Mobile Away!"
+author: Alex Young 
+categories:
+- code
+- announcements
+- rails
+- basecamp
+- mobile
+---
+
+!http://static.flickr.com/78/154167597_f22452f7dc_m.jpg!:http://flickr.com/photos/63596294@N00/154167597
+
+I've been playing with Basecamp Mobile for about a week now, so I think it's ready for people to play with:
+
+<a title="http://basecamp.helicoid.net" href="http://basecamp.helicoid.net">http://basecamp.helicoid.net</a>
+
+It provides a basic interface to your <a href="http://www.basecamphq.com/">Basecamp account</a>, suitable for mobile phones.&nbsp; It uses the XHTML Mobile Profile (for more on this, see my post, <a href="http://mmm.helicoid.net/articles/2006/02/15/what-is-the-xhtml-mobile-profile">What is the XHTML Mobile Profile</a>?)
+
+Of course, it provides limited access to your account.&nbsp; However, it's built as a Rails application, and I'll release the source code within a few weeks. This will allow you, or perhaps a colleague with the right skills, to install (and extend) it on your own server.&nbsp; Before releasing it, a few friends are helping me improve it to make it suitable for public release.
+
+Why did I build this? I thought being able to use Basecamp with my phone would be handy when I'm away from the office.  I also wanted some experience working with the Basecamp API.  And I really love using <a href="http://www.backpackit.com">Backpack</a> and <a href="http://tiktrac.com">Tiktrac</a> with my phone!
+
+While it's being tested, you can report bugs and suggestions with <a href="http://helicoid.bugtagger.com/bug/public_report">our bugtagger</a>.
+
+Enjoy!
+

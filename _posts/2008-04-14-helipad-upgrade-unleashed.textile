@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Helipad upgrade unleashed"
+author: Alex Young 
+categories:
+- helipad
+- announcements
+---
+
+"Helipad":http://pad.helicoid.net is now faster, prettier and easier to use! 
+
+The old "edit" and "share" tabs have been replaced with the last few documents you edited.  These buttons are at the bottom of the page.
+
+<a href="http://www.flickr.com/photos/helicoid/2413888185/" title="Helipad: Cleaner homepage by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2291/2413888185_70dbac6f7a_m.jpg" width="240" height="162" alt="Helipad: Cleaner homepage" /></a>
+
+The homepage has tweaked graphics to make it appear cleaner, and you can toggle the shared status of a document or view its shared URL. 
+
+This page is also much faster than it used to be.
+
+<a href="http://www.flickr.com/photos/helicoid/2414713418/" title="Helipad: Faster sharing by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2415/2414713418_2226ddb4e8_m.jpg" width="240" height="162" alt="Helipad: Faster sharing" /></a>
+
+Sharing a document is now faster: it opens a window rather than reloading the page.  This also makes viewing the share link quicker.
+
+<a href="http://www.flickr.com/photos/helicoid/2414713816/" title="Helipad: Faster previews by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2232/2414713816_e10d7f2e11_m.jpg" width="240" height="166" alt="Helipad: Faster previews" /></a>
+
+You can now preview as you edit, by clicking the preview button at the bottom of the page.  You don't need to save to preview, it loads instantly (rather than leaving the edit page.)
+
+What's next?  We're currently working on a few minor Internet Explorer glitches, and still ploughing away at the Helipad Mac GUI client.

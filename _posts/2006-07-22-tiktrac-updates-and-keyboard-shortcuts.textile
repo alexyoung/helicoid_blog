@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Tiktrac updates and keyboard shortcuts"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+I just updated Tiktrac, after a week of gruelling testing.  Gruelling because it's hot in London, not hot beyond enjoyable -- it's just hard to work when everyone else is having barbecues!
+
+So let me explain the updates so I can finally enjoy the sun and relax.
+
+# More keyboard shortcuts have been added.  Look for underlined letters  (just like Windows) to see what shortcuts we've added
+# When you're adding a task on the dashboard page, you can press alt-s to quickly save the task.
+# Minor bugs have been fixed with task additions on the dashboard.  Safari users probably noticed adding more than one task caused problems.
+
+More on those keyboard shortcuts: Mac users can use ctrl to access them, whereas Windows users use alt.  The interface will try and give you some help by underlining things that can be accessed this way.  Mac form buttons look like this:
+
+!http://assets.helicoid.net/images/blogs/mac_save.png!
+
+And in Windows:
+
+!http://assets.helicoid.net/images/blogs/windows_save.png!
+
+What do you think? Got any bugs or ideas for us? Use our "BugTagger":http://helicoid.bugtagger.com/report/tiktrac or "contact us":http://helicoid.net/contact/.

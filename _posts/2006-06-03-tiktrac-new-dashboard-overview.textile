@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Tiktrac: new dashboard overview"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+We've just improved the handy table on the Tiktrac dashboard!  It now shows some links so you can easily view your data for certain time periods.
+
+<a href="http://www.flickr.com/photos/helicoid/159241963/" title="Photo Sharing"><img src="http://static.flickr.com/46/159241963_5d93295f2b_m.jpg" width="240" height="192" alt="Tiktrac new feature: time period selection" /></a>
+
+Want to suggest more features for us to toil away over?  "Head over to the forums":http://forums.helicoid.net and let us know!

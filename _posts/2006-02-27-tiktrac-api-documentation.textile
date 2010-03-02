@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Tiktrac API documentation"
+author: Alex Young 
+
+---
+
+The "Tiktrac":http://tiktrac.com API is currently being tested, along with some interface enhancements and new reports.  If you're a developer who'd like to use Tiktrac's API, please read the docs:
+
+"Tiktrac API documentation":http://tiktrac.com/tiktrac_api.html
+
+The API isn't live yet, but will be at some point in March.  We've put our internal documentation up so you can see how it works and get some ideas on how to use it.
+
+For example:
+
+* You could use it with "Blinksale's":http://blinksale.com API to generate invoices from your timesheets.
+* You could use it with your own scripts to produce exports of data for internal systems.
+* You could create a Mac OS Dashboard or Yahoo! widget to post tasks to Tiktrac
+
+
+As always, you can post comments to this post to get more information from us.

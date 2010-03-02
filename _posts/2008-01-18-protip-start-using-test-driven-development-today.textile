@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Protip: Start using Test Driven Development today"
+author: Alex Young 
+categories:
+- testing
+- programming
+---
+
+Test Driven Development (TDD) is one of the techniques I use for creating Helicoid's products.  I'm still the only developer here, so I have to work incredibly efficiently and effectively.  In fact, this technique is the greatest secret behind successfully "one man banding" without losing all of your evenings and weekends.
+
+TDD will:
+
+* Help you write better code: by working with the public interfaces from the start you're encouraged to make cleaner interfaces
+* Help design code
+* Improve your confidence, ease deployment headaches: your tests will show recent changes are safe
+* Communicate your intentions to colleagues (or yourself in the future!)
+
+h3. Don't worry about UML, XP or any other unfamiliar jargon
+
+There are plenty of books about TDD, and on the implications of it.  Don't read books about TDD, just start doing it right now.
+
+# If you don't already write tests, look how people usually write unit tests in your project's language
+# Take one of your project's classes, and think about how you'd test the public methods
+# Try and write discrete tests, communicating how the class should behave
+# If your boss says writing tests wastes time and he needs this feature *right now*, consider ignoring him
+
+h3. Test from the ground-up
+
+When adding new classes to a project, start by creating tests.
+
+# Imagine you're designing an API rather than a class that's tied to your project
+# Write a set of unit tests that define how the class should behave
+# Start adding methods to your class to satisfy the tests
+# As edge cases become apparent, add more tests
+# If no edge cases are obvious, try writing more tests to discover them
+
+h3. Fixtures: an opportunity for design rather than a chore
+
+When I write tests for a Ruby on Rails project, I have to create sets of test data.  I used to regard this as a chore that slowed me down.  However, carefully defining test data can force you to consider the validity of your assumptions about underlying data structures.
+
+Don't worry about volumes of data, because if volumes are required for particular types of tests you could easily generate sets of data in loops.  If you'd like to create loops in your Rails fixtures, remember that you can use erb to safely embed ruby code.
+
+It's important to realise that repeated data created using random numbers is sometimes less useful than carefully hand crafted test data, since this should be closer to real user-input.  I've found scrappy test data that just exists for the sake of testing is nowhere near as useful as real data.
+
+h3. Mock objects
+
+When testing classes that rely on network resources or files, it's tempting to just use real resources that you know should be available.  This can make tests seem less encapsulated, so consider employing "mock objects" to avoid this.
+
+# Find a mocking and stubbing library suitable for your project ("Mocha":http://mocha.rubyforge.org/ is good for ruby projects)
+# By mocking certain aspects of a system you can focus on testing a particular part of it without requiring a remote resource
+# Mock objects are excellent for testing edge cases: for example, what happens when a network connection fails or a file could not be opened?
+
+h3. Coverage reports
+
+There are great tools out there for producing test code coverage reports.  These reports will show you code that hasn't been tested, sometimes in a graphical way.  If you're a fellow ruby developer, have a look at "rcov":http://eigenclass.org/hiki/rcov.  Rcov will produce HTML coverage reports, so it's very easy for you (or your boss!) to see what's currently tested.
+
+Coverage reports are a good way to make you feel confident about your code's quality.  They also give a temporary sense of closure on a new feature.
+
+h3. TDD getting started checklist
+
+If you do any of these things today, you're already doing TDD:
+
+# Learn how to write *basic tests* in your chosen language - don't worry about fully learning the test framework, start by copying examples
+# When adding a new feature, *start by creating tests first*.  Write code to satisfy these tests
+# Refactor old code to work well with automated tests
+# *Write test data carefully and patiently*, using this as a design technique for exploring the quality of your data modelling
+# Find a *mocking library* so you can write encapsulated tests that don't require external resources
+# Find a tool for producing *coverage reports* in your chosen language
+# Investigate *automated testing* triggered when deploying/releasing code
+

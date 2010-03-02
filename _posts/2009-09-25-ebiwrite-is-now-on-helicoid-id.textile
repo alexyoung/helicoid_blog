@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Ebiwrite is now on Helicoid ID"
+author: Alex Young 
+categories:
+- ebiwrite
+- helicoidid
+---
+
+!{float: left; margin: 0 1em 1em 0; border: none}http://dl.getdropbox.com/u/221414/helicoid/blog/ebiwrite.png!
+
+"Ebiwrite":http://ebiwrite.com has now joined "Deadline":http://deadlineapp.com and "Helipad":http://helipadapp.com on "Helicoid ID":http://id.helicoid.net, our single sign-on service.
+
+h3. About Helicoid ID
+
+"Helicoid ID":http://id.helicoid.net allows you to maintain the same login details across all our apps.  Changing your email address, name and password will be reflected across each application that supports it.
+
+h3. About Ebiwrite
+
+"Ebiwrite":http://ebiwrite.com is a translator's toolkit.  It features user-created dictionaries and a friendly dual-pane editor.  

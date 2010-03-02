@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Helipad Mac and Tiktrac Widget Updated"
+author: Alex Young 
+categories:
+- helipad
+- tiktrac
+---
+
+"Helipad Mac":http://helipadapp.com/mac.html has been updated.  This update makes it work better in Snow Leopard, and makes it sync when you press cmd-s.  It's a free download by the way!
+
+"Tiktrac's Dashboard Widget":http://tiktrac.com/widgets has also been upgraded.  This version fixes a few bugs:
+
+* When creating tasks, the checkbox state will be saved correctly
+* It now stops you from attempting to add multiple tasks in one go (this might be added in a future update though)
+* I'm still working on odd timer glitches
+
+

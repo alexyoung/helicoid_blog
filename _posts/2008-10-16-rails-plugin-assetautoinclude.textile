@@ -1,0 +1,76 @@
+---
+layout: post
+title: "Rails plugin: AssetAutoInclude"
+author: Alex Young 
+categories:
+- rails
+- programming
+- ruby
+- plugins
+---
+
+"AssetAutoInclude":http://github.com/gabrielg/asset_auto_include/tree/master is a new Rails plugin written by Gabriel (who helps me out with Helicoid's projects and works on Rails projects for all kinds of big companies in the US).  It's designed to make JavaScript and CSS includes more efficient, by only including the JavaScript or CSS you require for each controller and action.
+
+The motivation for this project is to:
+
+* Help manage your CSS and JavaScript in a familiar Rails-friendly way
+* Only include the required CSS and JavaScript on each page
+
+This is in contrast to the common technique of appending JavaScript or CSS into monolithic files.
+
+h3. Usage
+
+Install using script/plugin:
+
+<pre class="code">
+  script/plugin install git://github.com/gabrielg/asset_auto_include.git
+</pre>
+
+By adding the following to a layout:
+
+<pre class="code">
+ <%= javascript_auto_include_tags %>
+ <%= stylesheet_auto_include_tags %>
+</pre>
+
+You'll get JavaScript and CSS automatically included according to the following scheme:
+
+<pre class="code">
+ mydomain.com/users             # includes controller.js and controller.css
+ mydomain.com/users/edit/1      # includes controller.js, edit.js, and edit.css
+ mydomain.com/users/show/1      # includes controller.js
+ mydomain.com/roles             # includes roles.js
+ mydomain.com/accounts          # no files included
+ mydomain.com/accounts/show/1   # includes show.js and show-new-edit-create.js
+ mydomain.com/accounts/new      # includes show-new-edit-create.js
+ mydomain.com/accounts/edit/1   # includes show-new-edit-create.js
+ mydomain.com/accounts/create   # includes show-new-edit-create.js
+</pre>
+
+This allows you to share JavaScript in controller.js files, and add action-specific includes where required.  Many controllers have shared JavaScript, with only minimal tailoring for add/edit actions, so this makes sense for most instances.
+
+The plugin only includes assets that exist, so you don't need to create empty files for controllers or actions you don't need.
+
+h3. Expected JavaScript and CSS file system layout
+
+The expected file structure is as follows:
+
+<pre class="code">
+ /public
+   /javascripts
+     /app
+       /users
+         controller.js
+         edit.js
+       /roles
+         controller.js
+       /accounts
+         show-new-edit-create.js
+   /stylesheets
+     /app
+       /users
+         controller.css
+         edit.css
+</pre>
+
+This makes managing your JavaScript files easier, and more consistent with the Rails style too.

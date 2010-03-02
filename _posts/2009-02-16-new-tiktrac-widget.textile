@@ -1,0 +1,19 @@
+---
+layout: post
+title: "New Tiktrac widget"
+author: Alex Young 
+categories:
+- tiktrac
+- widgets
+---
+
+Our new Tiktrac widget is out: get it on the "Tiktrac widget":http://tiktrac.com/widgets page.  This is an entirely new version that adds:
+
+* Timers to every task
+* Description editing (click a description to edit it)
+* Delete tasks
+* Error messages
+
+!http://dl.getdropbox.com/u/221414/helicoid/blog/tiktrac_widget/editing_descriptions.gif!
+
+This version was created by "Thomas Loudon":http://tomloudon.tumblr.com with support from Alex at Helicoid.

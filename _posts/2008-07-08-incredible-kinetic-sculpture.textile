@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Incredible kinetic sculpture"
+author: Alex Young 
+categories:
+- sculpture
+- art
+- inspiration
+---
+
+This "amazing kinetic sculpture":http://www.artcom.de/index.php?option=com_acnews&task=view&id=331&Itemid=136&page=0&lang=de was created by ART+COM for BMW in Munich.  It's mechanical and uses metal balls to create shapes in 3D.  Here's a "youtube video":http://www.youtube.com/watch?v=9TJFntVSzd0 of it in action.
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/9TJFntVSzd0&hl=en&fs=1"></param><param name="allowFullScreen" value="true"></param><embed src="http://www.youtube.com/v/9TJFntVSzd0&hl=en&fs=1" type="application/x-shockwave-flash" allowfullscreen="true" width="425" height="344"></embed></object>

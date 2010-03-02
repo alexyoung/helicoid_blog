@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Puzzle hacking"
+author: Alex Young 
+categories:
+- art
+- artists
+---
+
+!/images/posts/rogowski.jpg!
+
+Artist "Kent Rogowski":http://www.kentrogowski.com/Love-2.html creates montages using puzzle pieces from different jigsaw puzzles.  The resulting images are both spectacular and surreal, and definitely inspiring if you're a programmer knee deep in plugins, libraries and web mashups.

@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Tiktrac: Referral scheme launched"
+author: Alex Young 
+categories:
+- tiktrac
+- announcements
+- tips
+---
+
+"Tiktrac's":http://tiktrac.com now got a referral scheme.  If you get 10 friends to sign up, you'll receive 50% off the Standard or Premium accounts for a year!
+
+All you need to do is get your referral URL and hand it out to friends, or even stick it on your blog.  You can find your referral URL by logging in, clicking on <strong>Tiktrac settings</strong> and then <strong>Referrals</strong>.
+

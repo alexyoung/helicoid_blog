@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Helipad update coming soon"
+author: Alex Young 
+categories:
+- helipad
+---
+
+!http://farm3.static.flickr.com/2197/2368314085_5074a58bbd.jpg!:http://www.flickr.com/photos/helicoid/2368314085/
+
+"Helipad":http://pad.helicoid.net has been receiving some serious development effort recently, with the following new features going through final testing:
+
+* The Edit/Preview/Share buttons have been moved alongside the save button, and work dynamically (no page reloads)
+* The themes are being enhanced to make things appear smoother
+* Big performance improvements
+
+These updates should go live within the next week.
+
+Despite Helipad being a free application, I get a lot of pressure to work on it because all my friends use it!  It currently has around 5,000 users, with several hundred using it every day.  Not bad for something I developed by myself in a month!
+
+I'm also still working on the Mac OS Helipad client that we announced last year.  Because it's a departure from Helicoid's core focus (web applications), it's taking longer to develop.  I'm currently stuck trying to figure out how to get it to sync between a mac and Helipad, but it's getting there.

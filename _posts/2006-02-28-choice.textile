@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Choice"
+author: Alex Young 
+
+---
+
+In "Breaking down barriers to Linux desktop adoption":http://searchopensource.techtarget.com/originalContent/0,289142,sid39_gci1169030,00.html, an interview with Jono Bacon (an IT consultant who helps companies install Linux), the author makes the following comment:
+
+<blockquote>
+"they fault Linux OpenOffice desktops for not having all the features in Microsoft Windows Office, even though few actually use all of the Microsoft stuff. So, in essence, they're saying they want desktops cluttered with unnecessary features."
+</blockquote>
+
+Now, he's really referring to the old 80/20 rule, something every computer science course seems to reinforce at some point in its lectures.  What this means is that to make off the shelf software, you have to cram in every feature possible to try and satisfy the average user.
+
+However, our products, such as "Tiktrac":http://tiktrac.com, throw away this kind of thinking.  Instead of adding features, we give the most efficient solution we can to a simple problem.  Our theory is that by adding APIs to these solutions, customers will have:
+
+* The ability to tie our software into other products
+* A rich set of similar products to choose from
+* And the ability to migrate away from our products if they no longer want to use them
+
+Software isn't really about any one thing, and the software you use ultimately comes down to taste.
+
+What the author of the comment we've quoted above seems to forget is that some people might like Office and Windows.  I certainly prefer Word to Open Office's word processor, and I used Linux as my main desktop operating system from 1998 to 2003.
+

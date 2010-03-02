@@ -1,0 +1,37 @@
+---
+layout: post
+title: "Unified Single Site Browser (SSB) support"
+author: Alex Young 
+categories:
+- ssb
+- programming
+- javascript
+---
+
+!http://dl.getdropbox.com/u/221414/blogs/ssbx.png!
+
+In "Rapid Fluid support":/2008/12/26/rapid-fluid-support I talked about adapting web applications for "Fluid":http://fluidapp.com.  Since "Bubbles":http://bubbleshq.com for Windows has a similar API I decided to write a wrapper around Fluid and Bubbles so you can support both SSBs in your web applications.
+
+This wrapper is called "ssbx":http://github.com/alexyoung/ssbx/tree/master, and is used like this:
+
+<pre class="code">
+<code>
+if (SSBX.isAvailable()) {
+  SSBX.log('hello');
+  SSBX.notify({ message: 'This is a message', title: 'Title' });
+  SSBX.notifyOnce({ message: 'This is a message', title: 'Title', unique_id: 5});
+  SSBX.setDockBadge(5);
+  SSBX.log(SSBX.availableDriver);
+}
+</code></pre>
+
+You can also only run when there's a compatible SSB available like this:
+
+<pre class="code">
+<code>
+SSBX.run(function() {
+  SSBX.log('hello');
+}
+</code></pre>
+
+It's still evolving, so add it to your watch list on GitHub if you'd like to stay up to date.

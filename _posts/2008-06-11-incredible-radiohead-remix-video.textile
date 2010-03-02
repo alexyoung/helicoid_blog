@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Incredible Radiohead remix video"
+author: Alex Young 
+categories:
+- inspiration
+- music
+- video
+---
+
+"Big Ideas: Don't get any":http://www.youtube.com/watch?v=pmfHHLfbjNQ is an incredible remix of Radiohead's _Nude_, using a collection of old hardware bent and twisted to reproduce the original.  Featuring a ZX Spectrum and harddisk speaker!
+
+<object width="425" height="344"><param name="movie" value="http://www.youtube.com/v/pmfHHLfbjNQ&hl=en"></param><embed src="http://www.youtube.com/v/pmfHHLfbjNQ&hl=en" type="application/x-shockwave-flash" width="425" height="344"></embed></object>

@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Network with us"
+author: Alex Young 
+categories:
+- support
+- networking
+- social
+---
+
+Are you a fan of social networks?  You can now network with us by visiting our:
+
+* "Helicoid Facebook Page":http://www.new.facebook.com/pages/Helicoid/24328803903
+* "LinkedIn Group":http://www.linkedin.com/e/gis/825287
+* "Last.fm Group":http://www.last.fm/group/Helicoid
+* "Flickr":http://flickr.com/people/helicoid/
+* "Twitter":http://twitter.com/helicoid
+
+The Facebook page is a great place to socialise with us and keep up-to-date with our products.  The LinkedIn group is useful in a similar way -- we also hope people working with our APIs will use it to promote their skills.  Yuka (our copy writing and language expert) loves LinkedIn, so track her down if you've got questions about localisation or advertising.
+
+The Last.fm group is there purely because I love music, and the thought of seeing our customers' music tastes is fascinating!
+
+Flickr is a good way of keeping track of our screenshots and artwork.  I sometimes reveal features early through Flickr to get design feedback.
+
+Twitter is generally for our product updates, it's low traffic so it won't swamp your Twitter page.

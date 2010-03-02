@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Helipad exports"
+author: Alex Young 
+categories:
+- helipad
+---
+
+Helipad now allows you to export your documents.  You can export one big XML file, containing the text along with the tags and other information, or a zip file containing exported documents as text files.
+
+Here's an image that illustrates the process:
+
+<a href="http://www.flickr.com/photos/helicoid/306484936/" title="Photo Sharing"><img src="http://static.flickr.com/115/306484936_96b12dd517_o.jpg" width="440" height="289" alt="Helipad export guide" /></a>
+
+To use this feature, select 'your account' and look for 'Export your documents' at the bottom of the page.
+
+<a href="http://www.flickr.com/photos/helicoid/306479006/" title="Photo Sharing"><img src="http://static.flickr.com/109/306479006_092b2cbff7.jpg" width="500" height="342" alt="Helipad exports" /></a>
+
+You could use this to export your notes and work on them offline in your favourite text editor!
+

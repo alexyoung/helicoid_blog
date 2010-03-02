@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Helipad Mac public beta"
+author: Alex Young 
+categories:
+- helipad
+- mac
+- announcements
+---
+
+"Helipad Mac":http://pad.helicoid.net/mac.html is now available to everyone.  It's a Mac OS Helipad client that syncs all your notes to your computer.  This means you can write notes offline then sync them up the next time you're online.  Note that this is a time limited trial and will be upgraded in April.
+
+!http://dl.getdropbox.com/u/221414/helicoid/blog/helipad_mac.png!
+
+h3. Note if you're on the private beta
+
+We've changed the data structures slightly.  Before downloading and running the new Helipad Mac client, sync your notes and then delete the old data file: *Library/Application Support/HelipadTest2/HelipadTest2.xml*.  You can delete it with either Finder or the terminal.
+
+This will all be made transparent before the final release, along with automated upgrades.
+

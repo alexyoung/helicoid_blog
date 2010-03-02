@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Helipad update"
+author: Alex Young 
+categories:
+- helipad
+- announcements
+---
+
+!http://assets.helicoid.net/images/blogs/helipad_mobile.png!
+
+If you read our "mobile weblog":http://mmm.helicoid.net, you might have noticed me talking about the <a href="http://mmm.helicoid.net/articles/2006/11/15/mobile-web-best-practices">W3C's Mobile Web Best Practices</a>.  I was thinking about Helipad while I was writing this, and since so many of you seem to love using Helipad's mobile interface, I've updated it.
+
+I've added a search as soon as you login, so you can quickly get to what you want.  If the search matches one pad or title, it'll bring that document up.  If it finds more, you'll see them in a list.
+
+We've also spent some time improving usability and ironing out minor problems and inconsistencies.  Incidentally, we go through all server logs regularly, so any bugs that aren't reported still get picked up.  This has enabled me to figure out some rare bugs a few of you were running into.
+
+And here's an anecdote for you: some clever fellows have figured out that you can actually create accounts on "Bugtagger":http://bugtagger.com, even though we haven't publicised the URLs.  Thanks for the interest!  Bugtagger really helps me keep a handle on the workload at Helicoid, and I can't wait to share it.

@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Happy Holidays!"
+author: Alex Young 
+categories:
+- multitap
+- announcements
+---
+
+First of all, happy holidays to everyone who uses our sites!
+
+Secondly, <a href="http://multitap.net">Multitap.net</a> has been upgraded.  As well as a few consistency improvements to various features, we've added a 'friends' system which allows you to add users to a friends list.  This will be extended in 2006 to provide more sophisticated features, but the bare minimum is there.
+
+This allows me, for example, to keep track of what <a href="http://multitap.net/screenshot/user/6">Kev</a> is posting to the site.  I like to keep an eye on what images he's posted, so he's been added to my friends list.
+
+To support this feature, we will be improving the 'user page' to include a brief overview of their friends' screenshots.  All will come in due time...  And, please share your ideas for the site with us!
+

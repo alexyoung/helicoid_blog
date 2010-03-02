@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Multitap.net"
+author: Alex Young 
+categories:
+- announcements
+- multitap
+---
+
+<a href="http://multitap.net/">Multitap.net</a>, our first project, was launched on December 6th, 2005.  
+
+<a href="http://multitap.net/">Multitap.net</a> was designed to allow gamers to post screenshots of action during play, something we have done ourselves using forums and various image hosting services.  We never felt current image hosting services were inadequate for this task, so we decided to build <a href="http://multitap.net/">Multitap.net</a>.
+
+People are already starting to find out about it, and of course, suggestions are flying in on what features we should add...
+
+Of course, following our mantra of simplicity, the features are very basic at the moment.  We hope to work with the community to bring direction to future developments, only adding features the community wishes to see.
+
+During beta, the site will be free.  So get posting screenshots!

@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Tiktrac Reports"
+author: Alex Young 
+categories:
+- tiktrac
+- announcements
+---
+
+<img src="http://assets.helicoid.net/images/blogs/tiktracreport.png" />
+
+We've just added another report to <a href="http://tiktrac.com">Tiktrac</a>, and added a few bugfixes that we've been hard at work on over the last week.
+
+If you'd like to see more reports on Tiktrac, please tell us what kinds of reports you'd like to see.  You can use our <a href="http://www.tiktrac.com/contact">contact form</a> to get in touch, or post comments to this blog.
+
+

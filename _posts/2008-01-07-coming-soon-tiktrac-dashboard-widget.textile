@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Coming soon: Tiktrac dashboard widget"
+author: Alex Young 
+categories:
+- tiktrac
+- announcements
+---
+
+<a href="http://www.flickr.com/photos/helicoid/2168576911/" title="Tiktrac widget: Saturday afternoon edition by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2019/2168576911_84b543e80c_o.png" width="493" height="287" alt="Tiktrac widget: Saturday afternoon edition" /></a>
+

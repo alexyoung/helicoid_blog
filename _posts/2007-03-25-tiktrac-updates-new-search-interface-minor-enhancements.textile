@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Tiktrac updates: new search interface, minor enhancements"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+"Tiktrac's":http://tiktrac.com search interface has just been updated, along with more export options and some minor usability enhancements.
+
+Search now allows you to narrow down your query by selecting a sheet or person.  It also displays the total time for the tasks it finds.
+
+<a href="http://www.flickr.com/photos/helicoid/433713577/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/179/433713577_9b18f4c2df.jpg" width="500" height="339" alt="Tiktrac search updated" /></a>
+
+Your entire account's data can now be exported.  Look for the 'Data export' page under 'Tiktrac settings'.
+
+'Daily summary' exports have also been added under the 'Export' tab found on sheets.  This produces a CSV file with total time for each day.  This was added because many contractors submit timesheets in a similar format.  Hopefully this will save you some time!
+
+Developing the search update came from an accidental discovery.  During a visit from a client, we got talking about a new feature for their application.  The feature was conceptually similar to something else, but would have to be developed almost from scratch.
+
+To get a time estimate we struck upon the idea of using Tiktrac's search tool to find related tasks.  Then we added up the results, and hey presto: a better estimate than simply guessing.
+
+We both realised at this point that Tiktrac would benefit from something to make this process easier.  The whole point of Tiktrac is let you track and manage time, so it seemed natural.
+
+The other minor tweaks added this week are:
+
+* Report graphs now update properly
+* The sheet selection drop-down for add/edit tasks now has more friendly formatting, by grouping sheets by client
+* When opening the task addition form, the first field is now automatically selected (whether it's 'ref' or duration)
+* 'Ref' fields now have links everywhere
+* Colour selection sliders under 'appearance' now always reflect changes
+* Exports now hide 'ref' field when it isn't used
+

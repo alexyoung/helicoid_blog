@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Helipad Tip: Mobile browser homepage"
+author: Alex Young 
+categories:
+- helipad
+- tips
+---
+
+!http://farm3.static.flickr.com/2401/2406155524_fcc5762a66_o.png!:http://www.flickr.com/photos/helicoid/2406155524/
+
+Kev (our sysadmin and morale officer) uses "Helipad mobile":http://pad.helicoid.net/mob in a unique way: he sets a tag's page as his mobile browser's homepage.  This means he can quickly access documents suitable for his phone.
+
+In his case he uses documents tagged with "gtd" so he can easily keep track of todo lists.  I thought it might be useful to have an "@mobile" tag for documents you generally want to see on the move.
+
+We're still working on the Helipad upgrade and Mac version, they're almost ready! (Mac version needs serious testing to get synchronisation safe, upgrade needs more IE testing in Windows.)

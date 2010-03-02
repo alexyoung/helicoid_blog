@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Deadline"
+author: Alex Young 
+categories:
+- announcements
+- deadline
+---
+
+"Deadline":http://deadlineapp.com is our latest app: a new take on the web calendar.  It uses natural language parsing to interpret events you write in plain English.  Searching is also intelligent: typing "next week" shows all your events for next week, whereas "meet kev" will look for those keywords.
+
+!http://deadlineapp.com/images/home/screenshots/interface.png!
+
+Deadline works with *Jabber/Gtalk*: it sends reminders and also allows you to delete, delay and hide events through your IM client.
+
+It also *accepts and sends email*.  That means if your mobile phone supports email or MMS you can get and set reminders anywhere.  There's also a mobile interface too just like the rest of Helicoid's projects.
+
+If it can't understand the date and time you've typed in, it'll prompt you to enter one with a form like this:
+
+!http://deadlineapp.com/images/home/screenshots/manual.png!
+
+Deadline is the second application to use "Helicoid":http://helicoid.net's auth server, which means if you have a "Helipad":http://pad.helicoid.net it's single sign-on!
+
+Deadline looks very different to our other web applications.  There's barely any navigation and no footer.  When you hover the logo minimal navigation appears.  I really wanted to make something that looked graphical, almost like an album cover: big helvetica fonts, bold colours, with an emphasis on your data over application chrome.
+
+Accounts are free and signup is quick (remember you can just login if you use Helipad).  If you'd like to know about the technical stuff, or upcoming API details, post a comment and I'll get back to you.
+
+There's also more details here: http://pad.helicoid.net/document/public/93f5a1ce
+
+*Updates*
+
+* 13th November: Cleaned up help text interface, fixed a typo on the homepage
+* 13th November: Improved IM and email help (inline help on the Settings page, complete with screenshots)
+* 12th November: Acknowledged that if you have a Helipad account and try to reset your password on Deadline it doesn't work if you haven't used Deadline before.  This will be fixed soon.

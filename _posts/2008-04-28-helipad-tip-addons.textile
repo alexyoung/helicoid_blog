@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Helipad tip: Add-ons"
+author: Alex Young 
+categories:
+- helipad
+- tips
+---
+
+!http://farm4.static.flickr.com/3068/2448882844_4c213a48c2_o.png!:http://www.flickr.com/photos/helicoid/2448882844/
+
+"Helipad":http://pad.helicoid.net supports plugins and themes through add-ons.  To view available add-ons, click the link at the top right of Helipad.
+
+Installing an add-on adds a document to your account that contains the code for the add-on.  This allows you to edit it, which is useful for customising themes.  
+
+Add-ons can be updated to a newer version if the author updates it by clicking on _Settings_ and then _Plugins_.  You can also remove add-ons here.
+
+If you'd like to write an add-on, we've written some documentation on the process: "Helipad add-on documentation":http://pad.helicoid.net/document/public/9406837a.
+
+Add-ons are simply an XML container that wraps JavaScript and CSS, so if you've got some basic web development experience you should be able to write an add-on.

@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Tiktrac: Import data from Excel, Open Office, Numbers"
+author: Alex Young 
+categories:
+- tips
+- tiktrac
+---
+
+<a href="http://www.flickr.com/photos/helicoid/2163186146/" title="Tiktrac data imports by Helicoid, on Flickr"><img src="http://farm3.static.flickr.com/2042/2163186146_2ef866ba45_m.jpg" width="240" height="148" alt="Tiktrac data imports" /></a>
+
+"Tiktrac":http://tiktrac.com now supports data imports from CSV files.  This allows you to "import time sheet data":http://tiktrac.com/import_and_export from spreadsheets straight into Tiktrac.
+
+Each sheet now has an *Import* tab, which takes you through the steps to import your data.
+
+
+

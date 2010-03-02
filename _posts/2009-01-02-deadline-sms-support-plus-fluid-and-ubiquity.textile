@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Deadline SMS support (plus Fluid and Ubiquity!)"
+author: Alex Young 
+categories:
+- deadline
+- sms
+- announcements
+---
+
+"Deadline":http://deadlineapp.com now supports SMS (text messages).  The feature is currently available as a trial while we estimate costs.  To get on the trial, see the *SMS page* in *Deadline Settings* for more details.
+
+h3. Notes on Deadline's SMS support
+
+* The trial is free, but SMS support will be a paid feature in the future.  This is because sending an SMS costs money and Deadline is currently a free service.  We may subsidise SMS using context-sensitive adverts in the future.
+* Two-way SMS may be available in the future, we're still looking into costs and international support issues.
+* You're currently limited to 10 messages a day.  This number may change depending on popularity and costs.
+
+h3. Other improvements in this upgrade
+
+* Deadline now supports "Fluid":http://deadlineapp.com/ssb
+* Deadline now supports "Mozilla Ubiquity":http://deadlineapp.com/ubiquity
+* Setting "Remember me" during login should always work now
+* The settings page has been tidied up, with some secondary navigation to help you find things
+* We fixed a bug in Jabber
+

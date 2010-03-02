@@ -1,0 +1,64 @@
+---
+layout: post
+title: "My Own Private Helipad"
+author: Alex Young 
+categories:
+- helipad
+- announcements
+---
+
+<img src="http://assets.helicoid.net/images/blogs/helipad.jpg" style="border: none" alt="Helipad" />
+
+Do you ever wish you could quickly write a note, to-do list, or organise a bunch of ideas on your computer... but access them anywhere?  Do you find uploading documents to web sites annoying, and just want to write?
+
+If so, you'll love <a href="http://pad.helicoid.net/">Helipad</a>.  This is our latest project, designed to be the perfect web-based companion to your tattered and beloved notepad.
+
+Helipad is an online notepad.  It has several features that make it unique:
+
+* Notes can be organised with tags, and you can give tags colours to easily find them
+* There's an unobtrusive auto-save that helps protect you from computer and browser crashes
+* You can read and write notes on your phone with your phone's web browser
+* <a href="http://pad.helicoid.net/document/public/6313d317">There's an API</a>, so developers can use their applications with it
+* <a href="http://pad.helicoid.net/document/public/9406837a">There's an add-on API</a>, so developers can create themes and plugins
+
+Helipad lets you customise it to the extreme.  It really is your own.  You can radically change the interface, or add your own features. 
+
+h3. Coloured tags
+
+Colour your tags with sliders:
+
+<a href="http://assets.helicoid.net/images/blogs/colour_tags.png"><img src="http://assets.helicoid.net/images/blogs/colour_tags_small.gif" alt="Colour tags screenshot" /></a>
+
+h3. Themes and plugins
+
+Extend your Helipad with plugins and themes:
+
+<a href="http://assets.helicoid.net/images/blogs/plugins.png"><img src="http://assets.helicoid.net/images/blogs/plugins.gif" alt="Plugins screenshot" /></a>
+
+h3. Search on every page
+
+All your documents are seconds away:
+
+<img src="http://assets.helicoid.net/images/blogs/search.png" alt="Search screenshot" />
+
+h3. The future
+
+Helipad's brilliantly simple, and depending on the outcome of beta testing we wish to extend it with:
+
+* Collaboration and versioning
+* PDF exports
+* Drag and drop document re-ordering
+
+h3. One last thing...
+
+Everyone that works for Helicoid loves macs, so I've been bullied into writing a mac version of Helipad.  It downloads all your documents so you can work on your Helipad documents off-line.
+
+Here's a screenshot:
+
+<a href="http://assets.helicoid.net/images/blogs/one_last_thing.png"><img src="http://assets.helicoid.net/images/blogs/one_last_thing.gif" alt="Mac client screenshot" /></a>
+
+This might not be completed for several months, but we'll let you know as soon as it's ready!
+
+h3. Sign up now
+
+You can "sign up to the Helipad":http://pad.helicoid.net/account/register beta test for free! 

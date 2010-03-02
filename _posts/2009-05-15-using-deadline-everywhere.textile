@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Using Deadline Everywhere"
+author: Alex Young 
+categories:
+- deadline
+- tips
+---
+
+The ways "Deadline":http://deadlineapp.com/ can be accessed has grown to ridiculous proportions.  Here's a summary of the apps, tools and hacks that work with it.
+
+h3. Mac Desktop
+
+!http://dl.getdropbox.com/u/221414/deadline/deadline_mac_blog.png!
+
+Deadline will work with your Mac's desktop.  For more details, read the initial blog announcement.  "Download Deadline for Mac here":http://dl.getdropbox.com/u/221414/deadline/DeadlineGrowl.zip.
+
+h3. Mobile
+
+Visit /mob to access Deadline's cut-down mobile version: "deadlineapp.com/mob":http://deadlineapp.com/mob/
+
+h3. SMS
+
+We've had strong feedback from the people on the closed SMS beta, so we'll roll this out with payment plans soon.  "Contact us":http://helicoid.net/contact if you want to try it for free until that happens.
+
+h3. Email
+
+Did you know you can email reminders to Deadline?  Click <strong>Help, Email</strong>  Input to get your customised email address.  It's handy to add this to your computer and phone address books so you can quickly email Deadline wherever you are.
+
+h3. Jabber/Gtalk
+
+I've recently been working on making the Deadline Jabber/Gtalk bots respond faster, and they're working better than ever now.  You can add talk@deadlineapp.com or deadline@helicoid.net (for Google Hosted Gtalk) to your buddy lists to talk to Deadline.  It'll send you reminders and also let you schedule and search them.
+
+h3. Fluid
+
+Deadline is designed to work with "Fluid":http://fluidapp.com/.  For more information on using site-specific browsers with Deadline, visit "deadlineapp.com/ssb":http://deadlineapp.com/ssb
+
+h3. Mozilla Ubiquity
+
+If you're a fan of "Ubiquity":https://ubiquity.mozilla.com/, check out our "Deadline Ubiquity scripts":http://deadlineapp.com/ubiquity.  This allows you to schedule and search reminders from within Firefox.
+
+h3. API
+
+Deadline also has an "XML API":http://pad.helicoid.net/document/public/482ae365 so you can make your own applications with it.  I'm currently building an iPhone app that uses it.

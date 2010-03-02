@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Snippets of mystery"
+author: Alex Young 
+categories:
+- code
+---
+
+<p>Here's a sneak preview from in-house enigma extraordinaire Alex:</p><img src="http://assets.helicoid.net/images/blogs//mysteryproject.png" border="0" height="323" width="307" alt="1 2 3 4 5 6 7 8 9 10 11 12"/><p>Here's another from myself, your favourite Gabriel:</p><img src="http://assets.helicoid.net/images/blogs//steppable.png" height="189" width="222" alt="i've got a new way to walk"/>
+
+<p>Neat stuff will be done soon now! Promise!</p>

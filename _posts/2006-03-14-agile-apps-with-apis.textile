@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Agile apps with APIs"
+author: Alex Young 
+categories:
+- thoughts
+---
+
+I've got some friends using <a href="http://www.box.net">Box.net</a>, so we can exchange files.  I've found a lot of my friends get confused about FTP, and IM file sharing often gets screwed up by firewalls.  This can be a real pain when you're trying to work on something together over a large distance, especially when you're swapping binary files like images or audio rather than text.
+
+I logged in earlier and noticed:
+
+!http://assets.helicoid.net/images/blogs/boxnet.png!
+
+True to their promise, they automatically upgraded my account based on my referrer count!
+
+Box.net does everything you'd expect.  There's an API, and they're developing an OS-specific sync/disk application.  There's also a mobile version:
+
+!http://assets.helicoid.net/images/blogs/mbox.png!
+
+All these things are made more straightforward by the fact they use an API.  That's why I love APIs, and that's why we made the <a href="http://helicoid.net">Helicoid</a> slogan 'agile apps with APIs'.
+
+<a href="http://mmm.helicoid.net/articles/2006/03/14/box-net-mobile">Read more about the mobile version of Box.net</a>.

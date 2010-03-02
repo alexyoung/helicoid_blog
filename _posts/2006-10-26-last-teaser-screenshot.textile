@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Last teaser screenshot"
+author: Alex Young 
+categories:
+- announcements
+- helipad
+---
+
+I hate to be a tease, so I promise this is the last teaser screenshot of our new product:
+
+<a href="http://assets.helicoid.net/images/blogs/helipad.png"><img src="http://assets.helicoid.net/images/blogs/helipad_thumb.png" border="0" height="284" width="399" alt="helipad_thumb.png" /></a>
+
+The product is Helipad, and it was inspired by my love of these little things:
+
+<img src="http://assets.helicoid.net/images/blogs/moleskine.jpg" border="0" height="327" width="300" alt="moleskine.jpg" />
+
+A hardy notepad can go everywhere with you, can you can customise it beyond belief.  People come up with their own annotation and organisation systems, with complete freedom to change their mind at any time.
+
+I've tried using a few web-based personal organisers systems over the last few years, but I always end up ditching my laptop and using the humble notepad.  However, I constantly feel as if I need a digital cousin for my paper tools -- something that would let me write notes, to-do lists and categorise them with my own tagging schemes.
+
+Helipad lets me do all of this and more: I can view notes on my phone with the mobile version, download notes using the API to work offline -- I can even integrate my existing software with it!  It even lets me colour tags (obviously I set the "important" tag to red!), and give links to friends for public documents.
+
+What really makes Helipad amazing, however, is the ability to create plugins.  I can create JavaScript plugins or CSS themes which other Helipad users can share and use.
+
+All these features make Helipad my killer GTD tool, and I'd like to share it with you.  I need help to take it from where it is right now to being a great product.  If you think it sounds like a tool that's missing from your life, <a href="http://helicoid.net/contact">get in touch.</a>  It's not quite ready for a public release, thanks to Internet Explorer's quirks, but I'd love to get some feedback.</p>

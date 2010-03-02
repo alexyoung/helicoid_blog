@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Support Helipad"
+author: Alex Young 
+categories:
+- helipad
+---
+
+"Helipad":http://helipadapp.com/ is our free notepad web app, which we've been running since 2006.  It's still going strong, and people keep discovering it every day.  If you enjoy using Helipad, here are a few ways you can support it to ensure continued development:
+
+* "Buy the iPhone Helipad app":http://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=300412656&mt=8: a new version has been submitted to the App Store with iPhone OS 3.0 support which fixes a syncing glitch
+* Try "Deadline":http://deadlineapp.com which works with your Helipad login and has an iPhone app (submitted to the store this week)
+* Share Helipad with your friends and colleagues
+* "Hang out with us":http://jschat.org/ and tell us what features you'd like to see in the future
+* Follow us on "Twitter":http://twitter.com/helicoid or join our "Facebook page":http://www.facebook.com/pages/Helicoid/24328803903
+* Blog about Helipad!  We have "press resources":http://helicoid.net/press/ with nice icons
+* Build stuff with the "API":http://helipadapp.com/api.html
+* Try our other products, which are all listed on our company's web site: "helicoid.net":http://helicoid.net

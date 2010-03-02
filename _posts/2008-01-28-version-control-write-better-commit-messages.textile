@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Version control: Write better commit messages"
+author: Alex Young 
+categories:
+- vcs
+- subversion
+- programming
+---
+
+I've recently been providing consultancy for a few companies in London, advising them on skills and technologies that will improve the efficiency of their software developers.  One thing these businesses didn't do was version control.  After explaining the basics I noticed people struggle with the "softer" skills required, and this raised the question: what's a good commit message anyway?
+
+It's worth remembering that version control excels when it improves communication between developers.  Log messages should form part of the evolving documentation of a project,  where well-crafted messages become an asset rather than extraneous baggage.  It's important, especially in terms of saving time in the future on maintenance, that the people on your team understand how to write useful log messages.
+
+In general, a good log message:
+
+* *Doesn't contain references to changed files*: version control systems do this for you
+* Uses class or method names: *make it easy for people to search* in the future
+* *Places the changes in context*: are they related to bug reports, architectural changes, customer requests or feedback?
+* *Describes the motivation behind changes* in simple terms that can be read through quickly
+* Allows newly hired developers to understand why these decisions were taken
+* Places the changes in the *wider project context* by containing references to bug reports or other internal tracking systems
+

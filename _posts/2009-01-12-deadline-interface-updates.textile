@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Deadline interface updates"
+author: Alex Young 
+categories:
+- deadline
+---
+
+
+"Deadline":http://deadlineapp.com has been updated with some interface tweaks:
+
+* A balloon will pop up as you hover over dates to show more text
+* The background image is now fixed
+* There's now an option in *Appearance/Settings* that will let you turn off the hover fading effect
+
+The date details balloon looks like this:
+
+!http://dl.getdropbox.com/u/221414/deadline/date_details.png!
+
+It shows you the day name and time until the event.  If you've specified a time for your event it'll display the time as well.

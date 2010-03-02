@@ -1,0 +1,24 @@
+---
+layout: nil
+url: atom.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Helicoid's Blog</title>
+ <link href="http://blog.helicoid.net/feed.xml" rel="self"/>
+ <link href="http://blog.helicoid.net" />
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://blog.helicoid.net/</id>
+ <author>
+   <name>Helicoid's Blog</name>
+ </author>
+ {% for post in site.posts limit:10 %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://blog.helicoid.net{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://blog.helicoid.net{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endfor %}
+</feed>

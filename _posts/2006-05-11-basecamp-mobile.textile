@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Basecamp Mobile"
+author: Alex Young 
+categories:
+- code
+- rails
+- basecamp
+- mobile
+---
+
+We'd like to say thanks to 37signals for linking to us in "The first business built around Basecamp":http://37signals.com/svn/archives2/the_first_business_built_around_basecamp.php.  We're currently working on an application that provides a mobile-friendly version of Basecamp.  The application is of course written using Ruby on Rails, and will be released as open source so you can install it on your server (or your systems administrator can).
+
+There's still a lot of work to be done, but building it has been great fun, and we can't wait to share it!

@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Deadline Jabber Updates"
+author: Alex Young 
+categories:
+- deadline
+- jabber
+---
+
+I've been working on improving the Deadline Jabber bot.  We had some architectural problems with it that needed fixing, but it's been solid for a few weeks now so I though it was time for an update.
+
+h3. Editing Deadlines
+
+Jabber now supports deadline editing:
+
+* <code>set due id my due date</code> -- set the due date for a deadline
+* <code>set description id my description</code> -- set the description
+
+For example:
+
+<pre>
+set due 39147 next week
+set due 39147 19:30
+set description 39147 defeat Zod
+</pre>
+
+<p></p>
+
+h3. Time Zones
+
+You can now set and view your time zone.  This is really handy if you go on holiday and only have access to the Jabber interface.  It works like this:
+
+* <code>time</code> -- view your time and zone
+* <code>set zone city</code> -- set the time zone to the "city"
+
+At the moment there's no way to view or search the cities we support -- it uses the same list as appears on the settings page on the web site.
+
+For example:
+
+<pre>
+set zone London
+set zone Paris
+</pre>

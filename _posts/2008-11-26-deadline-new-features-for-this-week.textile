@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Deadline: New features for this week"
+author: Alex Young 
+categories:
+- deadline
+---
+
+Later this week we'll be updating Deadline with the following upgrades:
+
+* New reminder system - this will reduce server load and allow us to add some clever new features
+* Reminder previews - when editing your reminder settings you'll be able to view a table of reminders to easily see what the settings do
+* Additional reminders (minutes) - you'll be able to set days, hours and minutes for additional reminders (thanks _jrk_)
+* Jabber bot - the IM bot will work properly with Jabber (it'll have a new account name)
+* More date parsing improvements (especially for phrases including the word "today") (thanks _Dougal_)
+
+These updates are still being tested but we'll let you know when they're deployed.
+
+*Update*: We've just deployed these changes to our servers.  Note that you should switch to using <a href="xmpp:talk@deadlineapp.com">talk@deadlineapp.com</a> for IM.

@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Lighttpd: 422 (Unprocessable Entity) and ActiveResource"
+author: Alex Young 
+categories:
+- technical
+- programming
+- sysadmin
+- ruby
+- rails
+---
+
+Recently we deployed an internal server that works using ActiveResource to share objects between our applications.  All my tests ran, and eventually I deployed the service.  The tests ran on the server. I took a night off and got loads of wine and pizza.
+
+However, after a few days I noticed *errors weren't being received from the server*.  I tore my hair out checking everything even down to the versions of the server software and libraries.  Then I noticed: when I ran the application with webrick it returned errors and ActiveResource objects correctly displayed error messages.
+
+I then went on a huge lighttpd/fcgi/rails/activeresource search engine hunt and found nothing.  After getting a friend in to help, we discovered that it looked like *lighttpd wasn't responding with the full body when responding with 422 (Unprocessable Entity)*.
+
+We even checked the source, and eventually found:
+
+* http://trac.lighttpd.net/trac/ticket/1412
+* http://trac.lighttpd.net/trac/browser/trunk/src/connections.c
+
+So if you're tearing your hair out with ActiveResource and lighttpd it looks like there is a problem with lighttpd.  We're now running the service off mongrel for the time being.
+
+*Update* Lighttpd just updated to 1.4.20, and this was in the patch notes:
+
+bq. Allow all http status codes by default; disable body only for 204,205 and 304; generate error pages for 4xx and 5xx (#1639)
+
+

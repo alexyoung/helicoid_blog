@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Tiktrac update"
+author: Alex Young 
+categories:
+- tiktrac
+- announcements
+---
+
+We're currently finishing off some improvements to "Tiktrac":http://tiktrac.com, our timesheets software.  These updates are really just internal improvements, to make way for future changes.  
+
+When we publish the changes, you'll notice the dashboard page is more friendly.  It has 'Add task' right there as soon as you login (because that's the first thing most people do!)
+
+After this update, we'll be adding time zones, more graphs and then... then we'll be moving it to a better server setup with more power, more stability, and more sex appeal!  We've been working hard on other projects for people so we can pay for a better level of service, and you beta guys will get a great deal.
+
+By the way, is anyone running out of sheets?  Get in touch if you are, we'll add more for you.

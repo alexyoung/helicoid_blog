@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Basecamp mobile"
+author: Alex Young 
+categories:
+- code
+- announcements
+---
+
+We love APIs, and since "37signals":http://www.37signals.com announced the Basecamp API, I've been playing with a mobile version of Basecamp.
+
+The code is currently a single ruby file, that uses their ruby wrapper for the API.  If you're interested, it uses CGI and erb, so it should be fairly easy to install if your hosting provider supports CGI and ruby.
+
+!http://static.flickr.com/51/120259342_154bbe99b6_o.png!:http://www.flickr.com/photos/helicoid/120259342/
+
+When it's ready, we'll release it on "code.helicoid.net":http://code.helicoid.net.

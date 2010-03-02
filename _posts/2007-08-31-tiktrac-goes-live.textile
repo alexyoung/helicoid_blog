@@ -1,0 +1,63 @@
+---
+layout: post
+title: "Tiktrac goes live"
+author: Alex Young 
+categories:
+- announcements
+- tiktrac
+---
+
+We are pleased to announce that "Tiktrac":http://tiktrac.com has finished its beta trial.
+
+Beta testers have all been granted two months on the premium price plan (this includes 1000 sheets, branding features and secure access over SSL.)
+
+Tiktrac's launch also sees the release of a refreshed interface detailed below.
+
+h3. New features
+
+* Click to edit tasks - click once to get the full task editor in a pop-up!
+* Quickly delete tasks - click the trash can icon to remove a task without leaving a sheet
+* You can now create targets for sheets, allowing you to easily see your progress for the month - a feature contractors and agencies will appreciate!
+* Tasks now look the same everywhere, and are editable everywhere too
+* Time-zone are now supported
+* A new contextual help system providing concise help and tips - great for new users and your clients
+
+h4. Targets
+
+The new targets features is especially useful for contractors and agencies.  You can quickly see how close you are to a client's target for the month
+
+<a href="http://www.flickr.com/photos/helicoid/1283799928/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1384/1283799928_a1f744071b_m.jpg" width="240" height="166" alt="Targets" /></a>
+
+h4. Task quick edit and delete
+
+Task edits now appear without having to leave the page, making editing those finer details seamless.
+
+<a href="http://www.flickr.com/photos/helicoid/1282935845/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1032/1282935845_eb8d52e552_m.jpg" width="240" height="166" alt="Task edit" /></a>
+
+h4. Reports
+
+Popups have been used to quickly view larger graphs in reports, making it easier than ever to impress your boss with charts (that's not even a joke, I've actually done this!)
+
+<a href="http://www.flickr.com/photos/helicoid/1282929607/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1013/1282929607_b6a28eb055_m.jpg" width="240" height="166" alt="Reports" /></a>
+
+h4. People pages
+
+Everyone has their own page with graphs and recent activity.
+
+<a href="http://www.flickr.com/photos/helicoid/1282929015/" title="Photo Sharing"><img src="http://farm2.static.flickr.com/1204/1282929015_c6f4282638_m.jpg" width="240" height="166" alt="Person view" /></a>
+
+h3. What's next?
+
+* Editable costs
+* Bigger branding logos!
+* Configurable reports with CSV exports
+* REST API (for JavaScript and widget developers)
+* Integration with our other applications
+
+h3. Need to report an issue?
+
+If you have absolutely any issues with Tiktrac, <a href="http://helicoid.net/contact">get in touch</a>.
+
+
+
+

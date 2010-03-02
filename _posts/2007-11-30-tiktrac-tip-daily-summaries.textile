@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Tiktrac tip: Daily summaries"
+author: Alex Young 
+categories:
+- tips
+- tiktrac
+---
+
+This article is the first in a regular series of tips on how to get the most out of Tiktrac.  If you have any suggestions or questions, please "contact us":http://helicoid.net/contact
+
+"Tiktrac":http://tiktrac.com sheets have several export formats.  To view the export options, click "Export" when viewing a sheet.  A panel opens like this:
+
+!http://assets.helicoid.net/images/blogs/daily_export.png!
+
+Perhaps the most useful way to export sheet data is *Export daily summaries as CSV*.  This creates a file you can easily open with Excel, Open Office or Apple's Numbers, which contains the total duration for each day.  If you're in the *month* view, this will export a duration for each day of the month.
+
+This really helps when submitting time sheets to contractor agencies!  In fact, we implemented this feature specifically for contractors.
+

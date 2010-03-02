@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Tiktrac Widget Update"
+author: Alex Young 
+categories:
+- tiktrac
+- widgets
+---
+
+!http://dl.getdropbox.com/u/221414/helicoid/blog/tiktrac_widget.png!
+
+There's a new Tiktrac Dashboard widget out.  Download it here: "tiktrac.com/widgets":http://tiktrac.com/widgets
+
+I've also put the code in my GitHub account: "alexyoung/tiktrac-widget":http://github.com/alexyoung/tiktrac-widget -- if you're a developer check it out in Dashcode.

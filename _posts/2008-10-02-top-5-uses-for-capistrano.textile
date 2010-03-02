@@ -1,0 +1,79 @@
+---
+layout: post
+title: "Top 5 uses for Capistrano"
+author: Alex Young 
+categories:
+- capistrano
+- programming
+- ruby
+---
+
+This is a technical post about "Capistrano":http://capify.org/, a tool that makes deploying software to servers more manageable.
+
+I use "Capistrano":http://capify.org/ to deploy changes to Helicoid's applications to our servers.  However, Capistrano also comes in handy for lots of things beyond deployment.  Here's my top 5 Capistrano tips beyond deployment.
+
+h3. 1. Signup statistics
+
+When running advertising campaigns I find it's useful to see the impact on signup statistics.  I used Capistrano to connect to servers and query our databases to gather registration data.  It's fairly easy to output tables and graphs as well.
+
+In "Analytics with Capistrano":/2008/09/08/analytics-with-capistrano I wrote about this in more detail with some code snippets.
+
+h3. 2. Server backups
+
+For a small or medium-sized project, Capistrano can be used to automate off-site backups.   I wrote a Capfile to backup one server to another one in another datacentre using <code>rsync</code> and mysql dumps.  By relying on existing backup software (or the often used rsync) Capistrano is simply used to orchestrate remote and local backup-related tasks.
+
+You can prompt for database passwords if you don't want to store them in your Capfiles:
+
+<pre class="code">
+set(:mysql_password) do
+  Capistrano::CLI.ui.ask 'Enter mysql admin password: '
+end
+
+run "mysqldump -u username -p my_database > /home/alex/Backups/my_database.sql" do |ch, stream, out|
+  ch.send_data "#{mysql_password}\n" if out =~ /^Enter password:/
+end
+
+sudo "gzip /home/alex/Backups/my_database.sql"
+</pre>
+
+Using rsync to backup files to the local machine would call <code>system</code> rather than <code>run</code>:
+
+<pre class="code">
+system "rsync -a -e ssh alex@example.com:/home/alex/Backups/ #{BACKUP_TARGET}/files/"
+</pre>
+
+This came in handy when I wanted an additional backup to the service the datacentre provided internally.
+
+h3. 3. Quickly viewing remote Rails objects
+
+When addressing a bug report I occasionally need to see the properties of live data.  I use the following little snippet to let me do this:
+
+<code>cap show -s command='User.find(1)'</code>
+<p></p>
+<pre class="code">
+task :show, :roles => :app do
+  run <<-COMMAND
+    /u/apps/tiktrac/current/script/runner -e production 'require "pp"; pp #{command}'
+  COMMAND
+end
+</pre>
+<p></p>
+
+h3. 4. cap shell, distributed uptime
+
+This is an obvious one, but if you haven't tried it before it's worth adding to your toolbox.
+
+Typing <code>cap shell</code> will give you a Capistrano shell on your remote machines.  Issuing a command will issue it on each machine.  Typing <code>with role_name</code> before the command will run it on one machine.
+
+Seeing as the commands are executed on each machine, an innocuous issuing of <code>uptime</code> will let you see the state of several servers at once.
+
+h3. 5. Upgrade more than one machine at once
+
+Now apply the previous tip to sysadmin tasks.  Consider this:
+
+<pre class="code">
+cap shell
+sudo apt-get update
+</pre>
+
+See where I'm going with that?  More proof that Capistrano and similar tools are another step to Henry Ford'ing your most repetitive drudge work.

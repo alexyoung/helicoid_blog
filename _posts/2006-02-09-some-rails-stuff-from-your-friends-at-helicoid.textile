@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Some Rails stuff from your friends at Helicoid"
+author: Alex Young 
+categories:
+- code
+---
+
+We're Railsing it up here at Helicoid as usual, and in the process we've done a few little things that may help you in your quest for perfection in web application form:
+
+<a href="http://gabriel.gironda.org/articles/2006/02/08/using-helpers-inside-a-controller">Using helpers inside a controller</a> - for when you must pluralize() but dont want to mess with the controller namespace.
+
+<a href="http://gabriel.gironda.org/articles/2006/02/06/yet-more-formhelper-caveats-annoyances-and-the-fixes">A few fixes to some FormHelper bugs</a> - need to use a form with get rather than post and find checkbox weirdness happening? fixed!
+
+<a href="http://gabriel.gironda.org/articles/2006/02/03/registered-for-railsconf-and-overwrite_params-fix">RailsConf and another patch</a> - speaking of poor neglected get parameters, here's the reason why they might not be working properly. Also, one half of Helicoid will be seeing you at RailsConf.

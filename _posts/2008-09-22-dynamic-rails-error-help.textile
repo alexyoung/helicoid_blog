@@ -1,0 +1,36 @@
+---
+layout: post
+title: "Dynamic Rails error help"
+author: Alex Young 
+categories:
+- programming
+- ruby
+- rails
+- javascript
+---
+
+!http://farm4.static.flickr.com/3121/2877961211_045d355329_o.png!:http://www.flickr.com/photos/helicoid/2877961211/
+
+Here's a "little JavaScript snippet":http://code.helicoid.net/files/model_error.js I just wrote for our apps.  It parses the standard error messages Rails displays then puts dynamic popup error messages on each of the corresponding form inputs.  This allows people to quickly see the error on each field.  It currently only displays one error per field, but that could easily be fixed.
+
+You can customise it a bit with by passing a list of options:
+
+<pre class="code">
+  initialize: function(objectName, options) {
+    this.options = {
+      errorTextSelector: '#errorExplanation ul li',
+      messageClass: 'popinfo_inner'
+    }
+</pre>
+
+Be aware that the error popup I'm using uses some existing CSS/layout that our apps already use, so you'll want to customise <code>showError</code>.
+
+h3. Usage:
+
+Instantiate the <code>ModelErrors</code> class with the name of your model:
+
+<pre class="code">
+new ModelErrors('issue')
+</pre>
+
+*Download here*: "model_error.js":http://code.helicoid.net/files/model_error.js

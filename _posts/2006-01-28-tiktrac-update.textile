@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Tiktrac Update"
+author: Alex Young 
+categories:
+- announcements
+- tiktrac
+---
+
+This week has seen some exciting developments for Tiktrac.  We've added graphs to the Reports section and improved the interace of Reports overall.  We've also added sparklines to your account dashboard.  These are small graphs that illustrate recent activity for people and your timesheets.
+
+Tiktrac now also supports hours and minutes as time formats for each of your sheets.  When viewing a sheet, click on 'Edit this sheet', and you will see an option for the time format.  If you switch from minutes to hours, it won't actually change the underlying information, it will simply display hours and let you enter hours instead of minutes.
+
+In more detail, the changes we've made are:
+
+h4. Interface changes
+
+* Fixed a bug in the date selector in Internet Explorer.
+* Improved the reports section.  You can now navigate between reports more easily, and switch between hours and minutes.
+* We have removed links that delete items, replacing them with buttons.  This is intended to help prevent issues caused by 'web accelerators'.
+* Increased the width of the description field in timesheets.
+* Made description editing give sensible results when an error occurs.
+* Added tweaks to the text when editing people, sheets, clients and tasks to make them more consistent.
+
+h4. New features
+
+* We've added graphs to the reports section!
+* Handy, tiny graphs now appear on the dashboard page.
+* A new messenger feature has been added, so we can let you know about updates without emailing you.
+* You can now switch between hours and minutes for each sheet.  We don't want to make you enter huge numbers all the time if you usually deal in hours!
+
+And, thanks to Geoffrey Grosenbac for the graph library.  It really enabled us to focus on getting things right in Tiktrac.

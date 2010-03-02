@@ -1,0 +1,33 @@
+---
+layout: post
+title: "Tiktrac updates: Reports"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+"Tiktrac":http://tiktrac.com has been upgraded with the following fixes:
+
+* Reports set to show tasks with client filters will now work correctly
+* Certain reports weren't exporting CSV data, this has now been fixed
+
+A few Tiktrac fans have suggested that they'd like more flexibility from the RSS feeds.  This made me realise reports should be available as RSS.  I've just finished work on this and you can check it out now.
+
+Navigate to one of your reports (or add one), then click the _Export_ menu and select _RSS Feed_:
+
+!http://dl.getdropbox.com/u/221414/Tiktrac/sheet_nav.png!
+
+Your browser will show you the feed:
+
+!http://dl.getdropbox.com/u/221414/Tiktrac/subscribed.png!
+
+You can then subscribe in your feed reader of choice.  Note that these screenshots were taken in Firefox 3.  If you use Safari or Firefox you can subscribe to feeds within the browser.
+
+h2. Tips
+
+* If you want to create a list of tasks (rather than summarised data), make sure you create a report with _Summarise_ set to _Tasks_ and _Group by_ set to _All_
+* Try to use report filters creatively to create really useful feeds
+* If your browser doesn't support feeds, right click the _RSS Feed_ item in the _Export_ menu and select "Copy link".  You can then subscribe anywhere
+* Tiktrac RSS feeds require you to enter your email address and password for security reasons
+* Tiktrac RSS feeds are limited to 20 items.  We'll offer pagination as a URL parameter if people need it
+

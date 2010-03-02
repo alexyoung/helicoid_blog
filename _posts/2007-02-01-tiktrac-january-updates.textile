@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Tiktrac January updates"
+author: Alex Young 
+categories:
+- tiktrac
+- announcements
+---
+
+Some of you reported issues with the task timer in "Tiktrac":http://tiktrac.com.  I've been working on getting this right for the last month, and along the way we've made quite a few improvements to Tiktrac:
+
+* The play/pause timer buttons work the same way as iTunes
+* The dynamic elements of the interface (including the timers) have been fully tested in Opera 9, Internet Explorer 7, Firefox 2 and Safari 2 (please blame Kev or Yuka if we've missed anything)
+* Visual cues have been added when the timers are started and stopped:
+
+!http://assets.helicoid.net/images/blogs/timer_alerts.png!
+
+* Visual cues have also been added when a task is completed:
+
+!http://assets.helicoid.net/images/blogs/save_settings.png!
+
+* Buttons that change 'views' automatically retain their setting: 
+
+!http://assets.helicoid.net/images/blogs/completion_alerts.png!
+
+* The reports section looks slightly more awesome
+* The graphs on the reports section are now white so they're now more printer-friendly
+* Bug fixes for: mobile interface, XML data exports, sheet archival
+
+Since I'm the lead engineer here, I'm privy to the internal changes that have happened for this release.  And they're pretty serious: Tiktrac is now rapidly approaching the long-awaited "live" release.
+

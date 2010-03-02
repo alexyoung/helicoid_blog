@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Helipad updates: Dashboard sort options, IE and Opera 9 fixes"
+author: Alex Young 
+categories:
+- helipad
+---
+
+Helipad's just been updated with some new sort features and a load of bug fixes for IE 7 and Opera 9.
+
+You can now choose how to sort your documents by clicking a table column title.  You can also use a drop-down menu, illustrated here:
+
+!http://assets.helicoid.net/images/blogs/sort_options.png!
+
+Sorting was a commonly requested feature, so thanks to everyone who got in touch in with their ideas and suggestions through our "contact form":http://helicoid.net/contact.
+
+Here's the full list of recent changes:
+
+* Stopped IE from warning about saving a new document
+* Fixed Opera 9 tag search rendering issue
+* Fixed tag colour editor rendering Opera 9
+* Added Ajax sort options on the dashboard
+* Added pop-up sort menu (intended for use when in "preview" mode
+* Added striped tables
+

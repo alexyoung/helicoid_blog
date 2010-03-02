@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Tiktrac new features: Alternate views and better text formatting"
+author: Alex Young 
+categories:
+- tiktrac
+- announcements
+---
+
+I've just finished deploying and testing the new features for Tiktrac that I've been working on over the last two weeks:
+
+* It's now possible to view all tasks for a sheet, or use the traditional monthly view.
+* Task descriptions now accept "textile":http://www.textism.com/tools/textile/, so  you can format your descriptions with simple markup.
+* Several fixes for IE6.
+
+Here's a screenshot of how the new sheet view looks:
+
+<a href="http://www.flickr.com/photos/helicoid/275245860/" title="Photo Sharing"><img src="http://static.flickr.com/118/275245860_6969b2e271_m.jpg" width="240" height="192" alt="Tiktrac new features: textile, view all tasks" /></a>
+
+The view change has actually simplified the Tiktrac's internal code dramatically -- this was a good chance for me to refactor things.  The upshot of this for you is that it's now much easier for me to add other views to the sheets page, so "get in touch":http://helicoid.net/contact if you have any ideas!
+
+Incidentally, the screenshot was taken in Linux, because we like to test our products in Linux, Mac OS and Windows.

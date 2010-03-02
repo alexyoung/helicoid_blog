@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Service status page"
+author: Alex Young 
+categories:
+- announcements
+---
+
+<a href="http://www.flickr.com/photos/helicoid/450865152/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/220/450865152_e8690b1588_m.jpg" width="240" height="184" alt="Helicoid service status" /></a>
+
+As part of our customer service strategy, we've just set up our "service status page":http://status.helicoid.net
+
+It's hosted away from our applications (in the US instead of the UK), so chances are it will be up in the event of any connectivity issues with our main servers.
+
+If you rely on "Tiktrac":http://tiktrac.com or "Helipad":http://pad.helicoid.net, why not bookmark it?

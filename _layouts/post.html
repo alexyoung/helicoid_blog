@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<ul class="breadcrumb">
+  <li class="home"><a href="/">Home</a></li>
+  <li>{{ page.title }}</li>
+</ul>
+
+<h2 class="post"><a href="{{ page.url }}">{% if page.display-title %}{{ page.display-title }} {% else %}{{ page.title }}{% endif %}</a></h2>
+
+{% include post.html %}
+
+<script type="text/javascript">
+var disqus_url = "http:/blog.helicoid.net{{ page.url }}";
+//<![CDATA[
+(function() {
+	var links = document.getElementsByTagName('a');
+	var query = '?';
+	for(var i = 0; i < links.length; i++) {
+	if(links[i].href.indexOf('#disqus_thread') >= 0) {
+		query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+	}
+	}
+	document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/blog.helicoid.net/get_num_replies.js' + query + '"></' + 'script>');
+})();
+//]]>
+</script>
+
+<br clear="all" />
+
+<div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/blog.helicoid.net/embed.js"></script><noscript><a href="http://disqus.com/forums/blog.helicoid.net/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<br clear="all" />

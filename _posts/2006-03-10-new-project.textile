@@ -1,0 +1,17 @@
+---
+layout: post
+title: "New project"
+author: Alex Young 
+categories:
+- announcements
+---
+
+Whilst Gabriel's been writing plugins for Rails, I've been writing JavaScript for one of our new projects.
+
+Want to see it?  If you can guess the nature of the application based on this:
+
+<img alt="Mysterious screenshot" src="http://static.flickr.com/55/110499298_826b60bce9_o.png"/>
+
+we'll let you in on the alpha version.  The screenshot contains some JavaScript that helps us detect things about the user's browser.  Detecting the browser type, version, screen resolution, css rendering mode, and other technical factors are part of the project.
+
+Post a comment describing what you think the project does!

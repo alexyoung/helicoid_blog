@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Get your Tiktrac dashboard widgets here!"
+author: Alex Young 
+categories:
+- tiktrac
+- tips
+---
+
+!http://tiktrac.com/images/landing/widgets/dashboard.gif!
+
+"Tiktrac, our time tracking app":http://tiktrac.com, has just been furnished with a Mac OS Dashboard widget.
+
+To download the widget and get instructions on how to use it, "visit the widget's page":http://tiktrac.com/widgets.
+
+We'd love to "hear from you":http://helicoid.net/contact (and give you awesome free stuff) if you've used Tiktrac's API to make any widgets, gadgets or interesting things.  Also get in touch if you'd like help building something like this.

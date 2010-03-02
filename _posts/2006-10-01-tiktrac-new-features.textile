@@ -1,0 +1,27 @@
+---
+layout: post
+title: "Tiktrac: New features"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+We're always tweaking Tiktrac, and we welcome any ideas you have in "our forum":http://forums.helicoid.net.  One thing people often ask for is a timer, so Tiktrac can count the minutes for you as you work.  So I took it upon myself to dedicate the entire weekend to adding this feature.
+
+Tasks on the homepage and on sheets now have a play/pause button:
+
+!http://assets.helicoid.net/images/blogs/new_timer.png! 
+
+Once a task has been completed, a little tick is displayed:
+
+!http://assets.helicoid.net/images/blogs/timer_on_sheet.png!
+
+While I was there, I improved the sheet configuration, based on forum suggestions.  You can now select which fields you want displayed in a sheet:
+
+!http://assets.helicoid.net/images/blogs/new_sheet_editor_thumb.png!:http://assets.helicoid.net/images/blogs/new_sheet_editor.png
+
+This can be useful for people who don't want the 'ref' field, or when you're tracking a time for a project that only has one person and don't require the 'who' field.
+
+As you might have guessed, there's a lot of cross-polination across our projects.  Tiktrac will receive more updates in the near future based on work we've done on Bugtagger and Ebiwrite.
+
+And now, if you don't mind, I'm going to try and enjoy the last remnants of the weekend before I have to start work on something else!

@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Helicoid news in Japanese"
+author: Alex Young 
+categories:
+- announcements
+---
+
+We're now translating product news into Japanese at "jp.helicoid.net":http://jp.helicoid.net/

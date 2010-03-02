@@ -1,0 +1,21 @@
+---
+layout: post
+title: "We love our beta testers!"
+author: Alex Young 
+categories:
+- announcements
+- tiktrac
+---
+
+Thanks to all our beta testers for the excellent feedback!  Gabriel and I have been working very hard this week, employing the little-known rule of software development: test, test, test, then test some more until you fall asleep at the keyboard.  We've also started adding small tweaks that our beta testers have requested.
+
+* <em>Interface</em> - Added loads of small changes to make the user interface more friendly.
+* <em>Interface</em> - Added the contact form to every page, so if you're really having problems with your account you can easily get in touch with us.
+* <em>Interface</em> - Gabriel made an excellent favicon, so Tiktrac looks great in your bookmarks.
+* <em>Interface</em> - We've added another template to the Appearance setting.
+* <em>Technical</em> - We've made as much as we can valid XHTML Transitional, which should be everything, and we've also fixed a JavaScript error.
+* <em>Technical</em> - We've added robots.txt to your accounts, so they don't get indexed by search engines.
+* <em>Technical</em> - Fixed date formatting in XML feeds.
+* <em>Security</em> - Added more validation and data sanitisation to help keep your accounts secure.
+* <em>Security</em> - XML feeds are now secure.  You must use your Tiktrac email and password with your feed reader.  There's more on this on the Tiktrac 'help' page.
+* <em>Feature</em> - There's now a setting for currency delimiters.

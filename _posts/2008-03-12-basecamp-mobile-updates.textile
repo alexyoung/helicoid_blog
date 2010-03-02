@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Basecamp Mobile updates"
+author: Alex Young 
+categories:
+- basecamp
+- mobile
+---
+
+I've been working on updating "Basecamp Mobile":http://basecamp.helicoid.net to try and solve the login issues some users have reported.
+
+* "basecamp.helicoid.net":http://basecamp.helicoid.net is now running on a faster server
+* I've updated legacy code and moved it to Rails 2
+* The public code repository has been updated: "http://code.helicoid.net/svn/applications/bcm/":http://code.helicoid.net/svn/applications/bcm/
+
+Many thanks to "ash" for his helpful suggestions.
+
+
+

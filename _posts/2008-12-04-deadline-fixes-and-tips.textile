@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Deadline: Fixes and tips"
+author: Alex Young 
+categories:
+- deadline
+- tips
+---
+
+!http://dl.getdropbox.com/u/221414/deadline/3D_3.png!
+
+This week we've made the following fixes to Deadline:
+
+* Google Calendar will now show text instead of just "busy"
+* Time zone bugs have been resolved (sometimes typing "tonight" resulted in a date for tomorrow)
+* Internet Explorer 6 and Chrome support improved
+* Selecting "-------" as a date in the full date entry form returned XML instead of a friendly error
+
+If Google Calendar still says busy for all of your Deadline events:
+
+# Remove the calendar
+# Go to Deadline and copy the link to the iCal feed from the Settings page
+# Paste in the calendar link, but add "?999" to the end of the link
+
+The reason you need to add ?999 is a random number will fool Google into thinking it's a different URL and thus download the new version instead of using a cached copy.
+
+Your URL should look something like this:
+
+http://deadlineapp.com/exports/YOUR_ID/YOUR_CODE/file.ics?999
+

@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Service outage next Tuesday (17th Feb)"
+author: Alex Young 
+categories:
+- maintenance
+- announcements
+---
+
+Our server hosting company are performing maintenance next week.  They're moving our servers, which means they'll definitely be offline for a few minutes.  Here's the information they sent us:
+
+bq. *Date of Work*: 17th - 18th February 2009
+   *Maintenance Window*: 19:00 through 04:00
+   *Outage per Host*: Up to two hours, likely 30 minutes
+
+We apologise for any inconvenience this might cause, and we will backup your data externally to ensure it's safe.  This is the first outage we've had from "Bytemark Hosting":http://www.bytemark.co.uk/ for 3 years, the last (30 second) outage we had was where we prepared for this downtime.

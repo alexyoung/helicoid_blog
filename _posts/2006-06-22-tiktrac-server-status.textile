@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Tiktrac server status"
+author: Alex Young 
+categories:
+- announcements
+- tiktrac
+---
+
+Tiktrac's servers are currently inaccessible due to problems with our web hosting providers.
+
+This is a strange coincidence, because we're also migrating to a NEW server set up this weekend.
+
+If you're trying to access Tiktrac right now it may or may not be accessible, but our hosting providers have assured us that full service should resume within a few hours.

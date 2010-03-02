@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Inspirational reading"
+author: Alex Young 
+categories:
+- inspiration
+- japan
+- design
+- craft
+---
+
+"PingMag MAKE":http://make.pingmag.jp/ features interviews with entrepreneurs and craftsman in Japan.  Some of them are people who have taken over an ancient family business and are dealing with business challenges presented by modern culture and economics.  Others are people who have resurrected an old craft, to find a niche space in the market today.
+
+These interviews are literally a gold mine of ideas for designers, entrepreneurs or even programmers like me!  In the most recent interview, "Kiri Woodcraft with a Modern Vision":http://make.pingmag.jp/2008/05/20/matsuda/, Katsunari Matsuda reveals how he gets inspiration for his products:
+
+bq. In my case, I get hit when I first open my eyes in the morning. When I wake up, and I’m just sitting there staring into space and thinking, an image will come to me and take shape.
+
+And a great story for dealing with unhappy customers:
+
+bq. One time, we received a complaint from a customer who had bought one of our rice storage bins. It was after the three year warranty period had expired, so the staff weren’t sure how to deal with the complaint. [..] When it arrived, we could see that it had a lot of wear, and we wouldn’t be able to repair it, so we sent a new one in replacement, and they were really pleased. We got a letter of thanks from the son, the daughter, and the mother, and that made us really happy.
+
+It's heartening to read about these people innovating their craft in the face of outsourcing and cheaper foreign production, and it's given me great ideas for my own company.

@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Translating Rework"
+author: Alex Young 
+categories:
+- yuka
+- translation
+- ebiwrite
+---
+
+bq. This post is written by Yuka who designed "Ebiwrite":http://ebiwrite.com.  Yuka discusses translating "37signals'":http://37signals.com/rework/ latest book, "Rework":http://37signals.com/rework/, and reflects on the software used by the translation team.  "This post is also in Japanese":http://jp.helicoid.net/post/422071743/rework.
+
+Translators and dentists share a similarity. Both work 'backstage' and because our works are rarely seen by many, we are rarely appreciated. Dentists are even feared by many of their patients... so I suppose I'm glad at least we translators don't get that. When I read on Twitter, reviews and blog posts about how well the book read, I feel proud that we did a great job.
+
+Published under the title 『小さなチーム、大きな仕事』, it translates to "Small Team, Big Work: 37signals' Formula for Success". In the original American version, it's "Rework", but the Japanese publisher Hayakawa felt that was too negative for the Japanese market. It has proved quite popular so far (in part, thanks to all those tweets) and has twice been out of stock on AmazonJP.
+
+Our team of four translators were given the original manuscript at the end of September. It took us until the end of January to edit and translate our way through the entire book. Ahead of the American date (9th March), our Japanese version has been out since 19th Feb.
+
+Three of us, including me, used Ebiwrite for the laborious process - laborious because American English colloquials do not translate easily into Japanese, which famously has no slang. I also set up a shared dictionary (noted for 'Rework' use) so my co-translators wouldn't stumble over the colloquials.
+
+As written in the postscript (of the book), I was here in London, while one of my co-translators was in North America - a similar working condition to "37signals":http://37signals.com/. Except they only have 2 continents. We had 3. So scraping some time when all of us would be online together, was a hard thing to do, what with all the time differences. We only managed a few times when one of us couldn't sleep so had some overlap time with the others.
+
+We also made a "Google Group":http://groups.google.com/ and used "GoogleDocs":http://docs.google.com/. Indeed, only doable with a small team. The book itself was 'co-translated'. In reality we each had a section to ourselves. Chapter by chapter, we mailed to GoogleGroups and as a team, tweaked it bit by bit. My understanding of the English culture and language, thanks to my nearly 15 years(total 20years) in the UK, is much better than my co-workers'. But because I left Japan aged 15, my Japanese is not as good as theirs. I feel very grateful that they made a lot of those sentences make more Japanese sense!
+
+The fact you can coin a term fairly easily is an English peculiarity. Sadly Japanese is more rigid than that, so unless there was an already similar phrase in existence, we had to make do with an approximation. We avoided directly translating phrases as much as possible with only one exception. To say 'perishable' when it isn't about food in Japanese doesn't sound right. Somehow my approximation of 'best before date' was apparently easily understandable. At least, the reviews are all very favourable so far.

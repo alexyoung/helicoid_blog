@@ -1,0 +1,32 @@
+---
+layout: post
+title: "Deadline for Mac"
+author: Alex Young 
+categories:
+- deadline
+- mac
+---
+
+DeadlineGrowl is now available for Mac OS Leopard.  It works with "Deadline":http://deadlineapp.com and shows "growl notifications":http://growl.info/ when a deadline is due.
+
+!http://dl.getdropbox.com/u/221414/deadline/deadline_mac_blog.png!
+
+Get it here: "DeadlineGrowl.zip":http://dl.getdropbox.com/u/221414/deadline/DeadlineGrowl.zip
+
+h3. Usage
+
+# Download and unzip "DeadlineGrowl":http://dl.getdropbox.com/u/221414/deadline/DeadlineGrowl.zip
+# Double click DeadlineGrowl to run it
+# Enter your email address and password
+# DeadlineGrowl will now download your deadlines every 20 minutes and show a growl notification when one is due
+
+h3. Requirements
+
+* Mac OS Leopard
+* An account on "Deadline":http://deadlineapp.com
+
+h3. Planned features
+
+* Start on login
+* System-wide hotkey for Add Deadline so you can quickly add one whenever you need to
+* Better date input

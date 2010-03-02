@@ -1,0 +1,68 @@
+---
+layout: post
+title: "10 essential ruby gems"
+author: Alex Young 
+categories:
+- ruby
+- programming
+- code
+- tips
+---
+
+There's a few things I can't live without when I'm programming.  To that end, this is a list of 10 essential ruby gems that will make your life much easier, even if you only spend a small amount of time working with ruby.
+
+Gems come and go, but these are keepers!
+
+h3. capistrano
+
+"Capistrano":http://www.capify.org/ makes Rails application deployment less of a hassle.  It's also a clever framework for interacting with remote servers.  I actually have backup scripts written with Capistrano, as an alternative to Rake/Net::SSH or shell scripts.
+
+h3. chronic
+
+"Chronic":http://chronic.rubyforge.org/ is a natural language time parser, with the added bonus of having a pun for its name.
+
+<pre>
+<code>
+>> Chronic.parse('3rd wednesday in november')
+=> Wed Nov 19 12:00:00 0000 2008
+</code>
+</pre>
+
+h3. ferret
+
+"Ferret":http://ferret.davebalmain.com/trac will make your boss/clients/customers love you.  It provides tools for fast text searching, and you can even index PDFs and Office documents.  I've used Ferret on some pretty big sites, and my clients all said "wow this is just like Google!"
+
+h3. hpricot
+
+"hpricot":http://code.whytheluckystiff.net/hpricot/ is a fast and easy HTML parser.  If you find yourself needing to extract content out of HTML or even XML, hpricot is one of the easiest ways to do it.  I actually use it for a few things in "Helipad":http://pad.helicoid.net
+
+h3. rcov
+
+"rcov":http://eigenclass.org/hiki.rb?rcov is one of the reasons you don't see our applications crashing too often.  It analyses your source code, and highlights sections missing from your tests.  It's fast, doesn't get in the way, and helps reduce headaches.
+
+h3. scruffy
+
+I've used "Gruff":http://nubyonrails.com/pages/gruff for graphing, and while it's very good, I prefer the design of "scruffy's":http://scruffy.rubyforge.org/ API.  The way it works is pretty ingenious: simple XML is generated to drive SVG graphs.  Since SVG provides a way to work intuitively with image primitives, a lot of messy image magick code is just thrown away.
+
+I've quite liberally inherited and overridden stuff in scruffy to create all kinds of clever graphs, so give it a try if you're feeling a bit stuck with your current graphing library.
+
+h3. simple-rss
+
+"simple-rss":http://simple-rss.rubyforge.org/ parses RSS and atom feeds, does a good job of it and does it quickly.  Its parser is easy to extend too, so you should be able to tame invalid or proprietary feeds.
+
+h3. thin
+
+Thin uses EventMachine, Rack, and Mongrel to create a very fast web server.  I use it for my local Rails development, and it's slightly faster than mongrel.  To use it with my Rails app I just type <code>thin start</code> in my app's directory.  At the moment I'm having problems with thin and IE cookies, so it's worth remembering that if you run into the same problem and think your app might be at fault.  (Note: This now seems to be fixed with 0.6.1 and Rails 2.)
+
+To get thin, <code>gem install thin</code>.
+
+h3. turn
+
+Turn makes your Test::Unit output easier to read.  Turn might not seem like much, but it really helps me read my tests.  I rely heavily on tests for maintaining Helicoid's applications, so anything that helps make the process more intuitive is welcome.
+
+To get turn, <code>gem install turn</code>.
+
+h3. wirble
+
+"wirble":http://pablotron.org/software/wirble/ makes irb easier to use.  You get better history support (between sessions) and colour, so your eyes and fingers do less work in the long run.
+

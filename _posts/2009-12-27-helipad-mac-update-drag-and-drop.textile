@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Helipad Mac Update: Drag and Drop"
+author: Alex Young 
+categories:
+- helipad
+- mac
+---
+
+"Helipad Mac":http://helipadapp.com/mac.html has a new update out, which includes a tag cloud, drag and drop for folders, and a line height adjustment option in the Appearance preferences.
+
+!http://dl.dropbox.com/u/221414/helicoid/blog/helipad_tags.png!
+
+h3. Full List of Changes 
+
+* Drag and drop documents into different folders
+* Option in Appearance Preferences for drag and drop: set it to copy or move a document between folders
+* Folders window shows currently selected document name
+* Appearance preferences now has line height
+* Added tag cloud (go to the View menu, then select Show Tag Cloud)

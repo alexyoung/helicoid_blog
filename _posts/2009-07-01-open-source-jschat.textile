@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Open Source: JsChat"
+author: Alex Young 
+categories:
+- jschat
+- programming
+- development
+- ruby
+---
+
+"JsChat":http://jschat.org/ is an MIT-licensed JSON-based chat system with a nifty web interface:
+
+!http://files.getdropbox.com/u/221414/helicoid/insider/jschat_insider.png!
+
+People have called it an "open source Campfire", but it's not really meant to be a Campfire competitor.  It's actually a response to these questions:
+
+* Can we make a chat system like IRC without the legacy and bloated protocol?
+* Can it work naturally on the web, desktop and console?
+
+The "Js" in JsChat refers to JSON rather than JavaScript.  It's very easy to build bots and clients.  For more information, see the "JsChat site":http://jschat.org and "JsChat blog":http://blog.jschat.org.

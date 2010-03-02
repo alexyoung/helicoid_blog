@@ -1,0 +1,9 @@
+---
+layout: post
+title: "More Rails stuff from your friends at Helicoid"
+author: Alex Young 
+categories:
+- code
+---
+
+There's a new plugin that you can find more <a href="http://gabriel.gironda.org/articles/2006/03/09/acts_as_urlnameable-released">info about here</a>. It hopefully fulfils all your url naming needs, it filled ours! We are planning on soon having a public SVN repository which should hold some interesting things.

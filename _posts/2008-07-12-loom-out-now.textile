@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Loom out now"
+author: Alex Young 
+categories:
+- loom
+- announcements
+---
+
+!http://farm4.static.flickr.com/3117/2660247437_c787b7b444.jpg!:http://www.flickr.com/photos/helicoid/2660247437/
+
+"Loom":http://loomapp.com/, our issue tracker, is now out for beta testing.  It's an evolution of Bugtagger, which we've been using internally for 2 years but never released publicly.
+
+Features include:
+
+* *Simple, extensible design*: everyone from programmers to plumbers should be able to use it
+* *Public forms*: so if you market a product or service you can collect support requests without requiring users to have accounts on Loom
+* *Email integration and messages*: customers can send email messages to issues
+* *Attachments*: Attach files to issues
+* *Search, tags, project organisation, RSS, mobile phone support*: All the usual features you'd expect form us!
+* *XML REST API*: We're planning on using Loom to collect support requests via our contact form, what will you use the API for?
+
+Loom Beta accounts are free and pretty much unrestricted.  Price plans on launch will be similar to Tiktrac (cheap monthly subscriptions.)  We'll also be making a special announcement about our pricing structure when Loom goes live.
+
+Tiktrac integration is coming, we're still working on the technical aspects of making this as seamless as possible.  At the same time we're creating centralised authentication, which means your Loom and Tiktrac login will be the same.  In fact, your login for all Helicoid applications will be the same.  Centralised auth deployment will start with Helipad, and you'll be notified about email/password clashes so you won't get locked out of an app.
+

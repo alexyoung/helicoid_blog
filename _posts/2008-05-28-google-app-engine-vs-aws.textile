@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Google App Engine vs. AWS"
+author: Alex Young 
+categories:
+- cloud
+- development
+- programming
+---
+
+"Rowland Watkins":http://rowlandwatkins.com, an old university friend of mine (and a friend of all the staff at Helicoid), recently wrote up a comparison of the "Google App Engine and Amazon Web Services":http://rowlandwatkins.com/past/2008/4/30/google_app_engine_vs_aws.  He's specialised in grid and more general distributed computing for about 8 years now, so his comments on the topic have some pedigree.
+
+Since we specialise in Rails, leveraging the power of Amazon Web Services has always seemed more natural than Google's approach which currently relies on Python.  Here's what Rowland has to say on the matter:
+
+bq. The clear separation of duty in AWS is what gives it the edge over Google App Engine. EC2 allows businesses to deploy complete OS images from S3 to produce novel environments such as Morph. It gives business more control on how to put together business processes which currently isn’t possible with the Google App Engine.
+
+It was announced today that Google are now "allowing hosting of JavaScript libraries":http://mir.aculo.us/2008/5/27/google-served-javascript-libraries from their servers, which has direct benefit for businesses like Helicoid and our customers.  Perhaps in the future we'll enjoy a cloud of cloud-like services?

@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Helipad Mac Updates: Folders and Full Screen"
+author: Alex Young 
+categories:
+- helipad
+- mac
+---
+
+"!http://dl.dropbox.com/u/221414/helicoid/blog/helipadmac-thumb.png!":http://dl.dropbox.com/u/221414/helicoid/blog/helipadmac.png
+
+"Helipad Mac":http://helipadapp.com/mac.html now has folders and full screen support.
+
+To edit folders, select a document then press the _Folders_ button.  Add a folder, double-click it to rename, them click the checkbox to add the document to the folder.
+
+Folders can be renamed and deleted.
+
+Full screen view is available in the _Window_ menu or by pressing cmd-shift-F.  Press cmd-shift-F to exit full screen.

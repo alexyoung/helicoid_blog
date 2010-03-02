@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Tiktrac free period over"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+Using "Tiktrac":http://tiktrac.com for price plans other than free will require subscription payments starting today.
+
+We allowed free usage for a grace period after beta testing, but unfortunately this is about to end.
+
+If you do not pay, your account will be locked.  However, you will still be able to access the data export page and save your data as XML.
+
+To read more about billing or make a payment, navigate to <strong>Tiktrac settings</strong> (the link at the top-right of the page), then *Billing*.

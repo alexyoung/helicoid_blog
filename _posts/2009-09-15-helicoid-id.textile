@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Helicoid ID"
+author: Alex Young 
+categories:
+- announcements
+- helicoid_id
+---
+
+"Helicoid ID":http://id.helicoid.net is our new account management mini app.  Here are the basics:
+
+* Sign in with your Helipad/Deadline account details -- this is your *Helicoid ID*
+* It shows you the Helicoid services that you currently use, and other available services
+* It allows you to change your personal details across supported applications
+* News and updates about apps will be displayed here
+* It currently only supports "Helipad":http://helipadapp.com and "Deadline":http://deadlineapp.com
+* It will ease the transition of other services into our shared authentication system ("Ebiwrite":http://ebiwrite.com is next)
+* It will host centralised billing for future paid versions of Helipad, Deadline (as well as Tiktrac and Ebiwrite)
+* We'll migrate "the forum":http://forum.helicoid.net eventually as well
+
+Here's what it looks like:
+
+!http://dl.getdropbox.com/u/221414/helicoid/blog/helicoid_id.png!
+
+

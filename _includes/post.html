@@ -1,0 +1,29 @@
+<div class="meta">
+  {{ page.date | date_to_string }} |
+  <span class="author">By {{ page.author }}</span> |
+  <span class="tags">
+    <img alt="Tags" class="icon" src="/images/tag.gif" />
+    {% for category in page.categories %}
+      <a href="/tags.html#{{ category }}">{{ category }}</a>
+    {% endfor %}
+  </span>
+</div>
+
+<!-- <p class="reddit"><script type="text/javascript" src="http://www.reddit.com/button.js?t=1"></script></p> -->
+
+<div id="post">
+{{ content }}
+</div>
+ 
+<div id="related">
+  <h2>Recent Posts</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        <div>{{ post.date | date_to_string }}</div>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+

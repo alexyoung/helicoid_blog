@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Awesome Helipad ruby gem"
+author: Alex Young 
+categories:
+- programming
+- ruby
+---
+
+If you want to write software that works with Helipad, there's now an awesome "Helipad gem":http://blog.nyerm.com/2009/01/08/helipad-ruby-interface/ written by Lonnon Foster.  I've checked over the code, and it's clean and well-written.  
+
+You could build a lot of cool stuff with this.  How about a "Shoes":http://shoooes.net/ Helipad app?  Or maybe something with RubyCocoa?  Let us know what you build and we'll give you mad props (and possibly riches).
+
+Here's some example code from Lonnon's library:
+
+<script src="http://gist.github.com/53931.js"></script>

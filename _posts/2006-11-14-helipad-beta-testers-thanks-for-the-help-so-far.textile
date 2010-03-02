@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Helipad beta testers: Thanks for the help so far"
+author: Alex Young 
+categories:
+- helipad
+- thoughts
+---
+
+!http://assets.helicoid.net/images/blogs/helipad.jpg!
+
+If you've read my previous posts on <a href="http://pad.helicoid.net">Helipad</a> you'll know it was created by me, to solve a particular need I had: the fusion between my personal notepad and the web.
+
+It seems as if this was a relatively controversial thing to do: literally thousands of people are talking about Helipad.  They're comparing it to other services, pointing out the differences, wondering what people will do with the add-on system and other interesting discussions.
+
+The upshot is, we've had almost 2000 signups in a week, which means Helipad is more popular than any other Helicoid application.  And, many of the people who have signed up have provided feedback through our bug reporting system or by getting in touch with our contact form.  Feedback is very important to us, so to all you who have emailed suggestions, ideas, bug reports and questions: thanks!  We appreciate all your help.  We endeavour to answer all your queries personally, even if it means we don't get to sleep much anymore, so keep 'em coming!
+
+You might be wondering what the future of Helipad is.  As I mentioned, I'm working on a Mac client, so you can work on your notes offline.  I'm also tinkering with a few plugins, one turns a document that contains a bulleted list into a dynamic to-do list.  And hopefully, some of our faithful users will contribute themes and plugins too!  Working on Helipad has been great fun so far, so I hope you enjoy using it as much as I have creating it.
+

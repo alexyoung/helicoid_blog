@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Deadline: Notification API and GitHub support"
+author: Alex Young 
+categories:
+- deadline
+- github
+---
+
+"Deadline":http://deadlineapp.com now has a notification API (and it works with "GitHub":http://github.com/).  Notifications are similar to reminders, except they're sent out in real time.  Since adding notifications is so simple, you could hook up all kinds of software to Deadline to get alerts.  Plus, you'll already have configured Deadline with your preferred means of receiving reminders: email, SMS, Jabber, etc, which means you'll get real time notifications the same way.
+
+h3. Notification API
+
+Accessing the API is simple: a URL is requested with a notification description, and it will be sent out straight away by your preferred reminder methods.
+
+Here's how it works:
+
+# Go to <strong>Settings, Feeds/iCal</strong>
+# Copy the <strong>Notification URL</strong>.  This URL contains your secret code (which is like a password) and your user ID
+# Use the URL to send a notification
+
+Example:
+
+<pre><code>
+curl "http://deadlineapp.com/notifications/1/93jd81/create.xml/Alert,
+%20web%20server%201%20is%20down"
+</code></pre>
+
+This will send you a notification that reads: "Alert, web server 1 is down".
+
+h3. GitHub Support
+
+You can link a GitHub project to Deadline using "GitHub's Post-Receive Hooks":http://github.com/guides/post-receive-hooks.  This could be really useful for tracking changes to projects by co-workers when you're out of the office (especially if you have SMS set up).
+
+!http://dl.getdropbox.com/u/221414/helicoid/blog/github_deadline.png!
+
+# Edit one of your GitHub repositories
+# Click *Service Hooks* in the secondary navigation
+# Go to <strong>Settings, Feeds/iCal</strong> in Deadline
+# Copy the <strong>GitHub Hook URL</strong>
+# Paste it into *GitHub's Post-Receive URLs* list and press *Update Settings*
+
+You will now receive notifications when people push changes to the repository.

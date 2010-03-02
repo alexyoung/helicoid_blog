@@ -1,0 +1,11 @@
+---
+layout: post
+title: "Coming soon: Loom"
+author: Alex Young 
+categories:
+- loom
+- announcements
+---
+
+!http://farm4.static.flickr.com/3237/2609686675_bac3772501.jpg!:http://www.flickr.com/photos/helicoid/2609686675/
+

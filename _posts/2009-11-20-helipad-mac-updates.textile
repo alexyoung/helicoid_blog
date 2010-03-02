@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Helipad Mac Updates"
+author: Alex Young 
+categories:
+- mac
+- helipad
+---
+
+!http://dl.dropbox.com/u/221414/helicoid/blog/helipad_mac.png!
+
+"Helipad Mac":http://helipadapp.com/mac.html has been updated.  This version makes the following changes:
+
+* Added automatic app updates
+* Documents can now be sorted by the last edited date (go to Preferences, Appearance to change the sort setting)
+* Fixed a bug where pressing Undo moved the scrollbar
+
+"Download":http://helipadapp.com/Helipad.zip
+
+

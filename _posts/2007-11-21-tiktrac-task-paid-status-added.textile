@@ -1,0 +1,22 @@
+---
+layout: post
+title: "Tiktrac task paid status added"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+"Tiktrac":http://tiktrac.com has just been updated with  some minor bug fixes (thanks for the bug reports Tom and Oriol).  We've also implement something to help you with billing clients.
+
+Sheets can now be set up to include a "paid" field.  It works a little bit like the "done" field.
+
+!http://assets.helicoid.net/images/blogs/paid_field.png!
+
+Additionally, a new table will appear on the Dashboard to display an overview of outstanding work.
+
+!http://assets.helicoid.net/images/blogs/paid_status.png!
+
+There's more about this feature on Tiktrac's help page.
+
+We hope this will make your billing process a little bit smoother.  It's already proven useful to us!
+

@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Tiktrac REST API beta"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+When we formally launched Tiktrac a month ago, we promised several new features:
+
+* -Editable costs- Done!
+* -Bigger branding logos- Done!
+* -REST API (for JavaScript and widget developers)- New!
+* Configurable reports with CSV exports
+* Integration with our other applications
+
+We've just finished the third planned upgrade: the REST API.  This makes it much easier for widget developers to use Tiktrac.
+
+The rest of this post is aimed at technical readers.  If you use Tiktrac and know anyone who might be interested in writing a widget, please forward this on. (Thanks!)
+
+The beta API currently supports:
+
+* Fetching a list of sheets as XML or JSON
+* Fetching a list of tasks for a sheet as XML or JSON
+* Updating a task using XML
+
+We've posted guidelines on how to use the API as a shared Helipad document:
+
+"http://pad.helicoid.net/document/public/250fcab4":http://pad.helicoid.net/document/public/250fcab4
+
+The documentation includes an example JavaScript class that I wrote over a few drinks last night.  It's not bullet proof, but it should get you widget hackers started!
+
+
+

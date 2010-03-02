@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Tiktrac upgraded: Times now stored in seconds"
+author: Alex Young 
+categories:
+- tiktrac
+- upgrades
+---
+
+Tiktrac's times are now *internally stored in seconds*.  This means the timer is much more intuitive.  We also took this opportunity to make the timer look more like a clock:
+
+!http://dl.getdropbox.com/u/221414/helicoid/blog/timer.png!
+
+The task entry form now displays the end date when you set the task as completed, which saves a few seconds when inputting lots of tasks.
+
+We've also made the currently selected sheet clearer in the right-hand navigation.
+
+There's also a new manage screen which allows you to add or configure clients and sheets -- administrators will see a *Manage* tab at the top of each page.  I decided to add this page because we want to remove the right-hand sheet navigation to replace it with something that uses less space in the future.
+
+The seconds upgrade was actually a difficult thing to do, but it's resulted in cleaner code internally.  That frees us up to implement new features soon (upgraded dashboard, navigation and invoicing).

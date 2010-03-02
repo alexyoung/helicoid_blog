@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Tiktrac Mobile"
+author: Alex Young 
+
+---
+
+We really enjoy using several mobile services, including:  
+
+<ul>
+  <li><a href="http://www.backpackit.com">Backpack</a>, which has a mobile version at youraccount.backpackit.com/mob</li>
+  <li><a href="http://flickr.com">Flickr</a>, who have a mobile service at <a href="http://flickr.com/mob">flickr.com/mob</a></li>
+  <li><a href="http://www.google.com/ig">Google Personalised Home</a> for mobiles, and:</li>
+  <li><a href="http://gmail.com">Gmail</a>'s mobile service, which is at <a href="http://m.gmail.com">m.gmail.com</a>.</li>
+</ul>
+
+We thought it would be great if you could access your <a href="http://tiktrac.com">Tiktrac</a> account using your phone, so we created Tiktrac Mobile.  Use your phone's browser to go to:
+
+<strong>youraccount.tiktrac.com/mob</strong>
+
+You can login, and then add and edit tasks for any of your timesheets.
+
+And, if you're using an old phone or you simply don't like your phone's browser: don't panic!  You can download and use <a href="http://www.opera.com/products/mobile/operamini/campaign/">Opera Mini</a> for hundreds of mobile phones.  And it's free!
+
+As well as mobile functionality, we've also added a better print stylesheet to Tiktrac, so now you can print your timesheets without all the extra navigation and ajax widgets that make it so great.

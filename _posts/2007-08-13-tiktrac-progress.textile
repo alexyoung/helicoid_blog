@@ -1,0 +1,44 @@
+---
+layout: post
+title: "Tiktrac progress"
+author: Alex Young 
+categories:
+- announcements
+- tiktrac
+---
+
+We've been working on making "Tiktrac":http://tiktrac.com "live" since April.  During this time, we've held off updates while we've gone through the process of setting up our billing system.
+
+This took slightly longer than we anticipated, but fortunately we've been able put a lot of effort into Tiktrac during this time.
+
+Before the end of the month, we'll be deploying:
+
+* Time zone support
+* Monthly "targets" -- something contractors will appreciate
+* SSL -- Tiktrac will work over secure connections
+* A more consistent, dynamic and refined interface
+* Interface and usability tweaks for every feature
+* Inline help: !http://assets.helicoid.net/images/blogs/inline_help.png!
+* Bug fixes to improve reliability and speed
+* 100% test code coverage -- all of our code is now covered by tests
+
+h3. Payments
+
+* Payments for Tiktrac will be made with credit card
+* You will be billed monthly
+* We will calculate tax where companies are based in the UK and EU, else you are expected to pay your own local taxes
+* We will not store your creditcard details on our servers, thus maintaining a high level of security
+* A grace period of several days will be applied for us to receive payments
+* Benefits for referrals are currently in development
+
+h3. Beta testers
+
+Anyone currently using the service is considered a beta tester.  You will receive 2 months free premium-level service.
+
+h3. Price
+
+Price plans will be formally announced when Tiktrac goes live, but you can expect the average plan to cost around £10 a month (and this will be sufficient to cover an SME.)
+
+h3. Want to work with us?
+
+We've learned a lot in creating, developing and maintaining successful web applications.  If you'd like to utilise our skills and experience, "we'd love to hear from you!":http://helicoid.net/contact/

@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Another screenshot"
+author: Alex Young 
+categories:
+- thoughts
+- helipad
+- tiktrac
+---
+
+I'm still working hard on that pet project I mentioned a few days ago.  Before I can unleash it, there's a bit of work left to do on documentation and tidying things up.  This project embodies a few concepts that we hope to add to other Helicoid products, which you can see illustrated in this screenshot:
+
+!http://assets.helicoid.net/images/blogs/plugins_and_themes.png!
+
+That's running straight off the development version, and gives you a few clues as to what we're attempting to do.  As I said in my last post, I'm actually using this day-to-day, and it's pretty great!  I can't wait to release it to beta testers, and I'll give you details on that through this weblog.
+
+Meanwhile... This weekend could be the date <a href="http://tiktrac.com">Tiktrac</a> finally gets a different type of view on the sheet page: I've been working on expanding it beyond monthly views.  This is another step towards a production-ready version! 

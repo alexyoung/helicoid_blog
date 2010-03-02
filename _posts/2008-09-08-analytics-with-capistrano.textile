@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Analytics with Capistrano"
+author: Alex Young 
+categories:
+- capistrano
+- programming
+- ruby
+---
+
+!http://www.box.net/shared/static/s1m3seknfe.png!
+
+If you want realtime stats on your web site, why not try using <a href="http://capify.org/">Capistrano</a> to collect data and create graphs and tables?  It's pretty easy to do this, and the beauty is you don't need to make any modifications to your application.
+
+I'm currently experimenting with marketing Helicoid's web applications on social networks, so I really wanted a quick way to get information to see the results.  Waiting for services like Google Analytics isn't so bad, but there's some information locked up inside your application that they can't get at.
+
+h3. 1. Set up a basic Capistrano task
+
+Create a new <code>Capfile</code> and set up your server and SSH details:
+
+<pre class="code">
+role :app, 'yourserver.com'
+set :user, 'alex'
+set :port, 8321
+
+task :stats, :roles => :app do
+end
+</pre>
+
+<br/>
+
+h3. 2. Write some code to extract data
+
+This Capistrano task is going to login to your server and collect data so you can analyse it locally.  My example is for downloading user signup counts.  I'm just going to get an array of signup dates, then count the dates. If you're using a Rails application, you could use <code>script/runner</code> to achieve this.  Escaping the remote shell command could be messy, so let's use a heredoc:
+
+<pre class="code">
+def stats_script
+  time = '1.month'
+  <<-RUBY
+    puts User.find(:all, :order => "created_on DESC", :conditions => ["created_on > ?", Time.now - #{time}]).collect { |user| user.created_on }.join("\\n")
+  RUBY
+end
+</pre>
+
+Notice a double new line is required for the <code>join</code>.  Next, run this command using Capistrano's <code>run</code> with a block.  Passing a block allows you to collect the data from Net::SSH:
+
+<pre class="code">
+def get_dates_for(app)
+  dates = []
+  remote_data = ''    
+  remote_command = "/u/apps/#{app}/current/script/runner -e production '#{stats_script app}'"
+    
+  run remote_command do |channel, stream, data|
+    remote_data << data
+  end
+  
+  remote_data.split("\n").collect { |d| d.strip }
+end
+</pre>
+
+Add this code to the <code>stats</code> task.  Run it with <code>cap stats</code>.
+
+h3. 3. Prepare the results
+
+Here's some ideas for how to display the results:
+
+* Make a graph with "Scruffy":http://scruffy.rubyforge.org/
+* Turn it into CSV using "FasterCSV":http://fastercsv.rubyforge.org/
+* Make a HTML report
+
+You can use the <code>script/runner</code> and _run with block_ technique to download any data.

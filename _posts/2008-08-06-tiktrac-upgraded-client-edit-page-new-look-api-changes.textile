@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Tiktrac upgraded: client edit page, new look, API changes"
+author: Alex Young 
+categories:
+- tiktrac
+---
+
+!http://farm4.static.flickr.com/3001/2737920179_d807fe6663_m.jpg!:http://tiktrac.com
+
+I just finished deploying our latest Tiktrac changes.  If you're a developer, please pay attention to the last section of this post.
+
+h3. Client edit page
+
+The client edit page now makes it easy to see which sheets have been archived.  It also allows you to archive all sheets quickly -- look for the form that says "Archive this client" to use the feature.
+
+h3. Home page redesign
+
+Tiktrac's home page now looks more professional, and should help you find any information relating to the product that you need.  This mirrors the look and feel we've been using on our Helicoid support sites and blogs.
+
+h3. XML RPC API dropped
+
+The one major change with this version of Tiktrac is *there's no XML RPC API*.  We looked at the logs, and no one has used the XML RPC API for a year.  Everyone has built software using our "REST API":http://pad.helicoid.net/document/public/250fcab4 instead.  It took us around 200 lines of code to support XML RPC, so we're removing it to focus on other features.  Also, as a developer, I prefer working with the REST API.
+
+However, if you have special requirements relating to APIs and integration, please "contact us":http://helicoid.net/contact/ and we'll try to accommodate you.

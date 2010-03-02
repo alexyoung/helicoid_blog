@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Multitap.net: Revision 100"
+author: Alex Young 
+categories:
+- announcements
+- multitap
+---
+
+<a href="http://multitap.net">Multitap.net</a>'s source has just reached a milestone: revision 100.  This contains new features and improvements which we hope to launch before Christmas:
+
+* Add people to a friends list to help keep track of friends
+* Friendlier date formatting
+* Consistency improvements to the design across the site
+
+One of these features was suggested to us to a user of the site.  If you wish to request features, you can use the <a href="http://multitap.net/contact">contact form</a> on the site, or post comments to this weblog.
+

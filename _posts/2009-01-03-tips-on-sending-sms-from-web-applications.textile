@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Tips on sending SMS from web applications"
+author: Alex Young 
+categories:
+- sms
+- mobile
+- phones
+---
+
+We recently added SMS support to "Deadline":http://deadlineapp.com.  Finding a bulk SMS provider that we liked was actually more work than supporting the technical requirements in our software.
+
+There used to be several free web and email to SMS gateways.  Certain mobile operators in the US make still make this possible (also Orange in France have a developer programme that provides free SMS for France).  However: *generally SMS is expensive*.
+
+Most bulk SMS providers allow you to buy credits.  The cost of sending a message to a phone on in each country (and for each operator) varies.  For example, Clickatell charge you 1 credit for the whole of the US, but operators in the UK vary between 1 and 2 credits.
+
+We tested both free and commercial bulk SMS services, with the following criteria:
+
+* Transparent international support
+* Clean API
+* Affordable pricing
+
+Technically supporting SMS is incredibly easy.  Our code basically does the following:
+
+* Tracks the number of messages sent per-user each day to prevent abuse
+* Records message send status to catch phone numbers the bulk SMS provider has issues with
+* Abstracts the bulk SMS provider's API in case we need to switch
+
+h3. Pitfalls to watch out for
+
+There's actually a few pitfalls to be aware of when sending messages:
+
+* Be sure to check your provider's API documentation for acceptable telephone number formats (most expect integers with full international dialing code and no + at the start)
+* Even though some providers allow you to set an alphanumeric from address, some mobile operators have equipment that can't cope with UTF-8 or spaces
+* Check that the bulk SMS provider you're looking at can provide message receipts so you can track users who are having problems receiving messages
+
+h3. Services
+
+We found Wadja and Clickatell to be the best services in our roundup.
+
+"wadja.com":http://wadja.com has an easy to use API and allows you to send a fixed number of free messages per day.  Your registered name is sent as the "from" name for the SMS, and they add adverts to support their service. They support international messaging and also allow you to pay for messages to remove ads.
+
+"Clickatell":http://www.clickatell.com/ is purely focused on SMS.  As such their documentation makes the pitfalls of sending SMS very clear.  Their XML APIs are a little bit overcomplicated for what they do, but their HTTP API does almost everything and is as easy as sending a HTTP GET.
+
+h3. Conclusion
+
+We got Deadline working with both Wadja and Clickatell -- the live site is currently using Clickatell.  We ended up purchasing SMS credits because of the restrictions of Wadja's free service.
+
+It's frustrating when larger businesses can absorb the cost of SMS and make them free, but this is impossible for a small business like ours.  That means our supporting business model was one of the most important considerations when adding SMS to our app.

@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Deadline upgrade: Recurring reminders"
+author: Alex Young 
+categories:
+- deadline
+- announcements
+---
+
+!http://farm4.static.flickr.com/3056/3116081900_b469cebb79_m.jpg!:http://www.flickr.com/photos/helicoid/3116081900/
+
+"Deadline":http://deadlineapp.com has been upgraded:
+
+* Support for recurring reminders has been added with documentation in the _Help_ section
+* The last email reminder can now be set as "important" (this should show up in Gmail, Outlook, Apple's Mail and Thunderbird)
+
+h3. Writing recurring events that Deadline can understand
+
+Write a date with the word "every" to denote a recurring event.  Once the deadline's date has been reached it will be automatically rescheduled.
+
+For example:
+
+* Alex's birthday *every* January 21st
+* Art lesson every Monday morning
+* English lesson every 4pm
+
+Recurring reminders are indicated with an icon:
+      
+!http://deadlineapp.com/images/help/birthday.gif!
+
+Currently there's no way to manually set an event as recurring.

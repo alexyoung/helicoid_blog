@@ -1,0 +1,75 @@
+h1 { color: #411; }
+h1.page_title { color: #411; font-size: 2em; }
+h2 { color: #ff3092 !important; padding: 5px 0 0 0 !important; margin: 0 !important }
+h3 { color: #141; font-size: 1.2em; border: none !important }
+h4 { font-size: 1em;}
+
+h2 a { color: #fa3092; }
+h2 a:hover { background-color: #fa3092; color: #fff; }
+
+a img { border: none; }
+blockquote { background-color: #ffc; padding: 0.5em; margin: 0;}
+
+p.clean { margin: 0; padding: 0 }
+#sidebar { color: #666 }
+#sidebar { float: right; width: 21%; margin: 0 0 2em 0; text-align: left; background-color: #fff; clear: right;}
+#sidebar ul { list-style-type: none; margin: 0; padding: 0; }
+#sidebar li { padding: 0 }
+#sidebar li p { margin: 0 0 1em 0; padding: 0 }
+#sidebar li.sponsor { font-size: 90%; margin-bottom: 1em }
+#sidebar li.sponsor p { margin: 0; padding: 0 }
+#sidebar h3 { color: #6c3; margin: 10px 0 10px 0; padding: 0; font-size: 1.5em; border: none }
+
+#content h2 { margin-top: 0.8em }
+
+ul.breadcrumb { margin: 0; padding: 0; color: #999 }
+ul.breadcrumb a { color: #999 }
+ul.breadcrumb li { display: inline; list-style: none; margin: 0; padding: 0 }
+ul.breadcrumb li:before { content: "\0020 \0020 \0020 \00BB \0020"; }
+ul.breadcrumb li.home:before { content: "" !important }
+
+.highlight { background-color: #f8f8ff; border: 1px solid #ddd; padding: 2px 10px !important; overflow: auto }
+.lineno { color: #666 }
+
+h2.post { margin: 0.5em 0 0.25em 0; padding: 0; font-size: 2.5em }
+#post p, #post li, div.posts div.preview { line-height: 1.5em; }
+h2.post a { text-decoration: none }
+
+#post img, .preview img { border: 1px solid #ddd; padding: 1px }
+
+div.intro { color: #666; font-size: 90%; margin: 1em 0 0 0 }
+
+div.meta { color: #666; font-size: 90% }
+div.meta span.tags { margin-left: 0 }
+div.meta span.comments a { text-decoration: none }
+
+div.posts { list-style-type: none; margin: 0; padding: 0; width: 70%; float: left; }
+div.posts div.post-inner { padding: 0 0 2em 0; margin-bottom: 1em; clear: both; width: 100%; border-bottom: 1px solid #ddd }
+div.posts .date { color: #666; }
+div.posts div.preview { width: 100%; clear: both }
+div.posts h2 { font-size: 2.5em; margin: 0; padding: 0; }
+div.posts h2 a { text-decoration: none }
+span.tags a { text-decoration: none; background-color: #f8f8ff; color: #666 }
+
+#related h2 { margin-top: 2em }
+ul.related-posts { list-style-type: none; margin: 0 0 1em 0; padding: 0; width: 600px; float: left }
+ul.related-posts li { padding: 0.25em 0; clear: both; width: 100% }
+ul.related-posts div { color: #666; font-size: 80%; width: 8em; float: left; margin: 5px 0 0 0; padding: 0 } 
+ul.related-posts span.tags { margin-left: 1em; font-size: 80% }
+ul.related-posts span.tags a { text-decoration: none; background-color: #f8f8ff; color: #666 }
+
+#dsq-add-new-comment { font-size: 24px }
+#comments { margin-top: 1em; float: left; width: 100%; clear: both }
+
+table.list td { border: 1px solid #999; padding: 5px }
+
+.separator hr { display: none }
+.separator { margin: 2em 0 }
+
+/* Pagination */
+.pagination { background: #F1F1F1; border: 1px solid #E5E5E5; text-align: center; padding: 6px; margin: 10px 0; float: left }
+.pagination a, .pagination strong { padding: 0.2em 7px; }
+.pagination strong { color: #AAA; }
+.pagination a { text-decoration: none; color: black; }
+.pagination a:hover, .pagination a:focus { text-decoration: underline; }
+.prev_next { float: left }

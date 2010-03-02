@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Tiktrac and Ebiwrite bug fixes"
+author: Alex Young 
+categories:
+- ebiwrite
+- tiktrac
+---
+
+<img src="http://assets.helicoid.net/images/blogs/trapped_bug.gif" style="border: none" alt="Bugs: tamed" />
+
+"Tiktrac":http://tiktrac.com and "Ebiwrite":http://ebiwrite.com have recently surged in popularity thanks to generous coverage by excellent blogs (thanks "100shiki":http://www.100shiki.com/ and "Emily Chang":http://www.emilychang.com/go/ehub/!)  Whenever this happens, the barrage of new users discover bugs lurking we weren't able to catch with our tests.  I've been working hard to keep on top of these, at pretty much all hours.
+
+Here's what we've fixed this month:
+
+* Parts of Ebiwrite became unusable when people used tags with a period in them.  We've temporarily prevented tags with "." from being created, but there's a fix on the way that permits them (it requires more testing due to other dependancies). Thanks Futty!
+* Under certain conditions Tiktrac imports created tasks with no user set, which caused problems viewing the associated time sheet.  This is now fixed.
+* Tiktrac imports also became unusable when importing CSV files with blank headers.  Tiktrac now renames the headers.
+* Tiktrac imports should now work with exports from "On the Job":http://stuntsoftware.com/OnTheJob/ - Thanks Sam!
+
+We're still working with a designer to create a "next generation" Tiktrac widget, and we're also working on improving Tiktrac's project navigation.

@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Tiktrac custom branding interface added"
+author: Alex Young 
+categories:
+- tiktrac
+- announcements
+---
+
+I was sitting at my desk in my dressing gown this morning, wrestling with "Tiktrac's":http://tiktrac.com deployment scripts to get them as seamless as possible, to the dramatic sounds of Muse's latest album.  Of course, I broke things, but after a few coffees everything is now better than ever!
+
+I had a reason to get up early and start work while Tiktrac's usage is low: we've added a new custom branding interface and cleaned up the settings area:
+
+<a href="http://www.flickr.com/photos/helicoid/408630207/" title="Photo Sharing"><img src="http://farm1.static.flickr.com/187/408630207_b0fa9fe51c_m.jpg" width="155" height="240" alt="Tiktrac branding interface" /></a>
+
+This means you can now select your own colours for Tiktrac and upload a logo.  But wait!  It's more awesome that mere colour selection!  It also generates gradients to soften the blow of most corporate colour schemes.
+
+To try it out, navigate to 'tiktrac settings'.  The link's at the top right of any page.  Then select 'appearance'.  Play around with the colour sliders, then save and your changes will be visible:
+
+!http://assets.helicoid.net/images/blogs/branding_colours.gif!
+
+The logos will appear in your header, so it's best to keep them relatively small:
+
+!http://assets.helicoid.net/images/blogs/branding_logos.gif!
+
+We've also refreshed the design of the settings area, since Tiktrac's so configurable they can't fit on one page.
+
+We've got two more features planned before Tiktrac goes live.  So that's one down, two to go!

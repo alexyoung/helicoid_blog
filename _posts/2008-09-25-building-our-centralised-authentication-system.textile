@@ -1,0 +1,91 @@
+---
+layout: post
+title: "Building our centralised authentication system"
+author: Alex Young 
+categories:
+- helicoid
+- rails
+- programming
+- business
+---
+
+This article is a technical discussion about our newly developed authentication server.  It's currently powering Helipad and will be rolled out to our other apps over the coming months, providing single sign-on across our products.
+
+h3. Background
+
+We've got a lot of things in development at the moment that got caught behind a bottleneck.  Several products need cross-app integration, and others are waiting for our centralised billing system to be finished.
+
+Now, to make billing work in this way we need to know who you are.  We need to relate your user account between applications.  Of course, if you're going to do that you might has well provide single sign-on.  That's when I decided we should build a centralised authentication system.
+
+At this point it's worth remembering that I'm still the sole developer of our products.  I couldn't waste time building the most advanced authentication system ever, it had to work and it had to work quickly.
+
+h3. Implementation
+
+The server provides the following services:
+
+* Authentication
+* Password resets
+* Registration
+* Account deletion
+* Tracking which apps people use
+* Drop-in installation for each client application
+
+The authentication service is installed _transparently_ as a Rails plugin to each application.  This means when Tiktrac says <code>user.email</code> it is oblivious to the fact that the data is remote.
+
+Rails now features <code>ActiveResource</code>: remote objects that behave like local <code>ActiveRecord</code> objects.  All you need to do is build a RESTful controller to send XML.
+
+The plugin adds methods and data to local <code>User</code> objects that return remote data.  To keep things simple I currently load the remote user on each request.  I'm currently designing a caching scheme to make this scale better when we roll out the server on all our applications, but the load on the auth server is so low it doesn't matter right now.
+
+The authentication server isn't accessible to the public, but I built in authentication between each "client" application.  The apps also record a link between the user and client application.
+
+
+h3. Gory details
+
+Here's the full output of <code>rake stats</code>
+
+<pre class="code">
++----------------------+-------+-------+---------+---------+-----+-------+
+| Name                 | Lines |   LOC | Classes | Methods | M/C | LOC/M |
++----------------------+-------+-------+---------+---------+-----+-------+
+| Controllers          |   130 |   108 |       2 |      12 |   6 |     7 |
+| Helpers              |     5 |     4 |       0 |       0 |   0 |     0 |
+| Models               |   124 |    95 |       6 |      12 |   2 |     5 |
+| Libraries            |     5 |     5 |       0 |       0 |   0 |     0 |
+| Model specs          |   113 |    94 |       0 |       0 |   0 |     0 |
+| View specs           |     0 |     0 |       0 |       0 |   0 |     0 |
+| Controller specs     |   191 |   148 |       0 |       1 |   0 |   146 |
++----------------------+-------+-------+---------+---------+-----+-------+
+| Total                |   568 |   454 |       8 |      25 |   3 |    16 |
++----------------------+-------+-------+---------+---------+-----+-------+
+  Code LOC: 212     Test LOC: 242     Code to Test Ratio: 1:1.1
+</pre>
+
+As you can see most of the code is in the models.  The controller code is relatively simple, but I've been quite liberal with my <code>respond_to</code> blocks.
+
+Note that I also wrote both Test::Unit and RSpec tests.  I was so worried about bugs that RSpec provided an excellent way of going from a solid spec to live application.  Test::Unit simply let me look at the application from a different perspective, and let me sleep soundly!
+
+h3. Deletion
+
+It's important to us that we allow users to remove their information from our system.  The logic for deletion isn't as simple as you might think.  By tracking the applications the users are registered to, we delete their account when this count reaches 0.  Else rather than deleting the user we delete their "client link."
+
+
+h3. Gotchas
+
+On launch there was one major bug.  Consider this innocuous line of controller code:
+
+<pre class="code">
+format.xml { render :xml => @user.errors, :status => :unprocessable_entity }
+</pre>
+
+It turns out that no errors ever got returned over the wire, so the authentication client wasn't entirely sure if there were any errors or not.  I had to get help fixing the problem from Gabriel (who used to work with me on Helicoid's apps early on).
+
+All of the tests passed.  All of the tests passed on the server.  Running Rails _on the server_ with webrick rendered the errors.  It turned out that Lighttpd wasn't rendering HTTP bodies with certain 400 errors.
+
+
+h3. Current status
+
+Other than the lighttpd bug (which we fixed internally) our authentication server is running beautifully.  Helipad has been just as fast as it ever was, new signups have been seamless, password resets are all going working correctly, existing customers have had no sign-in issues.
+
+In fact, <code>ActiveResource</code> has been so incredible at making this project a reality that this has been one of the sweetest programming experiences I've had working with Rails!
+
+For a small company like us the promise of centralised billing and single sign-on are huge.  Expect to see exciting things soon!

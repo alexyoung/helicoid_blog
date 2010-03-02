@@ -1,0 +1,26 @@
+---
+layout: post
+title: "Stopwatch for Tiktrac: A user-contributed script"
+author: Alex Young 
+categories:
+- code
+- tiktrac
+---
+
+Julian Romero has kindly written a "Greasemonkey":http://greasemonkey.mozdev.org/ script to add stopwatch functionality to "Tiktrac":http://tiktrac.com.  This allows you to stop and start tasks as you work on them without needing to remember the time you spent.
+
+Check it out here: "http://wiki.mad.mw/GreaseMonkey/UserScripts/TikTracStopWatch":http://wiki.mad.mw/GreaseMonkey/UserScripts/TikTracStopWatch
+
+Greasemonkey is an extension for Firefox that allows developers to modify how websites work.  In this example, Julian has written some JavaScript that adds a stopwatch to each task on your Tiktrac dashboard.
+
+To install this script:
+
+# "Get the Greasemonkey extension":https://addons.mozilla.org/firefox/748/
+# "Go to Julian's wiki":http://wiki.mad.mw/GreaseMonkey/UserScripts/TikTracStopWatch
+# Right click "TikTracStopWatch.user.js " and select "Install This User Script..."
+
+Now you should see something like this when you're using Tiktrac:
+
+!http://assets.helicoid.net/images/blogs/tiktrac_gm.png!
+
+Simply click on "start" to start the timer.  I think you'll agree that this addition is welcome and very useful.  Thanks, Julian!

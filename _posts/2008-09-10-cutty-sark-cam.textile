@@ -1,0 +1,12 @@
+---
+layout: post
+title: "Cutty Sark Cam"
+author: Alex Young 
+categories:
+- london
+- webcam
+---
+
+!http://farm4.static.flickr.com/3127/2845719930_304c888d85_m.jpg!:http://www.flickr.com/photos/helicoid/2845719930/
+
+Our friend (and long-time Helicoid beta tester/software breaker) Simon Starr recently created the "Cutty Sark Cam":http://cuttysarkcam.org.uk/.  The Cutty Sark is a clipper ship built in 1869, and was sadly damaged by a fire in 2007.  You can watch the progress of the extensive restoration using Simon's camera.

@@ -1,0 +1,46 @@
+---
+layout: post
+title: "Helipad updates and the to-do list plugin"
+author: Alex Young 
+categories:
+- helipad
+---
+
+I've just finished updating <a href="http://pad.helicoid.net">Helipad</a> with some recent changes.  I've also released the to-do list plugin, which I'm still working on but is now in a somewhat usable state.  It's also a great example of what you can do with plugins.
+
+h3. Helipad internal changes
+
+Many of these changes came about through our bug reporting system, <a href="http://bugtagger.com">Bugtagger</a>.  So thanks for the bug reports!
+
+* Fixed a little bug where the tag help link on the edit broke
+* Improved printing: margins are bigger and links appear alongside the original URL
+* Added CSS to plugins, so your plugins can include their own styles
+* Made changelogs in plugins always appear in the same order
+* Improved usability of the mobile area
+* Made autosave more robust
+
+h3. To-do list plugin
+
+To enable to plugin:
+
+# Navigate to 'add-ons' and find it
+# Click 'install'
+# Tag a new document with 'todo'
+# Viewing the document on the preview page
+# Say, "yes, I want to use this plugin"
+
+Now you'll have a great dynamic to-do list on your Preview page, like this:
+
+<a href="http://www.flickr.com/photos/helicoid/322090791/" title="Photo Sharing"><img src="http://static.flickr.com/134/322090791_dc9a7374a9_m.jpg" width="240" height="181" alt="todo_list_in_preview" /></a>
+
+And the edit page is still readable:
+
+<a href="http://www.flickr.com/photos/helicoid/322090790/" title="Photo Sharing"><img src="http://static.flickr.com/144/322090790_6c515ad7de_m.jpg" width="240" height="181" alt="todo_list_in_edit" /></a>
+
+The to-do list plugin actually modifies your documents to ensure they can still be edited in a text-friendly way.  This means you can still use the document on your phone, or perform drastic editing operations that the plugin doesn't provide.
+
+h3. Tongue-in-cheek Christmas theme
+
+I've also added a Christmas theme, replete with snowflakes and seasonal colours.  It's very silly, and I only hope it inspires somebody to do better!
+
+Merry Christmas!

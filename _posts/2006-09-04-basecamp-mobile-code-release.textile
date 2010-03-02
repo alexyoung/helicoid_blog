@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Basecamp Mobile: Code release"
+author: Alex Young 
+categories:
+- announcements
+- code
+- basecamp
+- mobile
+---
+
+I've just added Basecamp Mobile to our "public subversion repository":http://code.helicoid.net/svn/.  Since this is a fun side project for me, you may notice the current release is a little bit rough, eccentric, super-ninja-alpha, or in that space between being usable and needing a lot of work.
+
+You can "download it":http://code.helicoid.net/files/bcm.zip or "browse the subversion repository":http://code.helicoid.net/svn/applications/bcm/, and then install it on your own server.
+
+"Read the README":http://code.helicoid.net/svn/applications/bcm/README, and give me some pointers if you're into ruby, rails or xhtml mp.  Thanks, and enjoy Basecamp Mobile!

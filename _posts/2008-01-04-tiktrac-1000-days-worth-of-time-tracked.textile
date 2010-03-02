@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Tiktrac: 1000 days worth of time tracked"
+author: Alex Young 
+categories:
+- tiktrac
+- thoughts
+- fun
+---
+
+We recently updated the homepage for "Tiktrac":http://tiktrac.com, our time sheets web application.  While going over the copy we had an interesting idea: why not include a dynamic counter for the total time tracked?
+
+So now you can see the total amount of time recorded by the Tiktrac community.  It currently displays *22210 hours*, which is almost 1000 days.
+
+That's a lot of work...  maybe soon we'll have to switch the counter to days instead of hours!
+

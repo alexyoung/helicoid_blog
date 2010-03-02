@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Helipad updates"
+author: Alex Young 
+categories:
+- helipad
+- announcements
+---
+
+We upgraded "Helipad":http://pad.helicoid.net today.  Changes include:
+
+* If you click _Preview_ you can now export documents as PDF (in addition to HTML)
+* The PDF functionality is very simple right now, but I've got some good ideas on how to extend it in the future
+* The homepage has been redesigned
+* We fixed a bug a few people reported to do with document indexing
+* The API has been updated so tags are easier to specify
+
+The new homepage features the "vine" graphics we use on Helicoid.net:
+
+!http://farm4.static.flickr.com/3220/2865929772_8aee3b983f_m.jpg!:http://www.flickr.com/photos/helicoid/2865929772/
+
+Here's the "old homepage":http://www.flickr.com/photos/helicoid/2865929770/ for reference.
+
+The most exciting thing about this Helipad upgrade is that Helipad now uses our *internal authentication server*.  We'll be launching two new services over the next few months that will be single sign-on for Helipad users.

@@ -1,0 +1,34 @@
+---
+layout: post
+title: "Add ShareThis buttons to Tumblr"
+author: Alex Young 
+categories:
+- tumblr
+- blogging
+- social
+---
+
+!http://dl.getdropbox.com/u/221414/helicoid/insider/sharethis.png! !http://dl.getdropbox.com/u/221414/helicoid/insider/tumblr.png!
+
+"Tumblr":http://tumblr.com can be extended heavily by editing the templates and by adding services through JavaScript.  I just wrote this "ShareThis":http://sharethis.com JavaScript that will automatically add ShareThis buttons to your Tumblr posts.  This will:
+
+* Add Digg/Delicious/etc buttons in a menu so people can easily Digg your articles
+* Add the correct link and title to pages on your Tumblr index page, as well as on the article pages themselves
+
+Here's the code:
+
+<script src="http://gist.github.com/64346.js"></script>
+
+To use it follow these steps:
+
+* Sign up to "ShareThis":http://sharethis.com
+* Create JavaScript for "Other Blog" (*ShareThis JS*)
+* Login to Tumblr, and go to Customize, Theme
+* Get my JavaScript: "tumblr_sharethis.js":http://gist.github.com/64346
+* Replace the first *script* line with your ShareThis JavaScript (*ShareThis JS*)
+* Paste your edited tumblr_sharethis.js into the header of your Tumblr Template
+* Change the template where it says {Block:regular} to include &lt;div class="ShareThis"&gt;&lt;/div&gt; after {Body}
+
+I've been quite explicit with these instructions but it's actually very easy to do.  Just remember that you need to edit my JavaScript with your ShareThis code, because ShareThis uses your publisher ID for its API.
+
+You can see this JavaScript in use on "QuiteUseful":http://quiteuseful.co.uk.
