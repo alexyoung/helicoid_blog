@@ -1,9 +1,8 @@
 ---
 layout: post
 title: "Translating Rework"
-author: Alex Young 
+author: Yuka Young
 categories:
-- yuka
 - translation
 - ebiwrite
 ---
