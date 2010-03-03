@@ -10,6 +10,7 @@ h2 a:hover { background-color: #fa3092; color: #fff; }
 a img { border: none; }
 blockquote { background-color: #ffc; padding: 0.5em; margin: 0;}
 
+p.fade { color: #666 }
 p.clean { margin: 0; padding: 0 }
 #sidebar { color: #666 }
 #sidebar { float: right; width: 21%; margin: 0 0 2em 0; text-align: left; background-color: #fff; clear: right;}
