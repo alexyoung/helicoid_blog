@@ -74,3 +74,24 @@ table.list td { border: 1px solid #999; padding: 5px }
 .pagination a { text-decoration: none; color: black; }
 .pagination a:hover, .pagination a:focus { text-decoration: underline; }
 .prev_next { float: left }
+
+/* http://www.cssstickyfooter.com/style.css */
+html, body, #page {height: 100%;}
+body > #page {height: auto; min-height: 100%;}
+#inner-content {padding-bottom: 46px;}  /* must be same height as the footer */
+#footer {position: relative;
+	margin-top: -46px; /* negative value of footer height */
+	height: 46px;
+	clear:both;} 
+
+/* CLEAR FIX*/
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
