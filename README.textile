@@ -1,3 +1,5 @@
 h2. About this Blog
 
 This is the source of "Helicoid's Blog":http://blog.helicoid.net.  Helicoid Limited is a web, Mac and iPhone development company based in London, England.
+
+This blog is generated with "Jekyll":http://github.com/mojombo/jekyll/.
