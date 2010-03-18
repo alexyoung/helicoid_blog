@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Blog and Helipad Updates"
+author: Alex Young
+categories:
+- helicoid
+- blog
+- helipad
+---
+
+"Helipad":http://helipadapp.com/ has been updated to include multiple tag search.  If you visit "/document/tags/tag1+tag2+tag3":http://helipadapp.com/document/tags/tag1+tag2+tag3 it will display documents that match all of the tags.
+
+The web interface needs to be updated to support folders, so while we're doing this we'll add an interface for multiple tag search as well.
+
+I've also updated the "Helipad API documentation":http://helipadapp.com/document/public/6313d317 to include notes on <code>/document/all_ids</code> and searching for documents changed since a date.  These methods are used by our Mac and iPhone apps for efficient syncing.
+
+h3. Blogs
+
+We recently merged the technical Helicoid Insider blog into this blog.  I also updated it to use the "Jekyll":http://github.com/mojombo/jekyll site generator, which makes it lightweight and easy to update.  You can get the source code to our blog from my GitHub account: "alexyoung/helicoid_blog":http://github.com/alexyoung/helicoid_blog.
