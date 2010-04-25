@@ -1,0 +1,57 @@
+---
+layout: post
+title: "Helipad Design Refresh"
+author: Alex Young 
+categories:
+- announcements
+- helipad
+- design
+---
+
+"Helipad":http://helipadapp.com now a new look!  The changes are focused on improving productivity and making the app feel faster.  These design changes are a year in the making -- after many false starts I feel like we've finally got it right.
+
+h3. The Changes
+
+* There's now a drop-down navigation menu
+* The *File* menu has an *Open* item which can be used to find a document anywhere within the app
+* The *Open* menu item has a text search which filters based on titles and tags
+* The *Open* menu item also has fast sort options (click on the table headers) 
+* The *Tag Cloud* can be viewed on any page from the *Search* menu
+* The dashboard page loads content using Ajax, which means the app will feel snappier when logging in
+* Font sizes have been increased for tables
+* Popup windows can be closed by pressing the *escape key*
+* The *Preview* view now has the same horizontal size as edit, with its own scrollbar
+
+h3. Video
+
+"View a video of these new changes in action":http://screencast.com/t/MzA0MjVh
+
+h3. Design Decisions
+
+!/images/posts/helipad_old.png!
+
+The original design had problems coping with the context-sensitive nature of Helipad -- parts of the interface need certain buttons and options that other areas don't need.  Putting the tag cloud somewhere was also a problem -- some users like having it open, but it adds too much visual noise for most of us.
+
+Another problem was the tabs and header.  Neither used space efficiently, and on some pages the document title was repeated 3 times: once in the browser title, then again in the header, then finally in the editor.
+
+The interesting thing about Helipad is we've had the same basic design since 2006 -- it scales well to major browsers (including legacy browsers like IE6).  It's also fast and simple.  I wanted to keep these positive aspects of the original design.
+
+I really like the design we came up with for "Deadline":http://deadlineapp.com, so I wanted the visual style to reflect this -- big fonts, where the user's content is king.  However, this somehow didn't work in Helipad:
+
+!/images/posts/helipad_design.png!
+
+The title bar was slightly opaque, so users could have their own background images like Twitter.  When I actually implemented this design the interface became too noisy -- what works for Twitter doesn't actually make sense for a productivity app.
+
+The major design change I kept from this experiment was the drop-down menu.  It behaves like Windows and Mac OS menus -- there are certain items that are context sensitive (like *File* &gt; *Delete*).  What's useful about this is you don't have to keep navigating back to the dashboard page to browse documents.  It also allows us to put extra features like *Export to HTML/PDF* somewhere easily accessible.
+
+After showing the resulting interface to colleagues and friends, I added refinements like CSS3 drop-shadow to make the menus clearer, and the *Open* dialog had a lot of changes to support searching and sorting.  This is the result:
+
+!/images/posts/helipad_new.png!
+
+"View a video":http://screencast.com/t/MzA0MjVh
+
+h3. What's Next?
+
+The last few Helipad updates have been maintenance releases to make it easier for me to roll out planned upgrades.  Now a more efficient interface is in place I can continue to improve the service more effectively.
+
+I don't like revealing new features in case implementing them turns out to be impossible, but I'm trying to replicate the folders feature implemented in the Mac and iPhone clients.  Folders actually use tags -- the clients just recognise *folder:folder_name* and act accordingly, so it's possible to emulate this feature by clicking these tags in the web interface.
