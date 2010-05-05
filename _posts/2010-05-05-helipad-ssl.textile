@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Helipad SSL"
+author: Alex Young
+categories:
+- announcements
+- helipad
+- security
+---
+
+Helipad is now available over secure connections with SSL.  Just visit <a href="https://helipadapp.com"><strong>https://</strong>helipadapp.com</a>.  It's worth adding to your bookmarks.  All content is optionally served over SSL, including login and public pages.  Remember this the next time you're using public wifi and want to take notes with Helipad!
+
+This is available to all customers for free.  Just remember to visit/bookmark the correct URL, and not pad.helicoid.net.
+
+h3. Browser Support
+
+!/images/posts/helipad_ssl.png!
+
+You should see a lock icon in your browser.  Most display it in the address bar, but newer versions of Safari show it in the top-right (it's grey on grey so hard to see).
+
+I've tested this in Chrome, Firefox, Safari, Opera, IE6, 7, 8.  When we initially deployed one of our friends found a problem with Mac OS 10.5 Safari, but this is now fixed.
+
+
