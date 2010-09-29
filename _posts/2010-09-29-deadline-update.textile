@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Deadline Edit Form"
+author: Alex Young 
+categories:
+- deadline
+- design
+---
+
+!/images/posts/deadline_edit.png!
+
+"Deadline":http://deadlineapp.com/ has always been a little bit obtuse about some things, in particular editing deadlines and repeating events.  I've just added an edit form (pictured above) that has a repeat field, so editing these options should be easier now.
+
