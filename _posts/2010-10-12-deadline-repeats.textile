@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Deadline Repeating Events"
+author: Alex Young 
+categories:
+- deadline
+---
+
+Deadline's repeating events were handled in a slightly confusing manner.  The old behaviour was to create a new deadline each time the reminder date came around.  That was fine, except the behaviour of marking that event as 'Done' wasn't very clear.
+
+I've changed it to update the repeating deadline's date, instead of generating a new one.  A reminder will still get created each time the date rolls around.  Instead of showing a 'Done' button, repeating deadlines will show 'Stop' -- _stop_ receiving future reminders and hide the deadline.  This makes it a little bit clearer than before.
+
+If anything about repeating deadlines still seems confusing, message us on Twitter, "@helicoid":http://twitter.com/helicoid or comment on this post.
