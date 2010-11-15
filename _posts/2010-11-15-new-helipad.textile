@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Helipad Redesign"
+author: Alex Young 
+categories:
+- helipad
+- design
+---
+
+!/images/posts/helipad_home.png!
+
+"Helipad":https://helipadapp.com/ has been redesigned with a brand new interface.  The dashboard is gone -- all navigation and document management can be performed from the same document screen.  There's a file drawer on the left-hand-side which can be resized.  The drawer also has add and delete document icons.
+
+This redesign will allow me to add folder support to the web interface, which was added to the iPhone and Mac apps earlier this year.
+
+!/images/posts/helipad_redesign.png!
+
+h3. Themes Removed
+
+The new design also removes theme support.  I originally planned to remove theme support to make the application appear consistent across platforms, but it turned out very few people switched from the default theme.  The add-on feature may also be removed in the future because it also isn't very popular.  The same effect can be achieved with browser-based user styles and scripts, which also has security advantages.
+
+h3. New Export Options
+
+Text exports have been added to the Export menu, document preview screen, and the public view for shared documents.  The shared document view also now has all export options (PDF, text, HTML).
+
+h3. Preferences Sort Options
+
+The Preferences menu has date and title sort options, which change the order documents appear in the left-hand document list drawer.
+
+
