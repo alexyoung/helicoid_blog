@@ -1,15 +1,16 @@
 ---
 layout: post
-title: "Server Upgrade: Tuesday 23rd November"
+title: "Server Upgrade: Wednesday 24th November"
 author: Alex Young 
 categories:
 - servers
 - maintenance
 ---
 
-We've outgrown the server we use for Helipad, Tiktrac, Deadline, and Ebiwrite, so it's being upgraded.  There may be some downtime on Tuesday 23rd November as we move the data over to the new server.
+We've outgrown the server we use for Helipad, Tiktrac, Deadline, and Ebiwrite, so it's being upgraded.  There may be some downtime on Wednesday 24th November as we move the data over to the new server.
 
 This will massively improve capacity and should improve the stability of our apps.
 
 I'll use Twitter to post updates about the upgrade in case there is any unexpected downtime.
 
+The downtime should be around 1 hour, starting at 11am GMT.
