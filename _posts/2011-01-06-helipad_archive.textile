@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Helipad Archive"
+author: Alex Young 
+categories:
+- helipad
+- upgrades
+---
+
+I've just rolled out an update to "Helipad":http://helipadapp.com/ that adds an *archive feature*.
+
+Documents can now be archived, which makes them read-only and invisible to applications that sync with Helipad.  If you've got hundreds of documents, you can now archive the ones you no-longer care about to improve sync performance.
+
+This adds the following menu items:
+
+* The _File_ menu now has _Archive_, _Unarchive_, and _Open Archive_
+* Clicking _Archive_ will archive a document, and when a document is archived it can be removed from the archive with _Unarchive_
+* Clicking _Open Archive_ will show a list of archived documents
+
+The updated menu looks like this:
+
+!/images/posts/archive_menu.png!
+
+The _File_ _Open_ menu item has an _Archive_ column with checkboxes that allows quick editing of archived documents:
+
+!/images/posts/archive_open_document.png!
+
+An archived document looks very similar to a normal document, except it doesn't have a Save button:
+
+!/images/posts/archived_document.png!
+
