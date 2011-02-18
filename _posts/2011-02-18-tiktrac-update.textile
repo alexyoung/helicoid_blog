@@ -17,5 +17,5 @@ categories:
 * Similarly, You can now leave the service by visiting "/cancel" from your account's URL
 * The login page has been tidied up
 
-We're working to standardise "support" related URLs like /cancel and /export across our apps.
+We're working to standardise customer support-related URLs like /cancel and /export across our apps.
 
