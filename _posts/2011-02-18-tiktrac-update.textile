@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Tiktrac: New Graphs and More"
+author: Alex Young 
+categories:
+- tiktrac
+- upgrades
+---
+
+!/images/posts/tiktrac-charts.png!
+
+"Tiktrac's":http://tiktrac.com/ graphs, which we've been using for about 4 years, have been replaced.  The new ones should look cleaner and improve page loading times.  This update also has several small improvements:
+
+* Printed reports will look better
+* Sheet names will now always be escaped ("mheine" found unescaped ampersands)
+* Visiting <em>http://youraccount.tiktrac.com/export</em> can be used as a shortcut for exporting your data
+* Similarly, You can now leave the service by visiting "/cancel" from your account's URL
+* The login page has been tidied up
+
+We're working to standardise "support" related URLs like /cancel and /export across our apps.
+
